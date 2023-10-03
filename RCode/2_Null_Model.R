@@ -209,7 +209,6 @@ for (z in 1:length(null_fric_year)){
 
 # Combining all null values estimated of functional richness from null communities 
 total_null_com <- do.call ("rbind",null_fric_year)
-saveRDS(total_null_com, "Null_models_FRic/NullModels_Replicate_5.rds")
 
 total_null_com <- as.data.frame(total_null_com)
 total_null_com <- melt(total_null_com, id=c("Abbre","null_sim"))
