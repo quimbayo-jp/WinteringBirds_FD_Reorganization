@@ -4,6 +4,7 @@
 ##  Objective:     Here, we examined variation avian fauna in North America over time.                       ##
 ##                                                                                                           ##
 ##  Authors:       Juan P. Quimbayo                                                                          ##
+##                 Stephen Murphy                                                                            ##
 ##                 Marta Jarzyna                                                                             ##
 ##                                                                                                           ##
 ##  Date:          2022-09-21                                                                                ##
@@ -35,10 +36,13 @@ library (factoextra)
 
  
 DB_FIndex <- readRDS ("DataInter/DB_FIndex.rds")
+
 MFA_results <- readRDS ("DataInter/MFA_Results.rds")
+MFA_results <- readRDS("Review_code/MFA_Results.rds")
 MFA_results <- data.frame (MFA_results$ind$coord)
 MFA_results$ID_unique <- rownames(MFA_results)
 rownames(MFA_results) <- NULL
+MFA_results <- MFA_results[,c("ID_unique","Dim.1","Dim.2")]
 
 
 # 2. Null model data ------------------------------------------------------
@@ -124,33 +128,60 @@ slope_values_Dim2   <- list ()
 
 # Loop to extracting estimate value from each linear regression - function was "coefficients"
 
+slope_values_sric_tempAuto  <- list ()
+slope_values_fric_tempAuto  <- list ()
+slope_values_cfric_tempAuto <- list ()
+slope_values_feve_tempAuto  <- list ()
+slope_values_fdiv_tempAuto  <- list ()
+slope_values_fori_tempAuto  <- list ()
+slope_values_Dim1_tempAuto  <- list ()
+slope_values_Dim2_tempAuto  <- list ()
+
+location_years <- split (DB_FIndex, DB_FIndex$Location)
+
 for (m in 1:length(location_years)){
-  slope_values_sric[[m]]  <- summary(glm (sp_richn~year, family = poisson, data = location_years[[m]]))$coefficients[2,1]
-  slope_values_cfric[[m]] <- summary(lm (ses_fric~year, data = location_years[[m]]))$coefficients[2,1]
-  slope_values_feve[[m]]  <- summary(betareg (feve~year, data = location_years[[m]]))$coefficients$mean[2,1]
-  slope_values_fdiv[[m]]  <- summary(betareg (fdiv~year, data = location_years[[m]]))$coefficients$mean[2,1]
-  slope_values_fori[[m]]  <- summary(betareg (fori~year, data = location_years[[m]]))$coefficients$mean[2,1]
-  slope_values_Dim1[[m]]  <- summary(glm (Dim.1~year, data = location_years[[m]]))$coefficients[2,1]
-  slope_values_Dim2[[m]]  <- summary(glm (Dim.2~year, data = location_years[[m]]))$coefficients[2,1]
+  
+  slope_values_sric_tempAuto[[m]] <- summary(glm (sp_richn~year, family = poisson, data = location_years[[m]]))$coefficients[2,1]  
+  
+  MFRic <-  gls(fric~year, cor=corAR1(0.7), data = location_years[[m]])
+  slope_values_fric_tempAuto [[m]] <- coef(MFRic)[2]
+  
+  McFRic <-  gls(ses_fric~year, cor=corAR1(0.7), data = location_years[[m]])
+  slope_values_cfric_tempAuto[[m]] <- coef(McFRic)[2]
+  
+  MFEve <-  gls(feve~year, cor=corAR1(0.7), data = location_years[[m]])
+  slope_values_feve_tempAuto [[m]] <- coef(MFEve)[2]
+  
+  MFDiv <-  gls(fdiv~year, cor=corAR1(0.7), data = location_years[[m]])
+  slope_values_fdiv_tempAuto [[m]] <- coef(MFDiv)[2]
+  
+  MFOri <-  gls(fori~year, cor=corAR1(0.7), data = location_years[[m]])
+  slope_values_fori_tempAuto [[m]] <- coef(MFOri)[2]
+  
+  slope_values_Dim1_tempAuto[[m]] <- summary(gls (Dim.1~year, data = location_years[[m]]))$coef[2]
+  slope_values_Dim2_tempAuto[[m]] <- summary(gls (Dim.2~year, data = location_years[[m]]))$coef[2]
+  
 }
 
 slopes_f_indices <- data.frame(Abbrev=unique(DB_FIndex$Location),
-                               coef_sric= do.call("rbind",slope_values_sric),
-                               coef_cfric= do.call("rbind",slope_values_cfric),
-                               coef_feve= do.call("rbind",slope_values_feve),
-                               coef_fdiv= do.call("rbind",slope_values_fdiv),
-                               coef_fori= do.call("rbind",slope_values_fori),
-                               coef_Dim1= do.call("rbind",slope_values_Dim1),
-                               coef_Dim2= do.call("rbind",slope_values_Dim2)) 
+                               sric=do.call("rbind",slope_values_sric_tempAuto),
+                               fric=unlist(slope_values_fric_tempAuto),
+                               cfric=unlist(slope_values_cfric_tempAuto),
+                               feve=unlist(slope_values_feve_tempAuto),
+                               fdiv=unlist(slope_values_fdiv_tempAuto),
+                               fori=unlist(slope_values_fori_tempAuto),
+                               dim1=unlist(slope_values_Dim1_tempAuto),
+                               dim2=unlist(slope_values_Dim2_tempAuto))
 
 
-rm (slope_values_sric,
-    slope_values_cfric,
-    slope_values_feve,
-    slope_values_fdiv,
-    slope_values_fori,
-    slope_values_Dim1,
-    slope_values_Dim2)
+rm (slope_values_sric_tempAuto,
+    slope_values_fric_tempAuto,
+    slope_values_cfric_tempAuto,
+    slope_values_feve_tempAuto,
+    slope_values_fdiv_tempAuto,
+    slope_values_fori_tempAuto,
+    slope_values_Dim1_tempAuto,
+    slope_values_Dim2_tempAuto)
 
 # 7. Evaluating correlation among environmental predictors ------------------------------
 
@@ -235,118 +266,343 @@ vif (lm(coef_cfric~PC1+
         data=FD_Envir_Domain))
 
 
-## 12.1. Species richness model --------------------------------------------
-  mRich  <- brm (bf(coef_sric~PC1+
-                    PC2+
-                    coef_ppt_scale+
-                    elevation_scale +
-                    (1|DomainName)),
-               prior = c(prior(normal(0, 10), 'b'),
-                         prior(normal(0, 50), 'Intercept'),
-                         prior(student_t(3, 0, 2.5), 'sd'),
-                         prior(student_t(3, 0, 2.5), 'sigma')),
-               sample_prior = TRUE,
-               data=FD_Envir_Domain,
-               family = gaussian(),
-               chains = 4, iter = 20000, warmup = 18000, cores = 4,
-               control = list(adapt_delta=0.98), seed = 123, thin = 1)
+### Moran Index
+moransTest  <-  function (data, model_considered) {
+  # Moran's I test of spatial autocorrelation
+  coordinates       <-  unique(data[, c('Abbrev', 'Long', 'Lat')])
+  scaleData         <-  data
+  scaleData$lon     <-  coordinates$Long[match(scaleData$Abbrev, coordinates$Abbrev)]
+  scaleData$lat     <-  coordinates$Lat[match(scaleData$Abbrev, coordinates$Abbrev)]
+  distMat           <-  as.matrix(dist(cbind(scaleData$Long, scaleData$Lat)))
+  invDistMat        <-  1 / distMat
+  diag(invDistMat)  <-  0 
+  set.seed(10)
+  ape::Moran.I(residuals(model_considered)[, 'Estimate'], invDistMat)
+}
 
+# Spatial distance matrix
+dist.mat <- as.matrix(dist(FD_Envir_Domain$Long,FD_Envir_Domain$Lat, method="euclidean"))
+rownames(dist.mat) <- FD_Envir_Domain$Abbrev
+
+
+## 12.1. Species richness model --------------------------------------------
+bcpriors_max_minTemp <- get_prior (sric~coef_maxTemp_scale+
+                                     coef_minTemp_scale+
+                                     coef_ppt_scale+
+                                     elevation_scale +
+                                     (1|DomainName),
+                                   data=FD_Envir_Domain,
+                                   family="gaussian")
+
+mRich_min_maxTemp  <- brm (bf(sric~coef_meanTemp+
+                                coef_ppt_scale+
+                                elevation_scale +
+                                (1|DomainName)),
+                           prior = bcpriors_max_minTemp, 
+                           sample_prior = TRUE,
+                           data=FD_Envir_Domain,
+                           autocor = cor_car(dist.mat, formula = ~1|Abbrev),
+                           family = gaussian(),
+                           chains = 2, iter = 200, warmup = 180, core=4,
+                           control = list(adapt_delta=0.99), seed = 123, thin = 1)
+
+mRich_min_maxTemp <- add_criterion(mRich_min_maxTemp, "loo")
+plot(mRich_min_maxTemp)
+moransTest(data = FD_Envir_Domain, mRich_min_maxTemp)
+residuals(mRich_min_maxTemp, method = "posterior_predict")
+
+bcpriors_meanTemp <- get_prior (sric~coef_meanTemp_scale+
+                                  coef_ppt_scale+
+                                  elevation_scale +
+                                  (1|DomainName),
+                                data=FD_Envir_Domain,
+                                family="gaussian")
+
+mRich_meanTemp  <- brm (bf(sric~coef_meanTemp_scale+
+                             coef_ppt_scale+
+                             elevation_scale +
+                             (1|DomainName)),
+                        prior = bcpriors_meanTemp, 
+                        sample_prior = TRUE,
+                        data=FD_Envir_Domain,
+                        #autocor = cor_car(dist.mat, formula = ~1|Abbrev),
+                        family = gaussian(),
+                        chains = 4, iter = 20000, warmup = 18000, core=4,
+                        control = list(adapt_delta=0.99), seed = 123, thin = 1)
+
+mRich_meanTemp <- add_criterion(mRich_meanTemp, "loo")
+plot(mRich_meanTemp)
+moransTest(data = FD_Envir_Domain, mRich_min_maxTemp)
 
 ## 12.2. Functional richness model --------------------------------------------
-  mcFRic  <- brm (bf(coef_cfric~PC1+
-                    PC2+
-                           coef_ppt_scale+
-                    elevation_scale +
-                           (1|DomainName)),
-                    prior = c(prior(normal(0, 10), 'b'), 
-                              prior(normal(0, 50), 'Intercept'), 
-                              prior(student_t(3, 0, 2.5), 'sd'), 
-                              prior(student_t(3, 0, 2.5), 'sigma')),
-                    sample_prior = TRUE,
-                    data=FD_Envir_Domain,
-                    family = gaussian(),
-                    chains = 4, iter = 20000, warmup = 18000, cores = 4,
-                    control = list(adapt_delta=0.98), seed = 123, thin = 1)
+bcpriors_max_minTemp <- get_prior (cfric~coef_maxTemp_scale+
+                                     coef_minTemp_scale+
+                                     coef_ppt_scale+
+                                     elevation_scale +
+                                     (1|DomainName),
+                                   data=FD_Envir_Domain,
+                                   family="gaussian")
+
+mcFRic_max_minTemp <- brm (bf(cfric~coef_maxTemp_scale+
+                                coef_minTemp_scale+
+                                coef_ppt_scale+
+                                elevation_scale +
+                                (1|DomainName)),
+                           prior = bcpriors_max_minTemp, 
+                           sample_prior = TRUE,
+                           data=FD_Envir_Domain,
+                           family = gaussian(),
+                           chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                           control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mcFRic_max_minTemp <- add_criterion(mcFRic_max_minTemp, "loo")
+plot (mcFRic_max_minTemp)
+
+
+bcpriors_meanTemp <- get_prior (cfric~coef_meanTemp_scale+
+                                  coef_ppt_scale+
+                                  elevation_scale +
+                                  (1|DomainName),
+                                data=FD_Envir_Domain,
+                                family="gaussian")
+
+mcFRic_meanTemp <- brm (bf(cfric~coef_meanTemp_scale+
+                             coef_ppt_scale+
+                             elevation_scale +
+                             (1|DomainName)),
+                        prior = bcpriors_meanTemp, 
+                        sample_prior = TRUE,
+                        data=FD_Envir_Domain,
+                        family = gaussian(),
+                        chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                        control = list(adapt_delta=0.98), seed = 123, thin = 1)
+
+mcFRic_meanTemp <- add_criterion(mcFRic_meanTemp, "loo")
+plot (mcFRic_meanTemp)
+
+moransTest(data = FD_Envir_Domain, mcFRic)
+QFit_mcFRic <- pp_check(mcFRic, ndraws = 100, type = 'ecdf_overlay')
 
 
 ## 12.3. Functional evenness model --------------------------------------------
-  mFEve <- brm (bf(coef_feve~PC1+
-                   PC2+
-                           coef_ppt_scale+
-                           elevation_scale +
-                           (1|DomainName)),
-                      prior = c(prior(normal(0, 10), 'b'), 
-                                prior(normal(0, 50), 'Intercept'), 
-                                prior(student_t(3, 0, 2.5), 'sd'), 
-                                prior(student_t(3, 0, 2.5), 'sigma')),
-                      sample_prior = TRUE,
-                      data=FD_Envir_Domain,
-                      family = gaussian(),
-                      chains = 4, iter = 20000, warmup = 18000, cores = 4,
-                      control = list(adapt_delta=0.98), seed = 123, thin = 1)
+
+bcpriors_max_minTemp <- get_prior (feve~coef_maxTemp_scale+
+                                     coef_minTemp_scale+
+                                     coef_ppt_scale+
+                                     elevation_scale +
+                                     (1|DomainName),
+                                   data=FD_Envir_Domain,
+                                   family="gaussian")
+
+mFEve_max_minTemp <- brm (bf(feve~coef_maxTemp_scale+
+                               coef_minTemp_scale+
+                               coef_ppt_scale+
+                               elevation_scale +
+                               (1|DomainName)),
+                          prior = bcpriors_max_minTemp, 
+                          sample_prior = TRUE,
+                          #autocor=cor_ar(formula = ~1, p = 1, cov = FALSE),
+                          data=FD_Envir_Domain,
+                          family = gaussian(),
+                          chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                          control = list(adapt_delta=0.98), seed = 123, thin = 1)
+
+mFEve_max_minTemp <- add_criterion(mFEve_max_minTemp, "loo")
+plot(mFEve_max_minTemp)
+
+bcpriors_meanTemp <- get_prior (feve~coef_meanTemp_scale+
+                                  coef_ppt_scale+
+                                  elevation_scale +
+                                  (1|DomainName),
+                                data=FD_Envir_Domain,
+                                family="gaussian")
+
+mFEve_meanTemp <- brm (bf(feve~coef_meanTemp_scale+
+                            coef_ppt_scale+
+                            elevation_scale +
+                            (1|DomainName)),
+                       prior = bcpriors_meanTemp, 
+                       sample_prior = TRUE,
+                       #autocor=cor_ar(formula = ~1, p = 1, cov = FALSE),
+                       data=FD_Envir_Domain,
+                       family = gaussian(),
+                       chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                       control = list(adapt_delta=0.98), seed = 123, thin = 1)
+
+mFEve_meanTemp <- add_criterion(mFEve_meanTemp, "loo")
+plot(mFEve_meanTemp)
 
 ## 12.4. Functional divergence model --------------------------------------------
-  mFDiv <- brm (bf(coef_fdiv~PC1+
-                   PC2+
-                   coef_ppt_scale+
-                   elevation_scale +
-                           (1|DomainName)),
-                      prior = c(prior(normal(0, 10), 'b'), 
-                                prior(normal(0, 50), 'Intercept'), 
-                                prior(student_t(3, 0, 2.5), 'sd'), 
-                                prior(student_t(3, 0, 2.5), 'sigma')),
-                      sample_prior = TRUE,
-                      data=FD_Envir_Domain,
-                      family = gaussian(),
-                      chains = 4, iter = 20000, warmup = 18000, cores = 4,
-                      control = list(adapt_delta=0.98), seed = 123, thin = 1)
+bcpriors_max_minTemp <- get_prior (fdiv~coef_maxTemp_scale+
+                                     coef_minTemp_scale+
+                                     coef_ppt_scale+
+                                     elevation_scale +
+                                     (1|DomainName),
+                                   data=FD_Envir_Domain,
+                                   family="gaussian")
+
+mFDiv_max_minTemp <- brm (bf(fdiv~coef_maxTemp_scale+
+                               coef_minTemp_scale+
+                               coef_ppt_scale+
+                               elevation_scale +
+                               (1|DomainName)),
+                          prior = bcpriors_max_minTemp, 
+                          sample_prior = TRUE,
+                          data=FD_Envir_Domain,
+                          family = gaussian(),
+                          chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                          control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mFDiv_max_minTemp <- add_criterion(mFDiv_max_minTemp, "loo")
+plot(mFDiv_max_minTemp)
+
+#####
+bcpriors_meanTemp <- get_prior (fdiv~coef_meanTemp_scale+
+                                  coef_ppt_scale+
+                                  elevation_scale +
+                                  (1|DomainName),
+                                data=FD_Envir_Domain,
+                                family="gaussian")
+
+mFDiv_meanTemp <- brm (bf(fdiv~coef_meanTemp_scale+
+                            coef_ppt_scale+
+                            elevation_scale +
+                            (1|DomainName)),
+                       prior = bcpriors_meanTemp, 
+                       sample_prior = TRUE,
+                       data=FD_Envir_Domain,
+                       family = gaussian(),
+                       chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                       control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mFDiv_meanTemp <- add_criterion(mFDiv_meanTemp, "loo")
+plot(mFDiv_meanTemp)
 
 ## 12.5. Functional originality model --------------------------------------------
-  mFOri <- brm (bf(coef_fori~PC1+
-                   PC2+
-                   coef_ppt_scale+
-                   elevation_scale +
-                           (1|DomainName)),
-                      prior = c(prior(normal(0, 10), 'b'), 
-                                prior(normal(0, 50), 'Intercept'), 
-                                prior(student_t(3, 0, 2.5), 'sd'), 
-                                prior(student_t(3, 0, 2.5), 'sigma')),
-                      sample_prior = TRUE,
-                      data=FD_Envir_Domain,
-                      family = gaussian(),
-                      chains = 4, iter = 20000, warmup = 18000, cores = 4,
-                      control = list(adapt_delta=0.98), seed = 123, thin = 1)
+bcpriors_max_minTemp <- get_prior (fori~coef_maxTemp_scale+
+                                     coef_minTemp_scale+
+                                     coef_ppt_scale+
+                                     elevation_scale +
+                                     (1|DomainName),
+                                   data=FD_Envir_Domain,
+                                   family="gaussian")
+
+mFOri_max_minTemp <- brm (bf(fori~coef_maxTemp_scale+
+                               coef_minTemp_scale+
+                               coef_ppt_scale+
+                               elevation_scale +
+                               (1|DomainName)),
+                          prior = bcpriors_max_minTemp, 
+                          sample_prior = TRUE,
+                          data=FD_Envir_Domain,
+                          family = gaussian(),
+                          chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                          control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mFOri_max_minTemp <- add_criterion(mFOri_max_minTemp, "loo")
+plot(mFOri_max_minTemp)
+
+
+bcpriors_meanTemp <- get_prior (fori~coef_meanTemp_scale+
+                                  coef_ppt_scale+
+                                  elevation_scale +
+                                  (1|DomainName),
+                                data=FD_Envir_Domain,
+                                family="gaussian")
+
+mFOri_meanTemp <- brm (bf(fori~coef_meanTemp_scale+
+                            coef_ppt_scale+
+                            elevation_scale +
+                            (1|DomainName)),
+                       prior = bcpriors_meanTemp, 
+                       sample_prior = TRUE,
+                       data=FD_Envir_Domain,
+                       family = gaussian(),
+                       chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                       control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mFOri_meanTemp <- add_criterion(mFOri_meanTemp, "loo")
+plot(mFOri_meanTemp)
 
 ## 12.6. Trait Dimension 1 model --------------------------------------------
-  mDim1  <- brm (bf(coef_Dim1~PC1+
-                    PC2+
-                    coef_ppt_scale+
-                    Elevation +
-                    (1|DomainName)),
-               prior = c(prior(normal(0, 10), 'b'), 
-                         prior(normal(0, 50), 'Intercept'), 
-                         prior(student_t(3, 0, 2.5), 'sd'), 
-                         prior(student_t(3, 0, 2.5), 'sigma')),
-               sample_prior = TRUE,
-               data=FD_Envir_Domain,
-               family = gaussian(),
-               chains = 4, iter = 20000, warmup = 18000, cores = 4,
-               control = list(adapt_delta=0.98), seed = 123, thin = 1)
+bcpriors_max_minTemp <- get_prior (dim1~coef_maxTemp_scale+
+                                     coef_minTemp_scale+
+                                     coef_ppt_scale+
+                                     elevation_scale +
+                                     (1|DomainName),
+                                   data=FD_Envir_Domain,
+                                   family="gaussian")
+
+mDim1_max_minTemp <- brm (bf(dim1~coef_maxTemp_scale+
+                               coef_minTemp_scale+
+                               coef_ppt_scale+
+                               elevation_scale +
+                               (1|DomainName)),
+                          prior = bcpriors_max_minTemp, 
+                          sample_prior = TRUE,
+                          data=FD_Envir_Domain,
+                          family = gaussian(),
+                          chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                          control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mDim1_max_minTemp <- add_criterion(mDim1_max_minTemp, "loo")
+plot(mDim1_max_minTemp)
 
 
-## 12.7. Trait Dimension 1 model --------------------------------------------
+bcpriors_meanTemp <- get_prior (dim1~coef_meanTemp_scale+
+                                  coef_ppt_scale+
+                                  elevation_scale +
+                                  (1|DomainName),
+                                data=FD_Envir_Domain,
+                                family="gaussian")
 
-  mDim2  <- brm (bf(coef_Dim2~PC1+
-                    PC2+
-                    coef_ppt_scale+
-                    Elevation +
-                    (1|DomainName)),
-               prior = c(prior(normal(0, 10), 'b'), 
-                         prior(normal(0, 50), 'Intercept'), 
-                         prior(student_t(3, 0, 2.5), 'sd'), 
-                         prior(student_t(3, 0, 2.5), 'sigma')),
-               sample_prior = TRUE,
-               data=FD_Envir_Domain,
-               family = gaussian(),
-               chains = 4, iter = 20000, warmup = 18000, cores = 4,
-               control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mDim1_meanTemp <- brm (bf(dim1~coef_meanTemp_scale+
+                            coef_ppt_scale+
+                            elevation_scale +
+                            (1|DomainName)),
+                       prior = bcpriors_meanTemp, 
+                       sample_prior = TRUE,
+                       data=FD_Envir_Domain,
+                       family = gaussian(),
+                       chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                       control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mDim1_meanTemp <- add_criterion(mDim1_meanTemp, "loo")
+plot(mDim1_meanTemp)
+
+## 12.7. Trait Dimension 2 model --------------------------------------------
+bcpriors_max_minTemp <- get_prior (dim2~coef_maxTemp_scale+
+                                     coef_minTemp_scale+
+                                     coef_ppt_scale+
+                                     elevation_scale +
+                                     (1|DomainName),
+                                   data=FD_Envir_Domain,
+                                   family="gaussian")
+
+mDim2_max_minTemp <- brm (bf(dim2~coef_maxTemp_scale+
+                               coef_minTemp_scale+
+                               coef_ppt_scale+
+                               elevation_scale +
+                               (1|DomainName)),
+                          prior = bcpriors_max_minTemp, 
+                          sample_prior = TRUE,
+                          data=FD_Envir_Domain,
+                          family = gaussian(),
+                          chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                          control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mDim2_max_minTemp <- add_criterion(mDim2_max_minTemp, "loo")
+plot(mDim2_max_minTemp)
+
+
+bcpriors_meanTemp <- get_prior (dim2~coef_meanTemp_scale+
+                                  coef_ppt_scale+
+                                  elevation_scale +
+                                  (1|DomainName),
+                                data=FD_Envir_Domain,
+                                family="gaussian")
+
+mDim2_meanTemp <- brm (bf(dim2~coef_meanTemp_scale+
+                            coef_ppt_scale+
+                            elevation_scale +
+                            (1|DomainName)),
+                       prior = bcpriors_meanTemp, 
+                       sample_prior = TRUE,
+                       data=FD_Envir_Domain,
+                       family = gaussian(),
+                       chains = 4, iter = 20000, warmup = 18000, cores = 4,
+                       control = list(adapt_delta=0.98), seed = 123, thin = 1)
+mDim2_meanTemp <- add_criterion(mDim2_meanTemp, "loo")
+plot(mDim2_meanTemp)
