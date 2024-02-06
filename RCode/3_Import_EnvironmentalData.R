@@ -145,5 +145,4 @@ climate_db <- cbind(meanTemp_db,
                     minTemp=minTemp_db$minTemp,
                     ppt=precipitation_db$ppt)
 
-head (climate_db)
 
