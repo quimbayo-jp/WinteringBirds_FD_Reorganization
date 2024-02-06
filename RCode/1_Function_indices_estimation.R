@@ -64,11 +64,13 @@ for (j in 1:length(AbunYear)) {
   Abun_Year <- melt(Abun_Year, id=c("Circle"))
   colnames (Abun_Year) <- c("Abbrev","Name","Abun")
   Abun_Year <- droplevels(Abun_Year[Abun_Year$Name %in% rownames(TraitSPP), ])
+  Abun_Year <- droplevels (subset (Abun_Year, Abun>=1))
   Abun_Year <- dcast (Abbrev~Name, value.var = "Abun", data = Abun_Year)
   
   # Preparing dataset
   rownames(Abun_Year) <- Abun_Year$Abbrev
   Abun_Year <- Abun_Year[,2:length(Abun_Year)]
+  Abun_Year[is.na(Abun_Year)] <- 0
   
   # Dissimilarity matrix using trait dataset
   # Each number represent one type of group (i.e. Quantitative, Ordinal)
@@ -152,6 +154,8 @@ for (j in 1:length(AbunYear)) {
   colnames (Abun_Year) <- c("Abbrev","Name","Abun")
   Abun_Year <- droplevels(Abun_Year[Abun_Year$Name %in% rownames(TraitSPP), ])
   
+  Abun_Year <- droplevels(subset(Abun_Year, Abun>=1))
+  
   Abun_Year$Name <- tolower(Abun_Year$Name) 
   Abun_Year$Name <- gsub (" ", "_", Abun_Year$Name)
   Abun_Year$Abun <- log (Abun_Year$Abun+1)
@@ -216,6 +220,8 @@ for (m in 1:length(matrix_location)){
   
   # Removing Nocturnal species from Abundance estimation dataset
   Abun_Year <- droplevels(Abun_Year[Abun_Year$Name %in% rownames(TraitSPP), ])
+  
+  Abun_Year <- droplevels(subset(Abun_Year, Abun>=1))
   
   Abun_Year$Name <- tolower(Abun_Year$Name) 
   Abun_Year$Name <- gsub (" ", "_", Abun_Year$Name)
@@ -286,17 +292,4 @@ res <- MFA (cwm_full, group = c(morp, mass, diet, fstra, n_spp),
 #saveRDS(cwm_full, "DataInter/cwm_full.rds")
 #saveRDS(res, "DataInter/MFA_Results.rds")
 
-
-# 6. Estimate species richness ----------
-richness_db <- AbunYear
-for (i in 1:length(richness_db)){
-  richness_db[[i]]$year <- 1967+i
-}
-richness_db <- do.call("rbind", richness_db)
-richness_db <- melt (richness_db, id=c("Circle","year"))
-richness_db$value [richness_db$value<0.95] <- 0
-richness_db <- droplevels (subset (richness_db, value>0))
-richness_db$value [richness_db$value>=0.95] <- 1
-
-tapply(richness_db$value, list (richness_db$Circle,richness_db$year), sum)
 
