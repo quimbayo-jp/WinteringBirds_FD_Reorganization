@@ -58,39 +58,120 @@ nullFRic <- nullFRic [,c(5,3:4)]
 DB_FIndex <- left_join(DB_FIndex, nullFRic)
 DB_FIndex$ses_fric <- (DB_FIndex$fric - DB_FIndex$meanNull)/DB_FIndex$SDNull
 
+# Trait Dimensions Values
+res <- readRDS("DataInter/MFA_Results.rds")
+cwm_full <- readRDS("DataInter/cwm_full.rds")
+
+temporal_cwm_dim <- data.frame (cbind(Id=rownames(cwm_full),
+                                      res$ind$coord[,1:2]))
+temporal_cwm_dim <- separate (temporal_cwm_dim, col = Id, 
+                              into=c("Abbrev","year"), sep="_")
+rownames(temporal_cwm_dim) <- NULL
+temporal_cwm_dim$Dim.1 <- as.numeric (temporal_cwm_dim$Dim.1)
+temporal_cwm_dim$Dim.2 <- as.numeric (temporal_cwm_dim$Dim.2)
+temporal_cwm_dim$year  <- as.numeric (temporal_cwm_dim$year)
+temporal_cwm_dim$ID_unique <- paste(temporal_cwm_dim$Abbrev,temporal_cwm_dim$year, sep = "_")
+temporal_cwm_dim <- temporal_cwm_dim[,c("ID_unique","Dim.1","Dim.2")]
+
+# Full database (Taxonomic and functional metrics)
+DB_FIndex <- left_join(DB_FIndex,temporal_cwm_dim, by="ID_unique")
 
 # 2. Extracting slope values from functional indices ----------------------
 
- location_years <- split (DB_FIndex, DB_FIndex$Location)
+DB_FIndex <- droplevels (DB_FIndex[!DB_FIndex$Abbrev %in% prob_locations, ])
 
-slope_values_sric   <- list ()
-slope_values_cfric  <- list ()
-slope_values_feve   <- list ()
-slope_values_fdiv   <- list ()
-slope_values_fori   <- list ()
-slope_values_Dim1   <- list ()
-slope_values_Dim2   <- list ()
+location_years <- split (DB_FIndex, DB_FIndex$Abbrev)
 
-# Loop to extracting estimate value from each linear regression - function was "coefficients"
+
+slope_values_sric_tempAuto  <- list ()
+slope_values_cfric_tempAuto <- list ()
+slope_values_feve_tempAuto  <- list ()
+slope_values_fdiv_tempAuto  <- list ()
+slope_values_fori_tempAuto  <- list ()
+slope_values_Dim1_tempAuto  <- list ()
+slope_values_Dim2_tempAuto  <- list ()
+
+# Residuals 
+residual_values_sric_temp  <- list ()
+residual_values_cfric_temp <- list ()
+residual_values_feve_temp  <- list ()
+residual_values_fdiv_temp  <- list ()
+residual_values_fori_temp  <- list ()
+residual_values_Dim1_temp  <- list ()
+residual_values_Dim2_temp  <- list ()
+
 
 for (m in 1:length(location_years)){
-  slope_values_sric[[m]]  <- summary(glm (sp_richn~year, family = poisson, data = location_years[[m]]))$coefficients[2,1]
-  slope_values_cfric[[m]] <- summary(lm (ses_fric~year, data = location_years[[m]]))$coefficients[2,1]
-  slope_values_feve[[m]]  <- summary(betareg (feve~year, data = location_years[[m]]))$coefficients$mean[2,1]
-  slope_values_fdiv[[m]]  <- summary(betareg (fdiv~year, data = location_years[[m]]))$coefficients$mean[2,1]
-  slope_values_fori[[m]]  <- summary(betareg (fori~year, data = location_years[[m]]))$coefficients$mean[2,1]
-  slope_values_Dim1[[m]]  <- summary(glm (Dim.1~year, data = location_years[[m]]))$coefficients[2,1]
-  slope_values_Dim2[[m]]  <- summary(glm (Dim.2~year, data = location_years[[m]]))$coefficients[2,1]
+  # Species Richness
+  
+  MsRic <-  gls(sp_richn~year, cor=corAR1(form = ~year), 
+                data = location_years[[m]])
+  slope_values_sric_tempAuto [[m]] <- coef(MsRic)[2]
+  residual_values_sric_temp  [[m]]  <- residuals (MsRic, type = "pearson")[1:52]
+  
+  # cFunctional Richness
+  McFRic <-  gls(ses_fric~year, cor=corAR1(form = ~year), 
+                 data = location_years[[m]])
+  slope_values_cfric_tempAuto[[m]] <- coef(McFRic)[2]
+  residual_values_cfric_temp  [[m]]  <- residuals (McFRic, type = "pearson")[1:52]
+  
+  MFEve <-  gls(feve~year, cor=corAR1(form = ~year), 
+                data = location_years[[m]])
+  slope_values_feve_tempAuto [[m]] <- coef(MFEve)[2]
+  residual_values_feve_temp  [[m]]  <- residuals (MFEve, type = "pearson")[1:52]
+  
+  MFDiv <-  gls(fdiv~year, cor=corAR1(form = ~year), 
+                data = location_years[[m]])
+  slope_values_fdiv_tempAuto [[m]] <- coef(MFDiv)[2]
+  residual_values_fdiv_temp  [[m]]  <- residuals (MFDiv, type = "pearson")[1:52]
+  
+  MFOri <-  gls(fori~year,cor=corAR1(form = ~year), 
+                data = location_years[[m]])
+  slope_values_fori_tempAuto [[m]] <- coef(MFOri)[2]
+  residual_values_fori_temp  [[m]]  <- residuals (MFOri, type = "pearson")[1:52]
+  
+  MDim1 <- gls (Dim.1~year, cor=corAR1(form = ~year), 
+                data = location_years[[m]])
+  slope_values_Dim1_tempAuto[[m]]   <- coef(MDim1)[2]
+  residual_values_Dim1_temp  [[m]]  <- residuals (MDim1, type = "pearson")[1:52]
+  
+  MDim2 <-gls (Dim.2~year, cor=corAR1(form = ~year), 
+               data = location_years[[m]])
+  slope_values_Dim2_tempAuto[[m]]   <- coef(MDim2)[2]
+  residual_values_Dim2_temp  [[m]]  <- residuals (MDim2, type = "pearson")[1:52]
+  
+  
 }
 
-beta_slopes_f_indices <- data.frame(Abbrev=unique(DB_FIndex$Location),
-                               coef_sric= do.call("rbind",slope_values_sric),
-                               coef_cfric= do.call("rbind",slope_values_cfric),
-                               coef_feve= do.call("rbind",slope_values_feve),
-                               coef_fdiv= do.call("rbind",slope_values_fdiv),
-                               coef_fori= do.call("rbind",slope_values_fori),
-                               coef_Dim1= do.call("rbind",slope_values_Dim1),
-                               coef_Dim2= do.call("rbind",slope_values_Dim2)) 
+
+FIndex_TempAuto <- data.frame (Abbrev=unique(DB_FIndex$Abbrev),
+                               sric=unlist(slope_values_sric_tempAuto),
+                               cfric=unlist(slope_values_cfric_tempAuto),
+                               feve=unlist(slope_values_feve_tempAuto),
+                               fdiv=unlist(slope_values_fdiv_tempAuto),
+                               fori=unlist(slope_values_fori_tempAuto),
+                               dim1=unlist(slope_values_Dim1_tempAuto),
+                               dim2=unlist(slope_values_Dim2_tempAuto))
+
+
+# Testing Temporal Autocorrelation
+residuals_values_full_sric  <- do.call ("c",residual_values_sric_temp)
+residuals_values_full_cfric <- do.call ("c",residual_values_cfric_temp)
+residuals_values_full_feve  <- do.call ("c",residual_values_feve_temp)
+residuals_values_full_fdiv  <- do.call ("c",residual_values_fdiv_temp)
+residuals_values_full_fori  <- do.call ("c",residual_values_fori_temp)
+residuals_values_full_dim1  <- do.call ("c",residual_values_Dim1_temp)
+residuals_values_full_dim2  <- do.call ("c",residual_values_Dim2_temp)
+
+
+par(mfrow=c(3,3))
+acf(residuals_values_full_sric,  main="SRic")
+acf(residuals_values_full_cfric, main="cFRic")
+acf(residuals_values_full_feve,  main="FEve")
+acf(residuals_values_full_fdiv,  main="FDiv")
+acf(residuals_values_full_fori,  main="FOri")
+acf(residuals_values_full_fori,  main="TraitDim.1")
+acf(residuals_values_full_fori,  main="TraitDim.2")
 
 
 
@@ -101,12 +182,10 @@ LocGeoCoor <- data.frame(LocGeoCoor)
 Location.Coords <- LocGeoCoor [, c("Abbrev","Lat", "Long")]
 
 # Join databases
-beta_slopes_f_indices   <- left_join(beta_slopes_f_indices,LocGeoCoor)
+FIndex_TempAuto   <- left_join(FIndex_TempAuto,LocGeoCoor)
 
 
-
-
-# 4. Figure 1: Functional maps  ----------------------------------------------
+# 5. Figure 1: Functional maps  ----------------------------------------------
 # This function was created the functional maps  
 map_function <- function (db, f_index, NameIndex, GridCellReso, HighColor, LowColor, MidColor){
   usa <- map_data("usa")
@@ -143,58 +222,62 @@ map_function <- function (db, f_index, NameIndex, GridCellReso, HighColor, LowCo
 }
 
 
-## 4.1 Species richness map --------------------------------------------------
-Fig_1a <- map_function(db =slopes_f_indices_coord,
-                       f_index = beta_slopes_f_indices$coef_sric,
-                       NameIndex = expression(Delta~"SppR"),
-                       GridCellReso=0.7,
-                       HighColor = brewer.pal(9, "YlOrRd"),
-                       LowColor = rev(brewer.pal(9, "Blues")),
-                       MidColor = "white")
+## 5.1 Species richness map --------------------------------------------------
+Fig_1.1TempAuto_a <- map_function(db =FIndex_TempAuto,
+                                  f_index = FIndex_TempAuto$sric,
+                                  NameIndex = expression(Delta~"SRic"),
+                                  GridCellReso=1,
+                                  HighColor = brewer.pal(9, "YlOrRd"),
+                                  LowColor = rev(brewer.pal(9, "Blues")),
+                                  MidColor = "white")
 
-## 4.2 Functional richness map -------------------------------------------------
+## 5.2 Functional richness controlling to species richness map ----------------
 
-Fig_1b <- map_function(db =beta_slopes_f_indices,
-                         f_index = beta_slopes_f_indices$lm_coef_sesfric,
-                         NameIndex = expression(Delta~"SES.FRic"),
-                         GridCellReso=1,
-                         HighColor = brewer.pal(9, "YlOrRd"),
-                         LowColor = rev(brewer.pal(9, "Blues")),
-                         MidColor = "white")
+Fig_1.1TempAuto_b <- map_function(db =FIndex_TempAuto,
+                                  f_index = FIndex_TempAuto$cfric,
+                                  NameIndex = expression(Delta~"cFRic"),
+                                  GridCellReso=1,
+                                  HighColor = brewer.pal(9, "YlOrRd"),
+                                  LowColor = rev(brewer.pal(9, "Blues")),
+                                  MidColor = "white")
 
-## 4.3 Functional evenness map -------------------------------------------------
+## 5.3 Functional evenness map -------------------------------------------------
 
-Fig_1c <- map_function(db =beta_slopes_f_indices,
-                       f_index = beta_slopes_f_indices$beta_coef_feve,
-                       NameIndex = expression(Delta~"FEve"),
-                       GridCellReso=1,
-                       HighColor = brewer.pal(9, "YlOrRd"),
-                       LowColor = rev(brewer.pal(9, "Blues")),
-                       MidColor = "white")
+Fig_1.1TempAuto_c <- map_function(db =FIndex_TempAuto,
+                                  f_index = FIndex_TempAuto$feve,
+                                  NameIndex = expression(Delta~"FEve"),
+                                  GridCellReso=1,
+                                  HighColor = brewer.pal(9, "YlOrRd"),
+                                  LowColor = rev(brewer.pal(9, "Blues")),
+                                  MidColor = "white")
 
-## 4.4 Functional divergence map -------------------------------------------------
+## 5.4 Functional divergence map -------------------------------------------------
 
-Fig_1d <- map_function(db = slopes_f_indices_coord,
-                       f_index = beta_slopes_f_indices$beta_coef_fdiv,
-                       NameIndex = expression(Delta~"FDiv"),
-                       GridCellReso=1,
-                       HighColor = brewer.pal(9, "YlOrRd"),
-                       LowColor = rev(brewer.pal(9, "Blues")),
-                       MidColor = "white")
+Fig_1.1TempAuto_d <- map_function(db = FIndex_TempAuto,
+                                  f_index = FIndex_TempAuto$fdiv,
+                                  NameIndex = expression(Delta~"FDiv"),
+                                  GridCellReso=1,
+                                  HighColor = brewer.pal(9, "YlOrRd"),
+                                  LowColor = rev(brewer.pal(9, "Blues")),
+                                  MidColor = "white")
 
-## 4.5 Functional originality map -------------------------------------------------
+## 5.5 Functional originality map -------------------------------------------------
 
-Fig_1e <- map_function(db =beta_slopes_f_indices,
-                       f_index = beta_slopes_f_indices$beta_coef_fori,
-                       NameIndex = expression(Delta~"FOri"),
-                       GridCellReso=1,
-                       HighColor = brewer.pal(9, "YlOrRd"),
-                       LowColor = rev(brewer.pal(9, "Blues")),
-                       MidColor = "white")
+Fig_1.1TempAuto_e <- map_function(db =FIndex_TempAuto,
+                                  f_index = FIndex_TempAuto$fori,
+                                  NameIndex = expression(Delta~"FOri"),
+                                  GridCellReso=1,
+                                  HighColor = brewer.pal(9, "YlOrRd"),
+                                  LowColor = rev(brewer.pal(9, "Blues")),
+                                  MidColor = "white")
 
 
 
-ggarrange(Fig_1a, Fig_1b, Fig_1c, Fig_1d, Fig_1e,
+ggarrange(Fig_1.1TempAuto_a, 
+          Fig_1.1TempAuto_b,
+          Fig_1.1TempAuto_c,
+          Fig_1.1TempAuto_d,
+          Fig_1.1TempAuto_e,
           align="hv",
           ncol=1, nrow=5,
           font.label = list(size=13, color="black",
@@ -202,7 +285,7 @@ ggarrange(Fig_1a, Fig_1b, Fig_1c, Fig_1d, Fig_1e,
 
 
 
-# 5. Functional temporal trends  ------------------------------------------
+# 6. Functional temporal trends  ------------------------------------------
 
 # Call biogeographical information
 db_domains <- read.csv("DataInter/RegionalPool_coord.csv", header = T)
@@ -214,63 +297,60 @@ db_domains_indices <- left_join(DB_FIndex, db_domains)
 domains_predict <- split (db_domains_indices, db_domains_indices$DomainName)
 
 results_lm_domains_sric <- list()
-results_lm_domains_fric <- list()
-results_lm_domains_sesfric <- list()
+results_lm_domains_cfric <- list()
 results_lm_domains_feve <- list()
 results_lm_domains_fdiv <- list()
 results_lm_domains_fori <- list()
 
 for (i in 1:length(domains_predict)){
-    # Species richness
-    lm_domain_sric <- lm (sp_richn~year, data = domains_predict[[i]])
-    db <- as.data.frame (domains_predict[[i]]) 
-    predict_domain_sric <- data.frame (lm_predict=predict(lm_domain_sric,db),
+   # Species richness
+  lm_domain_sric <- gls (sp_richn~year, correlation =corAR1(form =~year|Abbrev), 
+                         data = domains_predict[[i]])
+  
+  db <- as.data.frame (domains_predict[[i]])
+  predict_domain_sric <- data.frame (lm_predict=predict(lm_domain_sric,db),
                                      year=db$year,
                                      Domain="Domain")
-    results_lm_domains_sric[[i]] <- predict_domain_sric
+  
+  results_lm_domains_sric[[i]] <- predict_domain_sric
   
   
-    # Functional richness
-    lm_domain_fric <- betareg (fric~year, data = domains_predict[[i]])
-    db <- as.data.frame (domains_predict[[i]]) 
-    predict_domain_fric <- data.frame (lm_predict=predict(lm_domain_fric,db),
-                                  year=db$year,
-                                  Domain="Domain")
-    results_lm_domains_fric[[i]] <- predict_domain_fric
-    
-    # SES Functional richness
-    lm_domain_sesfric <- lm (ses_fric~year, data = domains_predict[[i]])
-    db <- as.data.frame (domains_predict[[i]]) 
-    predict_domain_sesfric <- data.frame (lm_predict=predict(lm_domain_sesfric,db),
-                                       year=db$year,
-                                       Domain="Domain")
-    results_lm_domains_sesfric[[i]] <- predict_domain_sesfric
-    
-    # Functional evenness
-    lm_domain_feve <- betareg (feve~year, data = domains_predict[[i]])
-    db <- as.data.frame (domains_predict[[i]]) 
-    predict_domain_feve <- data.frame (lm_predict=predict(lm_domain_feve,db),
-                                       year=db$year,
-                                       Domain="Domain")
-    results_lm_domains_feve[[i]] <- predict_domain_feve
-    
-    # Functional divergence
-    lm_domain_fdiv <- betareg (fdiv~year, data = domains_predict[[i]])
-    db <- as.data.frame (domains_predict[[i]]) 
-    predict_domain_fdiv <- data.frame (lm_predict=predict(lm_domain_fdiv,db),
-                                       year=db$year,
-                                       Domain="Domain")
-    results_lm_domains_fdiv[[i]] <- predict_domain_fdiv
-    
-    # Functional originality
-    lm_domain_fori <- betareg (fori~year, data = domains_predict[[i]])
-    db <- as.data.frame (domains_predict[[i]]) 
-    predict_domain_fori <- data.frame (lm_predict=predict(lm_domain_fori,db),
-                                       year=db$year,
-                                       Domain="Domain")
-    results_lm_domains_fori[[i]] <- predict_domain_fori
-    
-    
+  # SES Functional richness
+  lm_domain_cfric <- gls(ses_fric~year, correlation =corAR1(form =~year|Abbrev), 
+                           data = domains_predict[[i]])
+  db <- as.data.frame (domains_predict[[i]])
+  predict_domain_cfric <- data.frame (lm_predict=predict(lm_domain_cfric,db),
+                                        year=db$year,
+                                        Domain="Domain")
+  results_lm_domains_cfric[[i]] <- lm_domain_cfric
+  
+  # Functional evenness
+  lm_domain_feve <- gls(feve~year, correlation =corAR1(form =~year|Abbrev),
+                        data = domains_predict[[i]])
+  db <- as.data.frame (domains_predict[[i]])
+  predict_domain_feve <- data.frame (lm_predict=predict(lm_domain_feve,db),
+                                     year=db$year,
+                                     Domain="Domain")
+  results_lm_domains_feve[[i]] <- predict_domain_feve
+  
+  # Functional divergence
+  lm_domain_fdiv <- gls(fdiv~year, correlation =corAR1(form =~year|Abbrev), 
+                        data = domains_predict[[i]])
+  db <- as.data.frame (domains_predict[[i]])
+  predict_domain_fdiv <- data.frame (lm_predict=predict(lm_domain_fdiv,db),
+                                     year=db$year,
+                                     Domain="Domain")
+  results_lm_domains_fdiv[[i]] <- predict_domain_fdiv
+  
+  #  Functional originality
+  lm_domain_fori <- gls(fori~year, correlation =corAR1(form =~year|Abbrev),
+                        data = domains_predict[[i]])
+  db <- as.data.frame (domains_predict[[i]])
+  predict_domain_fori <- data.frame (lm_predict=predict(lm_domain_fori,db),
+                                     year=db$year,
+                                     Domain="Domain")
+  results_lm_domains_fori[[i]] <- predict_domain_fori
+  
   }
 
 # This function was created to shown the temporal trends including the NEON Domains  
@@ -311,34 +391,50 @@ linear_figure_function <- function (dbFull, findex, model_equation,dbPre, yNameA
 }
 
 # Temporal trends per each functional index
-Fig_1.1a <- linear_figure_function (dbFull = db_domains_indices,
+Fig_1.2TempAuto_a <- linear_figure_function (dbFull = db_domains_indices,
                                   findex = db_domains_indices$sp_richn,
-                                  model_equation = lm(sp_richn~year, data =db_domains_indices),
+                                  model_equation = gls (sp_richn~year, 
+                                                        correlation =corAR1(form =~year|Abbrev), 
+                                                        data =db_domains_indices),
                                   dbPre = results_lm_domains_sric,
                                   yNameAxis = expression("SRic"))
-Fig_1.1b <- linear_figure_function (dbFull = db_domains_indices,
+
+Fig_1.2TempAuto_b <- linear_figure_function (dbFull = db_domains_indices,
                                   findex = db_domains_indices$ses_fric,
-                                  model_equation = lm(ses_fric~year, data =db_domains_indices),
-                                  dbPre = results_lm_domains_sesfric,
-                                  yNameAxis = expression("SES.FRic"))
-Fig_1.1c <- linear_figure_function (dbFull = db_domains_indices,
+                                  model_equation = gls (ses_fric~year, 
+                                                        correlation =corAR1(form =~year|Abbrev), 
+                                                        data =db_domains_indices),
+                                  dbPre = results_lm_domains_cfric,
+                                  yNameAxis = expression("cFRic"))
+Fig_1.2TempAuto_c <- linear_figure_function (dbFull = db_domains_indices,
                                   findex = db_domains_indices$feve,
-                                  model_equation = betareg(feve~year, data =db_domains_indices),
+                                  model_equation = gls (feve~year, 
+                                                        correlation =corAR1(form =~year|Abbrev), 
+                                                        data =db_domains_indices),
                                   dbPre = results_lm_domains_feve,
                                   yNameAxis = expression("FEve"))
-Fig_1.1d <- linear_figure_function (dbFull = db_domains_indices,
+Fig_1.2TempAuto_d <- linear_figure_function (dbFull = db_domains_indices,
                                   findex = db_domains_indices$fdiv,
-                                  model_equation = betareg(fdiv~year, data =db_domains_indices),
+                                  model_equation = gls (fdiv~year, 
+                                                        correlation =corAR1(form =~year|Abbrev), 
+                                                        data =db_domains_indices),
                                   dbPre = results_lm_domains_fdiv,
                                   yNameAxis = expression("FDiv"))
-Fig_1.1e <- linear_figure_function (dbFull = db_domains_indices,
+Fig_1.2TempAuto_e <- linear_figure_function (dbFull = db_domains_indices,
                                   findex = db_domains_indices$fori,
-                                  model_equation = betareg(fori~year, data =db_domains_indices),
+                                  model_equation = gls (fori~year, 
+                                                        correlation =corAR1(form =~year|Abbrev), 
+                                                        data =db_domains_indices),
                                   dbPre = results_lm_domains_fori,
                                   yNameAxis = expression("FOri"))
 
 
-ggarrange(Fig_1.1a, Fig_1.1b, Fig_1.1c, Fig_1.1d, Fig_1.1e,
+
+ggarrange(Fig_1.2TempAuto_a, 
+          Fig_1.2TempAuto_b,
+          Fig_1.2TempAuto_c,
+          Fig_1.2TempAuto_d,
+          Fig_1.2TempAuto_e,
           align="hv",
           ncol=1, nrow=5, legend = "none",
           font.label = list(size=13, color="black",
@@ -348,10 +444,9 @@ ggarrange(Fig_1.1a, Fig_1.1b, Fig_1.1c, Fig_1.1d, Fig_1.1e,
 # 6. Figure 2: Cluster and map --------------------------------------------
 
 complete_cluster <- left_join(beta_slopes_f_indices, db2)
-cluster_matrix_full <- complete_cluster [,c("Abbrev","lm_coef_sesfric",
-                                            "beta_coef_feve","beta_coef_fdiv",
-                                            "beta_coef_fori", "slope_Dim.1",
-                                            "slope_Dim.2")]
+cluster_matrix_full <- FIndex_TempAuto[,c("Abbrev","cfric",
+                                          "feve","fdiv","fori",
+                                          "dim1","dim2")]
 
 # Estimation how many clusters are identified
 fviz_nbclust (cluster_matrix_full[,2:length(cluster_matrix_full)], 
@@ -359,45 +454,41 @@ fviz_nbclust (cluster_matrix_full[,2:length(cluster_matrix_full)],
               method = 'silhouette') 
 
 cluster_k_full  <- kmeans (cluster_matrix_full[,2:length(cluster_matrix_full)], 
-                           centers = 5, 
+                           centers = 4, 
                            nstart = 2000)
 
-cluster_db_full <- complete_cluster
+cluster_db_full <- cluster_matrix_full
 cluster_db_full <- cbind (cluster_db_full, k_cluster_full=cluster_k_full$cluster)
 
 # Boxplot shown clusters 
-fig_matrix_full <- cluster_db_full[, c("lm_coef_sesfric",
-                                       "beta_coef_feve",
-                                       "beta_coef_fdiv",
-                                       "beta_coef_fori",
-                                       "slope_Dim.1",
-                                       "slope_Dim.2",
+fig_matrix_full <- cluster_db_full[, c("cfric","feve","fdiv",
+                                       "fori","dim1","dim2",
                                        "k_cluster_full")]
-
-fig_matrix_full <- melt (fig_matrix_full, id=c("k_cluster_full"))
+fig_matrix_full <- melt(fig_matrix_full, id=c("k_cluster_full"))
 colnames(fig_matrix_full) <- c("k_cluster","findex","slope")
 fig_matrix_full$k_cluster <- as.factor (fig_matrix_full$k_cluster)
 
 
-Fig_2a <- ggplot (droplevels(subset(fig_matrix_full, slope<=0.04)), 
-                  aes(x=factor(findex, levels = c("slope_Dim.2",
-                                                  "slope_Dim.1",
-                                                  "beta_coef_fori",
-                                                  "beta_coef_fdiv",
-                                                  "beta_coef_feve",
-                                                  "lm_coef_sesfric")), 
+
+Fig_3a <- ggplot (droplevels(subset(fig_matrix_full, slope<=0.04)), 
+                  aes(x=factor(findex, levels = c("dim2",
+                                                  "dim1",
+                                                  "fori",
+                                                  "fdiv",
+                                                  "feve",
+                                                  "cfric")), 
                       y=slope))+
   geom_boxplot(aes(fill=k_cluster), outlier.color = NA)+
   geom_hline(yintercept = 0, linetype="dashed",color="black")+
   coord_flip()+
   labs(y="Slope value", x="Index", fill="Cluster")+
   facet_grid(k_cluster~.)+
-  scale_x_discrete(labels=c("slope_Dim.2"=expression(Delta~"TraitDim2"),
-                            "slope_Dim.1"=expression(Delta~"TraitDim1"),
-                            "beta_coef_fori"=expression(Delta~"FOri"),
-                            "beta_coef_fdiv"=expression(Delta~"FDiv"),
-                            "beta_coef_feve"=expression(Delta~"FEve"),
-                            "lm_coef_sesfric"=expression(Delta~"cFRic")))+
+  scale_x_discrete(labels=c("dim2"=expression(Delta~"TraitDim2"),
+                            "dim1"=expression(Delta~"TraitDim1"),
+                            "fori"=expression(Delta~"FOri"),
+                            "fdiv"=expression(Delta~"FDiv"),
+                            "feve"=expression(Delta~"FEve"),
+                            "cfric"=expression(Delta~"cFRic")))+
   scale_fill_viridis(discrete = T, option = "D")+
   #scale_fill_viridis_d(option = "turbo")+
   theme_classic()+
@@ -409,7 +500,8 @@ Fig_2a <- ggplot (droplevels(subset(fig_matrix_full, slope<=0.04)),
          axis.title.x  = element_blank())
 
 
-# Map using NEON Domains
+#Map using NEON Domains
+head (db_domains)
 df_domains <- ddply (db_domains,. (DomainName), summarise,
                      Lat=mean(Lat), Long=mean(Long))
 # merge cluster_db and domains including species richness slope
@@ -421,10 +513,9 @@ cluster_domains_full <- ddply (cluster_domains_full,. (DomainName,k_cluster_full
 cluster_domains_full <- dcast(DomainName~k_cluster_full, 
                               value.var = "nCluster",
                               data = cluster_domains_full)
-
-cluster_domains_full [is.na(cluster_domains_full)] <- 0
-cluster_domains_full <- left_join (cluster_domains_full, df_domains)
-cluster_domains_full <- cluster_domains_full[,c("DomainName","Lat","Long","k_1","k_2","k_3",'k_4','k_5')]
+cluster_domains_full[is.na(cluster_domains_full)] <- 0
+cluster_domains_full <- left_join(cluster_domains_full, df_domains)
+cluster_domains_full <- cluster_domains_full[,c("DomainName","Lat","Long","k_1","k_2","k_3","k_4")]
 cluster_domains_full$radius <- (apply (cluster_domains_full[,4:length(cluster_domains_full)],1,sum))/100
 
 #CRS projection 
@@ -436,22 +527,22 @@ neonDomains <- spTransform(neonDomains, CRSobj = crs_projection)
 
 #setdiff(cluster_domains$DomainID,neonDomains@data$DomainID)
 # Transform object under same map projection
+cluster_db_full <- left_join(cluster_db_full, LocGeoCoor)
 cluster_db_full$k_cluster_full <- as.factor(cluster_db_full$k_cluster_full)
 
 coord <- cbind(cluster_db_full$Long, cluster_db_full$Lat)
 prj.coord  <- project(coord, proj = crs_projection)
-coords_map <- cbind (prj.coord,slopes_f_indices_coord)
+coords_map <- cbind (prj.coord,FIndex_TempAuto)
 names(coords_map)[1:2] <- c("X.prj","Y.prj") 
 
 mapDataInfo <- map_data (neonDomains)
 
-
-Fig_2b <- ggplot () +
+Fig_3b <- ggplot () +
   geom_polygon(data=neonDomains, aes(x=long, y=lat, group=group, colour=group), 
                color="black", fill="grey90") +
   geom_scatterpie(data=cluster_domains_full,aes(x=Long,y=Lat, group=DomainName, r=radius),
                   alpha=1, color=NA,
-                  cols =c("k_1",'k_2','k_3','k_4','k_5'))+
+                  cols =c("k_1",'k_2',"k_3","k_4"))+
   geom_scatterpie_legend(cluster_domains_full$radius, x=-123, y=30)+
   lims(x=c(-130,-60), y=c(24,50)) +
   labs(fill="Cluster")+
@@ -459,8 +550,7 @@ Fig_2b <- ggplot () +
   scale_fill_viridis(discrete = T, option = "D")+
   theme_void()
 
-
-ggarrange(Fig_2b,Fig_2a,
+ggarrange(Fig_3b,Fig_3a,
           align="hv", widths = c(2.3,0.7),
           ncol=2, nrow=1,
           font.label = list(size=13, color="black",
@@ -607,32 +697,6 @@ res <- readRDS("DataInter/MFA_Results.rds")
 cwm_full <- readRDS("DataInter/cwm_full.rds")
 
 ##### Plot MFA results #####
-temporal_cwm_dim <- data.frame (cbind(Id=rownames(cwm_full),
-                                      res$ind$coord[,1:2]))
-temporal_cwm_dim <- separate (temporal_cwm_dim, col = Id, 
-                              into=c("Abbrev","year"), sep="_")
-rownames(temporal_cwm_dim) <- NULL
-temporal_cwm_dim$Dim.1 <- as.numeric (temporal_cwm_dim$Dim.1)
-temporal_cwm_dim$Dim.2 <- as.numeric (temporal_cwm_dim$Dim.2)
-temporal_cwm_dim$year  <- as.numeric (temporal_cwm_dim$year)
-
-# Slope Dim.1 and Dim.2 
-dimensions_years <- split (temporal_cwm_dim, temporal_cwm_dim$Abbrev)
-
-slope_Dim.1 <- list ()
-slope_Dim.2 <- list ()
-
-# Loop to extracting estimate value from each linear regression - function was "coefficients"
-for (m in 1:length(dimensions_years)){
-  slope_Dim.1[[m]] <- summary(lm (Dim.1~year, data = dimensions_years[[m]]))$coefficients[2,1]
-  slope_Dim.2[[m]] <- summary(lm (Dim.2~year, data = dimensions_years[[m]]))$coefficients[2,1]
-  
-}
-slopes_dimensions <- data.frame(Abbrev=unique(temporal_cwm_dim$Abbrev),
-                                slope_Dim.1= do.call("rbind",slope_Dim.1),
-                                slope_Dim.2= do.call("rbind",slope_Dim.2))
-slopes_dimensions <- left_join(slopes_dimensions, Location.Coords)
-
 # This function was created to shown the trait dimensions maps
 map_function2 <- function (db, f_index, NameIndex, GridCellReso){
   usa <- map_data("usa")
@@ -669,25 +733,25 @@ map_function2 <- function (db, f_index, NameIndex, GridCellReso){
 }
 
 # Map using slopes Dim.1 and Dim.2
-Fig_3a <- map_function(db =slopes_dimensions,
-                       f_index = slopes_dimensions$slope_Dim.1,
-                       NameIndex = expression(Delta~"Dim.1"),
-                       GridCellReso=0.7,
-                       HighColor = brewer.pal(9, "RdPu"),
-                       LowColor = rev(brewer.pal(6, "Blues")),
-                       MidColor = "white")
-
-
-Fig_3b <- map_function (db = db2,
-                        f_index = db2$slope_Dim.2,
-                        NameIndex = expression(Delta~"Dim.2"),
-                        GridCellReso=0.7, 
+Fig_2a <- map_function(db =FIndex_TempAuto,
+                        f_index = FIndex_TempAuto$dim1,
+                        NameIndex = expression(Delta~"Dim.1"),
+                        GridCellReso=0.7,
                         HighColor = brewer.pal(9, "RdPu"),
                         LowColor = rev(brewer.pal(6, "Blues")),
                         MidColor = "white")
+#db2 <- droplevels(subset(slopes_dimensions, slope_Dim.2<0.03))
+
+Fig_2b <- map_function (db = FIndex_TempAuto,
+                         f_index = FIndex_TempAuto$dim2,
+                         NameIndex = expression(Delta~"Dim.2"),
+                         GridCellReso=0.7, 
+                         HighColor = brewer.pal(9, "RdPu"),
+                         LowColor = rev(brewer.pal(6, "Blues")),
+                         MidColor = "white")
 
 # Linear correlations 
-temporal_dim_domains <- left_join(temporal_cwm_dim, db_domains)
+temporal_dim_domains <- left_join(DB_FIndex, db_domains)
 dim_domains <- split (temporal_dim_domains, temporal_dim_domains$DomainName)
 
 results_lm_domains_dim1 <- list()
@@ -695,7 +759,8 @@ results_lm_domains_dim2 <- list()
 
 for (i in 1:length(dim_domains)){
   # Dim.1
-  lm_domain_dims <- lm (Dim.1~year, data = dim_domains[[i]])
+  lm_domain_dims <- gls (Dim.1~year, correlation =corAR1(form =~0.7|Abbrev), 
+                         data = domains_predict[[i]])
   db <- as.data.frame (dim_domains[[i]]) 
   predict_domain_dim1 <- data.frame (lm_predict=predict(lm_domain_dims,db),
                                      year=db$year,
@@ -704,7 +769,8 @@ for (i in 1:length(dim_domains)){
   
   
   # Dim.2
-  lm_domain_dims <- lm (Dim.2~year, data = dim_domains[[i]])
+  lm_domain_dims <- gls (Dim.2~year, correlation =corAR1(form =~0.7|Abbrev), 
+                         data = domains_predict[[i]])
   db <- as.data.frame (dim_domains[[i]]) 
   predict_domain_dim2 <- data.frame (lm_predict=predict(lm_domain_dims,db),
                                      year=db$year,
@@ -744,21 +810,26 @@ linear_figure_function2 <- function (dbFull, findex, model_equation,dbPre, yName
   
 }
 
-Fig_3.1a <- linear_figure_function2 (dbFull = temporal_dim_domains,
-                                  findex = temporal_dim_domains$Dim.1,
-                                  model_equation = lm(Dim.1~year, data =temporal_dim_domains),
-                                  dbPre = results_lm_domains_dim1,
-                                  yNameAxis = expression("Dim.1"))
+Fig_2c <- linear_figure_function2 (dbFull = temporal_dim_domains,
+                                    findex = temporal_dim_domains$Dim.1,
+                                    model_equation = gls (Dim.1~year, correlation =corAR1(form =~year|Abbrev), 
+                                                          data = domains_predict[[i]]),
+                                    dbPre = results_lm_domains_dim1,
+                                    yNameAxis = expression("Dim.1"))
+
+results_dim_domains <- dcast(Abbrev+year~DomainName, value.var = "Dim.2", data=temporal_dim_domains)
+summary (results_dim_domains)
 
 
-Fig_3.1b <- linear_figure_function2 (dbFull = temporal_dim_domains,
-                                   findex = temporal_dim_domains$Dim.2,
-                                   model_equation = lm(Dim.1~year, data =temporal_dim_domains),
-                                   dbPre = results_lm_domains_dim2,
-                                   yNameAxis = expression("Dim.2"))
+Fig_2d <- linear_figure_function2 (dbFull = temporal_dim_domains,
+                                    findex = temporal_dim_domains$Dim.2,
+                                    model_equation = gls (Dim.2~year, correlation =corAR1(form =~year|Abbrev), 
+                                                          data = domains_predict[[i]]),
+                                    dbPre = results_lm_domains_dim2,
+                                    yNameAxis = expression("Dim.2"))
 
-ggarrange(Fig_3a, Fig_3.1a,
-          Fig_3b, Fig_3.1b,
+ggarrange(Fig_2a, Fig_2c,
+          Fig_2b, Fig_2d,
           align="hv", widths = c(2,0.5),
           ncol=2, nrow=2,
           font.label = list(size=13, color="black",
@@ -890,36 +961,6 @@ p_trait2 <- ggplot(imptraits %>% arrange(col1, Dim.2),
 ggarrange(p_trait1, p_trait2,
           align="hv",ncol=1, nrow=2,
           font.label = list(size=13, color="black",face="bold", family = "sans"))
-
-
-
-# 9. Principal component figure -------------------------------------------
-
-tempPCA2 <- princomp(slopes_env_factors[,2:4], cor = F)
-summary (tempPCA2)
-tempPCA2$loadings
-
-
-Temp_PRCOMP <- data.frame (loadings(tempPCA2))
-Temp_PRCOMP <- as.data.frame(Temp_PRCOMP[1:3, ])
-
-Temp_PRCOMP$Metric <- c("Mean Temp",
-                        "Max. Temp",
-                        "Min. Temp")
-rownames(Temp_PRCOMP)<- NULL
-Temp_PRCOMP <- melt (Temp_PRCOMP, id=("Metric"))
-Temp_PRCOMP <- droplevels(Temp_PRCOMP[!Temp_PRCOMP$variable=="Comp.3", ])
-
-PC_figure <- ggplot (Temp_PRCOMP, aes(y=value, fill=Metric,
-                         x=variable))+
-  geom_bar(stat = "identity", color="black", position = position_dodge())+
-  scale_fill_manual(values = c("grey30","grey60","grey90"))+
-  labs(x="Principal component axis", fill="Temperature\nmetric")+
-  scale_x_discrete(breaks=c("Comp.1", "Comp.2"), labels=c("PC1 (81%)","PC2 (18%)"))+
-  theme_classic2()+
-  theme (axis.title.x = element_blank(),
-         axis.title.y = element_blank(),
-         axis.text = element_text(size = 13))
 
 
 # Figure 4: Bayesian models -----------------------------------------------
