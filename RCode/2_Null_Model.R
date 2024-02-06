@@ -93,6 +93,7 @@ null_findices <- list ()
   Abun_Year <- melt(Abun_Year, id=c("Circle"))
   colnames (Abun_Year) <- c("Abbrev","Name","Abun")
   Abun_Year <- droplevels(Abun_Year[Abun_Year$Name %in% rownames(TraitSPP), ])
+  Abun_Year <- droplevels (subset (Abun_Year, Abun>=1))
   
   # Joint abundance data and domain information 
   Abun_Year_Domain <- inner_join(Abun_Year, DomainPool, by=c("Abbrev"="Abbrev"))
