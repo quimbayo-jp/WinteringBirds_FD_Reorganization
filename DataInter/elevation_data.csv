@@ -1,0 +1,1184 @@
+"Long","Lat","Abbrev","Location","DomainID","DomainName","Elevation"
+-72.9884,41.9123,"CTBA","Barkhamsted",1,"Northeast",127
+-71.9274,41.7966,"CTEW","Edwin Way Teale Trail Wood",1,"Northeast",95
+-73.6138,41.0826,"CTGS","Greenwich-Stamford",1,"Northeast",74
+-72.6727,41.766,"CTHA","Hartford",1,"Northeast",16
+-73.2724,41.7703,"CTLH","Litchfield Hills",1,"Northeast",318
+-73.4399,41.9449,"CTLS","Lakeville-Sharon",1,"Northeast",273
+-72.9323,41.3007,"CTNH","New Haven",1,"Northeast",9
+-72.1007,41.3236,"CTNL","New London",1,"Northeast",26
+-72.427,41.2924,"CTOL","Old Lyme-Saybrook",1,"Northeast",12
+-73.1411,41.4,"CTOX","Oxford",1,"Northeast",173
+-72.7273,41.4747,"CTQV","Quinnipiac Valley",1,"Northeast",94
+-73.1099,41.1742,"CTSM","Stratford-Milford",1,"Northeast",0
+-72.4485,41.5533,"CTSR","Salmon River",1,"Northeast",29
+-72.2497,41.8116,"CTST","Storrs",1,"Northeast",180
+-73.358,41.164,"CTWE","Westport",1,"Northeast",23
+-73.2791,41.5352,"CTWR","Woodbury-Roxbury",1,"Northeast",170
+-72.2203,42.5944,"MAAT","Athol",1,"Northeast",206
+-70.6206,41.6517,"MABB","Buzzards Bay",1,"Northeast",10
+-70.73,42.6112,"MACA","Cape Ann",1,"Northeast",65
+-73.2537,42.4086,"MACB","Central Berkshire",1,"Northeast",332
+-69.9968,41.7207,"MACC","Cape Cod",1,"Northeast",2
+-71.4333,42.4333,"MACO","Concord",1,"Northeast",60
+-71.0955,42.3973,"MAGB","Greater Boston",1,"Northeast",17
+-72.6002,42.5879,"MAGR","Greenfield",1,"Northeast",70
+-70.3002,41.7004,"MAMC","Mid-Cape Cod",1,"Northeast",9
+-71.3572,42.1675,"MAMI","Millis",1,"Northeast",50
+-73.1937,42.6442,"MANB","Northern Berkshire",1,"Northeast",765
+-70.8987,42.7398,"MANE","Newburyport",1,"Northeast",8
+-72.6028,42.3439,"MANO","Northampton",1,"Northeast",38
+-70.6012,41.8733,"MAPL","Plymouth",1,"Northeast",50
+-72.2783,42.3712,"MAQB","Quabbin",1,"Northeast",159
+-70.9333,42.2167,"MAQU","Quincy",1,"Northeast",18
+-72.5089,42.1294,"MASP","Springfield",1,"Northeast",63
+-71.0324,41.8691,"MATM","Taunton-Middleboro",1,"Northeast",37
+-71.666,42.0671,"MAUX","Uxbridge",1,"Northeast",133
+-71.9333,42.5167,"MAWE","Westminster",1,"Northeast",330
+-71.7937,42.3238,"MAWO","Worcester",1,"Northeast",200
+-79.3658,39.4936,"MDOA","Oakland",1,"Northeast",775
+-69.7817,44.3072,"MEAU","Augusta",1,"Northeast",39
+-68.7861,44.7005,"MEBB","Bangor-Bucksport",1,"Northeast",58
+-70.4788,43.4434,"MEBK","Biddeford-Kennebunkport",1,"Northeast",49
+-67.1788,44.9496,"MECA","Calais",1,"Northeast",17
+-69.2323,45.1607,"MEDF","Dover-Foxcroft",1,"Northeast",162
+-70.1631,44.7031,"MEFA","Farmington",1,"Northeast",120
+-70.2035,44.1051,"MELA","Lewiston-Auburn",1,"Northeast",74
+-67.3285,44.6669,"MEMB","Machias Bay",1,"Northeast",1
+-69.9318,45.4407,"MEMT","Misery Township",1,"Northeast",325
+-68.6839,44.9052,"MEOO","Orono-Old Town",1,"Northeast",32
+-70.2242,43.5858,"MEPA","Greater Portland",1,"Northeast",13
+-68.0155,46.6812,"MEPI","Presque Isle",1,"Northeast",136
+-70.819,44.0725,"MESW","Sweden",1,"Northeast",163
+-69.1684,44.0815,"METR","Thomaston-Rockland",1,"Northeast",20
+-69.6631,44.5641,"MEWA","Waterville",1,"Northeast",87
+-70.6268,43.1811,"MEYC","York County",1,"Northeast",15
+-71.8897,43.8438,"NHBV","Baker Valley",1,"Northeast",191
+-71.5375,43.2192,"NHCN","Concord",1,"Northeast",69
+-70.8333,42.9833,"NHCS","Coastal New Hampshire",1,"Northeast",26
+-71.1379,44.7811,"NHEU","Errol-Umbagog",1,"Northeast",374
+-72.2333,43.7167,"NHHN","Hanover-Norwich",1,"Northeast",245
+-72.3123,42.9303,"NHKE","Keene",1,"Northeast",151
+-70.9833,43.1667,"NHLD","Lee-Durham",1,"Northeast",56
+-71.5194,43.5548,"NHLN","Laconia-New Hampton",1,"Northeast",155
+-71.75,44.2667,"NHLT","Littleton",1,"Northeast",345
+-71.5462,42.8049,"NHNH","Nashua-Hollis",1,"Northeast",62
+-71.9667,42.9167,"NHPH","Peterborough-Hancock",1,"Northeast",280
+-71.2888,45.0889,"NHPI","Pittsburg",1,"Northeast",496
+-74.3833,40.85,"NJBO","Boonton",1,"Northeast",53
+-74.4017,40.6983,"NJGS","Great Swamp-Watchung Ridges",1,"Northeast",67
+-74.0292,40.9351,"NJHR","Hackensack-Ridgewood",1,"Northeast",6
+-74.9098,40.6365,"NJNH","Northwestern Hunterdon County",1,"Northeast",58
+-74.2541,41.0935,"NJRA","Ramsey",1,"Northeast",145
+-74.35,40.5167,"NJRE","Raritan Estuary",1,"Northeast",28
+-74.622,40.5823,"NJSO","Somerset County",1,"Northeast",21
+-74.6385,41.1186,"NJSU","Sussex County",1,"Northeast",201
+-75.0226,40.976,"NJWV","Walnut Valley",1,"Northeast",119
+-73.898,42.5046,"NYAC","Albany County",1,"Northeast",215
+-75.9647,42.1541,"NYBI","Binghamton",1,"Northeast",401
+-78.3721,42.6757,"NYBM","Beaver Meadow",1,"Northeast",453
+-78.9651,43.0016,"NYBU","Buffalo",1,"Northeast",181
+-73.7825,40.9117,"NYBW","Bronx-Westchester Region",1,"Northeast",25
+-77.6161,42.7776,"NYCH","Conesus-Hemlock-Honeoye Lakes",1,"Northeast",274
+-75.3249,43.0825,"NYCL","Clinton",1,"Northeast",157
+-76.2685,42.6735,"NYCR","Cortland",1,"Northeast",435
+-73.8823,42.2871,"NYCT","Catskill-Coxsackie",1,"Northeast",75
+-73.7933,41.687,"NYDC","Dutchess County",1,"Northeast",104
+-76.8307,42.1397,"NYEL","Elmira",1,"Northeast",282
+-74.1473,41.4811,"NYEO","Eastern Orange County",1,"Northeast",146
+-73.5951,44.2151,"NYEZ","Elizabethtown",1,"Northeast",179
+-74.6247,42.9316,"NYFP","Fort Plain",1,"Northeast",91
+-79.2756,42.4327,"NYFR","Dunkirk-Fredonia",1,"Northeast",336
+-76.9833,42.8667,"NYGE","Geneva",1,"Northeast",142
+-78.7445,42.7223,"NYHE","Hamburg-East Aurora",1,"Northeast",329
+-73.6166,43.2964,"NYHF","Hudson Falls",1,"Northeast",98
+-73.577,41.5377,"NYHV","Pawling (Hidden Valley)",1,"Northeast",144
+-76.4293,42.4532,"NYIT","Ithaca",1,"Northeast",342
+-79.2284,42.1095,"NYJA","Jamestown",1,"Northeast",439
+-74.3832,43.0915,"NYJG","Johnstown-Gloversville",1,"Northeast",417
+-78.0057,42.7487,"NYLS","Letchworth-Silver Lake",1,"Northeast",426
+-74.8925,44.9656,"NYMC","Massena-Cornwall",1,"Northeast",65
+-74.1292,41.8516,"NYML","Mohonk Lake-Ashokan Reservoir",1,"Northeast",120
+-74.6321,41.5678,"NYMT","Monticello",1,"Northeast",309
+-76.731,43.0029,"NYMZ","Montezuma",1,"Northeast",113
+-75.6522,43.0957,"NYOD","Oneida",1,"Northeast",132
+-74.95,43.7333,"NYOF","Old Forge",1,"Northeast",576
+-78.3905,43.1305,"NYOO","Oak Orchard Swamp",1,"Northeast",187
+-76.4742,43.3983,"NYOS","Oswego-Fulton",1,"Northeast",95
+-74.95,42.55,"NYOT","Oneonta",1,"Northeast",348
+-76.35,42.1168,"NYOW","Owego",1,"Northeast",388
+-73.8022,41.399,"NYPC","Putnam County",1,"Northeast",115
+-73.85,41.25,"NYPE","Peekskill",1,"Northeast",59
+-73.4737,44.6496,"NYPL","Plattsburgh",1,"Northeast",49
+-73.9895,41.148,"NYRC","Rockland County",1,"Northeast",46
+-77.6413,43.2232,"NYRH","Rochester",1,"Northeast",123
+-73.4134,43.1352,"NYSA","Salem",1,"Northeast",181
+-78.4844,42.1082,"NYSB","St. Bonaventure",1,"Northeast",487
+-75.4989,42.6782,"NYSH","Sherburne",1,"Northeast",319
+-76.4124,42.9488,"NYSK","Skaneateles",1,"Northeast",298
+-74.073,44.3167,"NYSL","Saranac Lake",1,"Northeast",534
+-78.0667,42.1668,"NYSO","Scio",1,"Northeast",629
+-73.6379,42.6157,"NYSR","Southern Rensselaer County",1,"Northeast",150
+-73.9268,42.7449,"NYST","Schenectady",1,"Northeast",98
+-76.0833,43.1,"NYSY","Syracuse",1,"Northeast",127
+-73.6568,42.8333,"NYTR","Troy",1,"Northeast",47
+-75.9843,44.0071,"NYWA","Watertown",1,"Northeast",106
+-76.8735,42.3806,"NYWG","Watkins Glen",1,"Northeast",139
+-79.6782,40.7345,"PABC","Buffalo Creek Valley",1,"Northeast",255
+-77.6605,41.0149,"PABE","Bald Eagle S.P.",1,"Northeast",202
+-75.3169,40.6184,"PABH","Bethlehem-Easton",1,"Northeast",101
+-76.546,41.0629,"PABL","Bloomsburg",1,"Northeast",282
+-80.0714,40.9811,"PABU","Butler County",1,"Northeast",405
+-80.3554,40.7318,"PABV","Beaver",1,"Northeast",267
+-80.0595,39.9304,"PACL","Clarksville",1,"Northeast",296
+-79.4565,41.1819,"PACR","Clarion",1,"Northeast",315
+-75.9833,41.3167,"PADA","Dallas Area",1,"Northeast",341
+-80.0333,42.0833,"PAER","Erie",1,"Northeast",341
+-75.9269,40.5994,"PAHM","Hamburg",1,"Northeast",356
+-79.1408,40.615,"PAIN","Indiana",1,"Northeast",400
+-78.9673,40.1041,"PAJO","Johnstown",1,"Northeast",624
+-76.9841,40.9397,"PALG","Lewisburg",1,"Northeast",163
+-77.3667,41.1334,"PALH","Lock Haven-Jersey Shore",1,"Northeast",398
+-80.4296,41.6028,"PALN","Linesville",1,"Northeast",323
+-75.6059,40.5479,"PALV","Lehigh Valley",1,"Northeast",117
+-77.201,41.7731,"PAMA","Mansfield-Wellsboro",1,"Northeast",496
+-79.9703,40.5091,"PAPI","Pittsburgh",1,"Northeast",293
+-79.5638,41.5347,"PAPL","Pleasantville",1,"Northeast",414
+-75.2797,41.005,"PAPM","Pocono Mountain",1,"Northeast",239
+-80.4167,40.5,"PARC","Raccoon Creek S.P.",1,"Northeast",338
+-79.2418,40.1613,"PART","Rector",1,"Northeast",562
+-76.2747,41.7033,"PASB","Southeastern Bradford County",1,"Northeast",320
+-77.8,40.8,"PASC","State College",1,"Northeast",370
+-75.6623,41.4081,"PASR","Scranton",1,"Northeast",227
+-76.9355,41.2501,"PAWI","Williamsport",1,"Northeast",156
+-75.4981,40.85,"PAWL","Wild Creek-Little Gap",1,"Northeast",223
+-75.2039,41.5265,"PAWM","White Mills",1,"Northeast",297
+-79.145,41.8438,"PAWR","Warren",1,"Northeast",361
+-80.2099,40.1288,"PAWS","Washington",1,"Northeast",333
+-71.1566,41.5369,"RINC","Newport County-Westport",1,"Northeast",41
+-71.5588,41.4295,"RISK","South Kingstown",1,"Northeast",31
+-73.2155,42.8892,"VTBE","Bennington",1,"Northeast",259
+-72.6606,42.8561,"VTBR","Brattleboro",1,"Northeast",425
+-73.2213,44.4769,"VTBU","Burlington",1,"Northeast",30
+-73.2492,44.817,"VTCS","Champlain Islands-St. Albans",1,"Northeast",29
+-73.3023,44.1833,"VTFE","Ferrisburg",1,"Northeast",37
+-71.8508,44.8136,"VTIP","Island Pond",1,"Northeast",374
+-72.438,44.2789,"VTPL","Plainfield",1,"Northeast",239
+-73.0145,43.6041,"VTRU","Rutland",1,"Northeast",152
+-72.5257,43.3328,"VTSP","Springfield",1,"Northeast",147
+-72.5414,43.1008,"VTSR","Saxton's River",1,"Northeast",292
+-72.8719,43.1858,"VTWI","Winhall",1,"Northeast",426
+-72.6503,43.615,"VTWO","Woodstock",1,"Northeast",368
+-79.92,39.6438,"WVMO","Morgantown",1,"Northeast",375
+-81.16,38.003,"WVOH","Oak Hill",1,"Northeast",607
+-80.6618,40.0966,"WVWH","Wheeling",1,"Northeast",326
+-73.9448,40.616,"NYBR","L.I.: Brooklyn",1,"Northeast",6
+-73.2493,40.7038,"NYCA","L.I.: Captree",1,"Northeast",0
+-72.7838,40.8333,"NYCS","L.I.: Central Suffolk County",1,"Northeast",27
+-73.5938,40.866,"NYNN","L.I.: Northern Nassau County",1,"Northeast",37
+-72.3369,41.0972,"NYOR","L.I.: Orient",1,"Northeast",14
+-73.7448,40.6932,"NYQU","L.I.: Queens",1,"Northeast",13
+-72.4524,40.8591,"NYQW","L.I.: Quogue-Watermill",1,"Northeast",-2
+-73.1386,40.9133,"NYSM","L.I.: Smithtown",1,"Northeast",26
+-73.5907,40.6298,"NYSN","L.I.: Southern Nassau County",1,"Northeast",-1
+-77.0685,38.8674,"DCDC","Washington",2,"Mid Atlantic",45
+-75.4822,39.2152,"DEBH","Bombay Hook N.W.R.",2,"Mid Atlantic",5
+-75.1878,38.8072,"DECH","Cape Henlopen-Prime Hook",2,"Mid Atlantic",0
+-75.6347,39.4753,"DEMI","Middletown",2,"Mid Atlantic",9
+-75.1073,38.6035,"DERE","Rehoboth",2,"Mid Atlantic",-1
+-75.5739,38.5845,"DESN","Seaford-Nanticoke",2,"Mid Atlantic",11
+-75.6399,39.745,"DEWI","Wilmington",2,"Mid Atlantic",44
+-83.3812,33.9305,"GAAH","Athens",2,"Mid Atlantic",212
+-84.6667,33.9667,"GAAL","Atlanta",2,"Mid Atlantic",340
+-83.6663,32.8321,"GAMA","Macon",2,"Mid Atlantic",148
+-84.6231,33.3468,"GAPC","Peachtree City",2,"Mid Atlantic",260
+-83.747,33.0936,"GAPR","Piedmont N.W.R.-Rum Creek W.M.A.",2,"Mid Atlantic",161
+-78.6929,39.5916,"MDAC","Allegany County",2,"Mid Atlantic",246
+-76.5065,39.0033,"MDAG","Annapolis-Gibson Island",2,"Mid Atlantic",6
+-76.4911,39.2661,"MDBH","Baltimore Harbor",2,"Mid Atlantic",8
+-76.7852,38.9927,"MDBO","Bowie",2,"Mid Atlantic",47
+-77.4095,39.6195,"MDCM","Catoctin Mountain",2,"Mid Atlantic",145
+-75.7577,38.0298,"MDCR","Crisfield",2,"Mid Atlantic",0
+-75.835,38.9055,"MDDE","Denton",2,"Mid Atlantic",-2
+-75.9424,39.5333,"MDEL","Elkton",2,"Mid Atlantic",75
+-76.6415,38.7532,"MDJB","Jug Bay",2,"Mid Atlantic",34
+-76.1921,39.1427,"MDLK","Lower Kent County",2,"Mid Atlantic",2
+-75.2122,38.3128,"MDOC","Ocean City",2,"Mid Atlantic",6
+-77.0333,38.4833,"MDPT","Port Tobacco",2,"Mid Atlantic",1
+-76.167,39.6041,"MDRR","Rock Run",2,"Mid Atlantic",89
+-75.7333,38.3333,"MDSA","Salisbury",2,"Mid Atlantic",0
+-76.0371,38.3617,"MDSD","Southern Dorchester County",2,"Mid Atlantic",0
+-77.3285,39.0671,"MDSE","Seneca",2,"Mid Atlantic",56
+-77.392,39.2841,"MDSM","Sugarloaf Mountain",2,"Mid Atlantic",242
+-76.9885,39.1605,"MDTR","Triadelphia Reservoir",2,"Mid Atlantic",134
+-77.7308,39.5656,"MDWC","Washington County",2,"Mid Atlantic",152
+-79.0558,35.9131,"NCCP","Chapel Hill",2,"Mid Atlantic",146
+-80.8759,35.1765,"NCCR","Charlotte",2,"Mid Atlantic",216
+-78.8907,36.0868,"NCDU","Durham",2,"Mid Atlantic",112
+-79.837,36.1163,"NCGR","Greensboro",2,"Mid Atlantic",273
+-80.8997,35.8967,"NCIC","Iredell County",2,"Mid Atlantic",232
+-79.0433,35.695,"NCJL","Jordan Lake",2,"Mid Atlantic",66
+-76.1333,35.45,"NCMA","Mattamuskeet N.W.R.",2,"Mid Atlantic",0
+-76.7094,34.759,"NCMC","Morehead City",2,"Mid Atlantic",0
+-76.6526,35.1435,"NCPC","Pamlico County",2,"Mid Atlantic",1
+-76.45,35.7667,"NCPE","Pettigrew S.P.",2,"Mid Atlantic",3
+-78.6593,35.7622,"NCRA","Raleigh",2,"Mid Atlantic",83
+-77.5651,36.4025,"NCRK","Roanoke Rapids",2,"Mid Atlantic",14
+-78.818,35.4095,"NCRV","Raven Rock S.P.",2,"Mid Atlantic",35
+-78.0265,33.9388,"NCSB","Southport-Bald Head-Oak Islands",2,"Mid Atlantic",6
+-79.3167,35.2167,"NCSP","Southern Pines",2,"Mid Atlantic",114
+-77.8936,34.1401,"NCWI","Wilmington",2,"Mid Atlantic",8
+-80.3067,36.084,"NCWS","Winston-Salem",2,"Mid Atlantic",250
+-74.4242,40.16,"NJAS","Assunpink",2,"Mid Atlantic",48
+-75.2004,39.3325,"NJCC","Cumberland County",2,"Mid Atlantic",7
+-74.8778,39.0123,"NJCM","Cape May",2,"Mid Atlantic",5
+-75.1428,39.5834,"NJEL","Elmer",2,"Mid Atlantic",37
+-74.1451,40.0159,"NJLA","Lakehurst",2,"Mid Atlantic",4
+-74.0554,40.2502,"NJLB","Long Branch",2,"Mid Atlantic",24
+-74.6472,39.2647,"NJMA","Marmora",2,"Mid Atlantic",9
+-75.2442,39.7727,"NJNG","Northwestern Gloucester County",2,"Mid Atlantic",27
+-74.4605,39.4422,"NJOC","Oceanville",2,"Mid Atlantic",0
+-74.7391,39.7701,"NJPI","Pinelands",2,"Mid Atlantic",19
+-74.6649,40.341,"NJPR","Princeton",2,"Mid Atlantic",53
+-75.4142,39.614,"NJSA","Salem",2,"Mid Atlantic",1
+-74.7276,40.1918,"NJTM","Trenton Marshes",2,"Mid Atlantic",14
+-74.35,39.6,"NJTU","Tuckerton",2,"Mid Atlantic",3
+-75.426,40.1341,"PAAU","Audubon",2,"Mid Atlantic",43
+-76.1492,40.4148,"PABN","Bernville",2,"Mid Atlantic",123
+-75.1017,40.3102,"PACB","Central Bucks County",2,"Mid Atlantic",111
+-77.5834,39.9,"PACH","Chambersburg",2,"Mid Atlantic",237
+-78.2606,40.5804,"PACU","Culp",2,"Mid Atlantic",320
+-75.7667,40.1334,"PAEL","Elverson",2,"Mid Atlantic",155
+-77.3177,39.8304,"PAGE","Gettysburg",2,"Mid Atlantic",161
+-75.3729,39.8992,"PAGL","Delaware County (Glenolden)",2,"Mid Atlantic",68
+-76.9349,40.234,"PAHR","Harrisburg",2,"Mid Atlantic",123
+-77.9385,40.5664,"PAHU","Huntingdon",2,"Mid Atlantic",237
+-76.3614,39.9921,"PALA","Lancaster",2,"Mid Atlantic",102
+-74.8971,40.1765,"PALB","Southern Bucks County",2,"Mid Atlantic",42
+-76.5344,40.3801,"PALC","Lebanon County",2,"Mid Atlantic",136
+-77.3671,40.5472,"PALT","Lewistown",2,"Mid Atlantic",159
+-76.3024,40.2261,"PALZ","Lititz",2,"Mid Atlantic",163
+-77.15,40.4002,"PANB","New Bloomfield",2,"Mid Atlantic",251
+-75.0412,40.066,"PAPV","Pennypack Valley",2,"Mid Atlantic",23
+-75.8667,40.3667,"PARD","Reading",2,"Mid Atlantic",193
+-76.1698,39.8172,"PASL","Southern Lancaster County",2,"Mid Atlantic",129
+-75.365,40.4036,"PAUB","Upper Bucks County",2,"Mid Atlantic",168
+-75.6047,39.96,"PAWC","West Chester",2,"Mid Atlantic",138
+-75.128,40.1223,"PAWY","Wyncote",2,"Mid Atlantic",114
+-82.8365,34.6346,"SCCL","Clemson",2,"Mid Atlantic",228
+-80.9214,33.93,"SCCO","Columbia",2,"Mid Atlantic",48
+-80.2249,34.5041,"SCCS","Carolina Sandhills N.W.R.",2,"Mid Atlantic",138
+-82.3333,34,"SCLC","Long Cane",2,"Mid Atlantic",138
+-79.7379,34.2158,"SCPD","Pee Dee Area",2,"Mid Atlantic",44
+-81.95,34.9,"SCSP","Spartanburg",2,"Mid Atlantic",212
+-78.9913,38.2046,"VAAC","Augusta County",2,"Mid Atlantic",391
+-76,36.65,"VABB","Back Bay N.W.R.",2,"Mid Atlantic",0
+-78.7263,38.1698,"VABF","Big Flat Mountain",2,"Mid Atlantic",840
+-77.3287,38.3703,"VABK","Brooke",2,"Mid Atlantic",17
+-78.8101,36.7327,"VABR","Banister River W.M.A.",2,"Mid Atlantic",98
+-78.5667,38.0668,"VACA","Charlottesville",2,"Mid Atlantic",158
+-75.941,37.1899,"VACC","Cape Charles",2,"Mid Atlantic",1
+-77.8913,39.1242,"VACN","Calmes Neck",2,"Mid Atlantic",114
+-79.4233,36.5852,"VADA","Danville",2,"Mid Atlantic",128
+-78.1893,38.1427,"VAGO","Gordonsville",2,"Mid Atlantic",157
+-77.2842,37.367,"VAHO","Hopewell",2,"Mid Atlantic",0
+-77.8139,38.085,"VALA","Lake Anna",2,"Mid Atlantic",75
+-76.0994,36.8508,"VALC","Little Creek",2,"Mid Atlantic",3
+-79.4769,37.848,"VALE","Lexington",2,"Mid Atlantic",337
+-79.1942,37.3986,"VALY","Lynchburg",2,"Mid Atlantic",193
+-76.3143,37.4399,"VAMA","Mathews",2,"Mid Atlantic",2
+-77.4315,38.8387,"VAMB","Manassas-Bull Run",2,"Mid Atlantic",106
+-76.3956,37.0799,"VANN","Newport News",2,"Mid Atlantic",4
+-78.1667,39.0501,"VANS","Northern Shenandoah Valley",2,"Mid Atlantic",206
+-79.0394,38.4318,"VARC","Rockingham County",2,"Mid Atlantic",403
+-78.4572,38.5948,"VASL","Shenandoah N.P.-Luray",2,"Mid Atlantic",400
+-76.6987,37.2792,"VAWI","Williamsburg",2,"Mid Atlantic",16
+-75.6998,37.6707,"VAWP","Wachapreague",2,"Mid Atlantic",11
+-78.55,37.85,"VAWR","Warren",2,"Mid Atlantic",131
+-78.955,37.981,"VAWY","Waynesboro",2,"Mid Atlantic",445
+-77.8512,39.3319,"WVCT","Charles Town",2,"Mid Atlantic",158
+-78.5035,39.3365,"WVHC","Hampshire County",2,"Mid Atlantic",252
+-78.1061,39.4451,"WVIN","Inwood",2,"Mid Atlantic",144
+-79.3113,38.6579,"WVPC","Pendleton County",2,"Mid Atlantic",589
+-85.0886,31.9939,"ALEU","Eufaula N.W.R.",3,"Southeast",63
+-87.6333,30.3167,"ALGS","Gulf Shores",3,"Southeast",7
+-85.6719,30.1851,"FLBC","Bay County",3,"Southeast",9
+-82.3245,28.548,"FLBO","Brooksville",3,"Southeast",24
+-83.0149,29.1942,"FLCK","Cedar Key",3,"Southeast",2
+-82.5776,28.8712,"FLCR","Crystal River",3,"Southeast",1
+-81.1467,28.7094,"FLEC","Econlockhatchee",3,"Southeast",10
+-81.9906,26.5551,"FLFM","Fort Myers",3,"Southeast",1
+-80.3828,27.4177,"FLFP","Fort Pierce",3,"Southeast",4
+-82.3127,29.6027,"FLGA","Gainesville",3,"Southeast",17
+-81.4877,30.4152,"FLJA","Jacksonville",3,"Southeast",2
+-81.3936,28.2062,"FLKV","Kissimmee Valley",3,"Southeast",15
+-81.8507,28.0261,"FLLA","Lakeland",3,"Southeast",42
+-81.3441,27.2601,"FLLP","Lake Placid",3,"Southeast",38
+-81.5189,27.8939,"FLLW","Lake Wales",3,"Southeast",32
+-82.236,27.233,"FLMR","Myakka River S.P.",3,"Southeast",10
+-82.7388,28.0672,"FLNP","North Pinellas",3,"Southeast",20
+-81.0073,29.0623,"FLPI","Ponce Inlet",3,"Southeast",7
+-82.0474,26.9243,"FLPR","Peace River",3,"Southeast",1
+-85.2986,29.7703,"FLPS","Port St. Joe",3,"Southeast",2
+-81.3162,29.9333,"FLSA","St. Augustine",3,"Southeast",0
+-84.2227,30.1536,"FLSM","St. Marks",3,"Southeast",0
+-82.6794,27.7991,"FLSP","St. Petersburg",3,"Southeast",15
+-82.4976,27.2988,"FLSR","Sarasota",3,"Southeast",8
+-82.4595,28.0107,"FLTA","Tampa",3,"Southeast",7
+-82.3793,27.0048,"FLVE","Venice-Englewood",3,"Southeast",3
+-81.3039,29.0543,"FLWV","West Volusia County",3,"Southeast",26
+-81.6062,28.7309,"FLZE","Zellwood-Mount Dora",3,"Southeast",28
+-84.4167,31.4333,"GAAB","Albany",3,"Southeast",51
+-82.0239,33.4393,"GAAU","Augusta",3,"Southeast",47
+-84.6315,30.885,"GABL","Bainbridge-Lake Seminole",3,"Southeast",30
+-82.9239,32.6297,"GADU","Dublin",3,"Southeast",51
+-81.294,31.6837,"GAHN","Harris Neck N.W.R.",3,"Southeast",0
+-82.1333,30.8001,"GAOK","Okefenokee N.W.R.",3,"Southeast",42
+-81.2333,31.45,"GASI","Sapelo Island",3,"Southeast",0
+-91.1194,30.3661,"LABR","Baton Rouge",3,"Southeast",10
+-93.1113,29.8159,"LACR","Creole",3,"Southeast",0
+-93.7149,29.801,"LAJB","Johnsons Bayou",3,"Southeast",0
+-92.1042,30.1901,"LALA","Lafayette",3,"Southeast",7
+-89.9167,30.0236,"LANO","New Orleans",3,"Southeast",0
+-92.3765,30.7643,"LAPP","Pine Prairie",3,"Southeast",22
+-90.4711,30.0867,"LARB","Reserve-Bonnet Carre Spillway",3,"Southeast",1
+-93.3892,29.8545,"LASA","Sabine N.W.R.",3,"Southeast",1
+-90.0886,30.4211,"LAST","St. Tammany Parish",3,"Southeast",3
+-89.3133,31.2903,"MSHA","Hattiesburg",3,"Southeast",62
+-88.7119,30.4366,"MSJC","Jackson County",3,"Southeast",4
+-89.5034,30.2906,"MSSH","Southern Hancock County",3,"Southeast",5
+-81.6179,33.5636,"SCAI","Aiken",3,"Southeast",136
+-79.7,32.9333,"SCCA","Charleston",3,"Southeast",4
+-79.0904,33.4908,"SCLP","Litchfield-Pawleys Island",3,"Southeast",4
+-79.4037,33.1003,"SCMC","McClellanville",3,"Southeast",0
+-81.6167,33.2,"SCSR","Savannah River Site",3,"Southeast",66
+-96.8833,28.2333,"TXAR","Aransas N.W.R.",3,"Southeast",4
+-95.0489,29.5498,"TXAY","Armand Bayou",3,"Southeast",5
+-94.2,30.7667,"TXBE","Beech Creek",3,"Southeast",49
+-95.5699,29.7715,"TXBF","Buffalo Bayou",3,"Southeast",22
+-94.4668,29.5504,"TXBP","Bolivar Peninsula",3,"Southeast",2
+-95.6688,29.3734,"TXBZ","Brazos Bend",3,"Southeast",21
+-95.89,29.9561,"TXCY","Cypress Creek",3,"Southeast",59
+-95.3551,29.0172,"TXFR","Freeport",3,"Southeast",1
+-94.9492,29.7497,"TXHO","Houston",3,"Southeast",9
+-94.7333,29.8667,"TXOR","Old River",3,"Southeast",2
+-95.5667,28.8667,"TXSB","San Bernard N.W.R.",3,"Southeast",1
+-95.4432,30.1268,"TXSC","Spring Creek",3,"Southeast",36
+-94.3167,30.5168,"TXTC","Turkey Creek",3,"Southeast",33
+-80.9582,25.141,"FLCE","Coot Bay-Everglades N.P.",4,"Atlantic Neotropical",2
+-81.5217,26.3666,"FLCS","Corkscrew Swamp Sanctuary",4,"Atlantic Neotropical",6
+-80.1883,25.8402,"FLDC","Dade County",4,"Atlantic Neotropical",2
+-80.2191,26.136,"FLFL","Fort Lauderdale",4,"Atlantic Neotropical",2
+-81.7645,26.1278,"FLNA","Naples",4,"Atlantic Neotropical",2
+-80.127,26.5672,"FLWP","West Palm Beach",4,"Atlantic Neotropical",5
+-87.5854,41.8823,"ILCL","Chicago Lakefront",5,"Great Lakes",175
+-87.5395,41.6155,"ILCR","Calumet City-Sand Ridge",5,"Great Lakes",179
+-87.7263,41.9099,"ILCU","Chicago (urban)",5,"Great Lakes",184
+-87.7882,42.1379,"ILEN","Evanston (north shore)",5,"Great Lakes",193
+-87.9738,41.7518,"ILLA","Lisle Arboretum",5,"Great Lakes",229
+-87.725,41.4563,"ILTC","Thorn Creek-Park Forest",5,"Great Lakes",237
+-85.1328,41.1998,"INFW","Fort Wayne",5,"Great Lakes",258
+-87.0096,41.6629,"INID","Indiana Dunes National Lakeshore",5,"Great Lakes",196
+-86.6684,41.6776,"INNL","Northeast LaPorte County",5,"Great Lakes",253
+-84.9701,41.6344,"INPK","Pokagon",5,"Great Lakes",312
+-85.2771,41.6418,"INPR","Pigeon River State Fish & Wildlife Area",5,"Great Lakes",296
+-86.252,41.6764,"INSB","South Bend",5,"Great Lakes",215
+-87.3098,41.32,"INSC","Southern Lake County",5,"Great Lakes",211
+-86.6333,41.4667,"INSL","Southeast LaPorte County",5,"Great Lakes",210
+-85.7887,41.3237,"INTI","Tippecanoe",5,"Great Lakes",255
+-87.4894,40.9819,"INWS","Willow Slough-Iroquois Preserves",5,"Great Lakes",200
+-83.7781,42.3172,"MIAA","Ann Arbor",5,"Great Lakes",246
+-82.6647,42.6273,"MIAB","Anchor Bay",5,"Great Lakes",174
+-86.0054,42.5498,"MIAG","Allegan State Game Area",5,"Great Lakes",200
+-83.4578,45.071,"MIAP","Alpena",5,"Great Lakes",182
+-86.1283,44.6334,"MIBE","Beulah",5,"Great Lakes",206
+-86.4167,42.0167,"MIBS","Berrien Springs",5,"Great Lakes",207
+-85.2795,42.3767,"MIBT","Battle Creek",5,"Great Lakes",270
+-86.3013,42.2148,"MICO","Coloma",5,"Great Lakes",196
+-83.551,42.7213,"MIDE","Detroit",5,"Great Lakes",320
+-86.0833,41.9667,"MIDO","Dowagiac",5,"Great Lakes",251
+-83.1132,42.3447,"MIDR","Detroit River",5,"Great Lakes",183
+-84.4935,42.766,"MIEL","East Lansing",5,"Great Lakes",256
+-83.8475,42.8615,"MIFL","Flint",5,"Great Lakes",254
+-83.6173,43.106,"MIGC","Genesee County",5,"Great Lakes",221
+-85.472,43.0005,"MIGR","Grand Rapids",5,"Great Lakes",262
+-83.8364,42.6305,"MIHA","Hartland",5,"Great Lakes",306
+-88.5,47.0667,"MIHC","Houghton County",5,"Great Lakes",183
+-84.6842,44.4213,"MIHH","Higgins Lake-Houghton Lake",5,"Great Lakes",358
+-86.0608,42.8924,"MIHU","Hudsonville",5,"Great Lakes",198
+-88.6425,46.0924,"MIIR","Iron River",5,"Great Lakes",460
+-85.6482,42.2963,"MIKA","Kalamazoo",5,"Great Lakes",284
+-83.2428,43.0014,"MILC","Lapeer County",5,"Great Lakes",270
+-86.4153,43.9561,"MILU","Ludington",5,"Great Lakes",193
+-84.25,43.5667,"MIMI","Midland",5,"Great Lakes",191
+-84.8484,43.6256,"MIMP","Mount Pleasant",5,"Great Lakes",257
+-87.3963,46.5439,"MIMQ","Marquette",5,"Great Lakes",206
+-86.25,43.2167,"MIMU","Muskegon",5,"Great Lakes",190
+-86.6167,41.8133,"MINB","New Buffalo",5,"Great Lakes",206
+-86.2832,41.8274,"MINI","Niles",5,"Great Lakes",240
+-84.9709,45.3701,"MIPE","Petoskey",5,"Great Lakes",206
+-82.5215,42.9347,"MIPH","Port Huron",5,"Great Lakes",198
+-83.2459,42.7899,"MIPO","Pontiac",5,"Great Lakes",305
+-83.9,45.4,"MIRC","Rogers City",5,"Great Lakes",249
+-83.2499,42.0684,"MIRO","Rockwood",5,"Great Lakes",178
+-85.9667,46.25,"MISE","Seney N.W.R.",5,"Great Lakes",211
+-85.5364,44.7154,"MITC","Traverse City",5,"Great Lakes",233
+-84.2097,42.3245,"MIWA","Waterloo State Recreation Area",5,"Great Lakes",291
+-82.9533,42.7008,"MIWM","Western Macomb County",5,"Great Lakes",190
+-92.2123,47.49,"MNAR","Aurora",5,"Great Lakes",427
+-94.6833,48.6333,"MNBA","Baudette",5,"Great Lakes",345
+-94.9667,48.5,"MNBI","Beltrami Island",5,"Great Lakes",366
+-93.202,45.3967,"MNCC","Cedar Creek Bog",5,"Great Lakes",276
+-93.9577,46.4825,"MNCS","Crosby",5,"Great Lakes",381
+-92.0334,46.8461,"MNDU","Duluth",5,"Great Lakes",331
+-93.655,47.2641,"MNGR","Grand Rapids",5,"Great Lakes",390
+-92.9272,47.43,"MNHI","Hibbing",5,"Great Lakes",451
+-91.4833,47.6333,"MNIS","Isabella",5,"Great Lakes",556
+-95.1945,47.2259,"MNIT","Itasca S.P.",5,"Great Lakes",455
+-94.2561,45.5647,"MNSC","St. Cloud-Collegeville",5,"Great Lakes",323
+-92.8157,45.3932,"MNWR","Wild River",5,"Great Lakes",285
+-80.6574,41.8946,"OHAA","Ashtabula",5,"Great Lakes",236
+-82.2993,40.8167,"OHAD","Ashland",5,"Great Lakes",356
+-80.666,40.7106,"OHBC","Beaver Creek",5,"Great Lakes",297
+-81.2034,41.4744,"OHBU","Burton",5,"Great Lakes",388
+-81.0847,40.2992,"OHCA","Cadiz",5,"Great Lakes",292
+-81.4832,41.1338,"OHCF","Cuyahoga Falls",5,"Great Lakes",305
+-81.5039,41.5723,"OHCL","Cleveland",5,"Great Lakes",257
+-83.0533,40.3954,"OHDR","Delaware Reservoir",5,"Great Lakes",283
+-82.1897,41.3842,"OHEL","Elyria-Lorain",5,"Great Lakes",226
+-82.5577,41.3348,"OHFI","Firelands",5,"Great Lakes",187
+-83.807,41.506,"OHGR","Grand Rapids-Waterville",5,"Great Lakes",199
+-84.3483,41.552,"OHGW","Goll Woods",5,"Great Lakes",217
+-83.3619,40.6436,"OHKP","Killdeer Plains Wildlife Area",5,"Great Lakes",275
+-82.7545,41.6807,"OHLE","Lake Erie Islands",5,"Great Lakes",173
+-81.8576,41.4602,"OHLK","Lakewood",5,"Great Lakes",220
+-82.5486,40.7042,"OHMA","Mansfield",5,"Great Lakes",416
+-81.2333,41.7,"OHME","Mentor",5,"Great Lakes",197
+-82.3042,40.5818,"OHMO","Mohican State Forest",5,"Great Lakes",397
+-83.2006,41.6114,"OHOT","Ottawa N.W.R.",5,"Great Lakes",174
+-82.6655,40.9952,"OHPL","Plymouth",5,"Great Lakes",309
+-80.8385,40.8675,"OHSA","Salem",5,"Great Lakes",394
+-80.8572,41.3845,"OHTC","Trumbull County",5,"Great Lakes",278
+-83.1311,41.1098,"OHTI","Tiffin",5,"Great Lakes",239
+-83.5333,41.65,"OHTO","Toledo",5,"Great Lakes",178
+-82.2175,41.1686,"OHWE","Wellington",5,"Great Lakes",259
+-81.641,40.672,"OHWI","Wilmot",5,"Great Lakes",322
+-82.0189,40.7464,"OHWO","Wooster",5,"Great Lakes",323
+-80.6983,41.0467,"OHYO","Youngstown",5,"Great Lakes",307
+-89.2744,44.4512,"WIAM","Amherst",5,"Great Lakes",334
+-89.1523,45.1377,"WIAN","Antigo",5,"Great Lakes",455
+-88.4158,44.2618,"WIAP","Appleton",5,"Great Lakes",241
+-90.0244,44.4889,"WIAR","Arpin",5,"Great Lakes",349
+-90.9064,46.5829,"WIAS","Ashland",5,"Great Lakes",187
+-90.973,46.7973,"WIBF","Bayfield",5,"Great Lakes",315
+-90.8903,44.2415,"WIBK","Black River Falls",5,"Great Lakes",251
+-91.368,44.9663,"WICF","Chippewa Falls",5,"Great Lakes",282
+-88.9307,44.7231,"WICR","Caroline",5,"Great Lakes",289
+-91.9488,44.6949,"WIDU","Durand",5,"Great Lakes",254
+-87.1939,45.0979,"WIEP","Ephraim",5,"Great Lakes",199
+-90.4216,45.8777,"WIFI","Fifield",5,"Great Lakes",442
+-88.0246,44.4804,"WIGB","Green Bay",5,"Great Lakes",201
+-90.7315,45.2006,"WIGI","Gilman",5,"Great Lakes",394
+-92.682,45.7729,"WIGR","Grantsburg",5,"Great Lakes",297
+-91.09,45.2911,"WIHL","Holcombe",5,"Great Lakes",320
+-88.607,45.2192,"WILW","Lakewood",5,"Great Lakes",368
+-90.2821,45.2293,"WIMD","Medford",5,"Great Lakes",456
+-89.7833,45.2167,"WIMR","Merrill",5,"Great Lakes",388
+-87.7557,44.0228,"WIMT","Manitowoc",5,"Great Lakes",229
+-90.557,44.9794,"WIOW","Owen",5,"Great Lakes",388
+-87.8199,45.0997,"WIPE","Peshtigo",5,"Great Lakes",212
+-89.0986,46.0404,"WIPH","Phelps",5,"Great Lakes",541
+-88.002,43.7621,"WIPL","Plymouth",5,"Great Lakes",283
+-87.9133,44.8231,"WIPS","Pensaukee",5,"Great Lakes",178
+-87.9957,43.4069,"WIRE","Newburg--Riveredge Nature Center",5,"Great Lakes",267
+-89.4081,45.6378,"WIRL","Rhinelander",5,"Great Lakes",474
+-87.2876,44.8935,"WISB","Sturgeon Bay",5,"Great Lakes",212
+-87.8404,43.6968,"WISH","Sheboygan",5,"Great Lakes",224
+-88.6333,44.4333,"WISI","Shiocton",5,"Great Lakes",233
+-90.2333,44.8,"WISN","Spencer",5,"Great Lakes",406
+-89.5688,44.5243,"WISP","Stevens Point",5,"Great Lakes",333
+-88.258,44.0501,"WIST","Stockbridge",5,"Great Lakes",299
+-88.5465,44.7429,"WISW","Shawano",5,"Great Lakes",246
+-89.0482,45.7975,"WITL","Three Lakes",5,"Great Lakes",495
+-90.6997,44.7127,"WIWI","Willard",5,"Great Lakes",341
+-89.8345,44.3616,"WIWR","Wisconsin Rapids",5,"Great Lakes",309
+-89.6226,44.9513,"WIWS","Wausau",5,"Great Lakes",368
+-89.191,44.1144,"WIWT","Wautoma",5,"Great Lakes",270
+-93.5711,42.0077,"IAAM","Ames",6,"Prairie Peninsula",274
+-93.9027,42.0362,"IABO","Boone County",6,"Prairie Peninsula",325
+-92.2332,42.7166,"IABR","Bremer County",6,"Prairie Peninsula",315
+-91.1096,40.8365,"IABU","Burlington",6,"Prairie Peninsula",160
+-92.45,42.5167,"IACF","Cedar Falls-Waterloo",6,"Prairie Peninsula",273
+-90.174,41.9801,"IACL","Clinton",6,"Prairie Peninsula",197
+-91.6695,41.979,"IACR","Cedar Rapids",6,"Prairie Peninsula",222
+-90.5132,41.5522,"IADA","Davenport",6,"Prairie Peninsula",199
+-91.7333,43.3833,"IADE","Decorah",6,"Prairie Peninsula",349
+-93.7037,41.6004,"IADM","Des Moines",6,"Prairie Peninsula",280
+-90.7114,42.4912,"IADU","Dubuque",6,"Prairie Peninsula",243
+-91.6076,41.7522,"IAIC","Iowa City",6,"Prairie Peninsula",238
+-91.4581,40.4726,"IAKE","Keokuk",6,"Prairie Peninsula",200
+-91.0107,41.4274,"IAMU","Muscatine",6,"Prairie Peninsula",164
+-91.5793,42.1965,"IANL","North Linn",6,"Prairie Peninsula",281
+-90.3546,41.7486,"IAPC","Princeton-Camanche",6,"Prairie Peninsula",182
+-95.4809,40.7211,"IASH","Shenandoah",6,"Prairie Peninsula",292
+-95.1023,43.4226,"IASL","Spirit Lake",6,"Prairie Peninsula",446
+-93.7562,41.8038,"IASR","Saylorville Reservoir",6,"Prairie Peninsula",295
+-91.2,43.15,"IAYR","Yellow River Forest",6,"Prairie Peninsula",237
+-88.1333,42.0668,"ILBA","Barrington",6,"Prairie Peninsula",241
+-88.9448,40.5644,"ILBN","Bloomington-Normal",6,"Prairie Peninsula",236
+-89.95,40.4167,"ILCA","Chautauqua N.W.R.",6,"Prairie Peninsula",135
+-88.1145,40.0551,"ILCC","Champaign County",6,"Prairie Peninsula",207
+-89.0212,37.7196,"ILCO","Crab Orchard N.W.R.",6,"Prairie Peninsula",130
+-90.2323,40.1233,"ILCS","Crane Lake-Sangamon",6,"Prairie Peninsula",136
+-88.7999,40.1668,"ILCT","Clinton Lake",6,"Prairie Peninsula",220
+-89.9588,38.7081,"ILCV","Collinsville",6,"Prairie Peninsula",175
+-88.9535,39.8426,"ILDE","Decatur",6,"Prairie Peninsula",203
+-88.7667,42.0333,"ILDK","Dekalb",6,"Prairie Peninsula",262
+-90.361,38.9547,"ILEL","Elsah",6,"Prairie Peninsula",133
+-88.2628,41.8605,"ILFB","Fermilab-Batavia",6,"Prairie Peninsula",227
+-87.6667,40,"ILFG","Forest Glen Preserve",6,"Prairie Peninsula",204
+-89.6372,42.2888,"ILFR","Freeport",6,"Prairie Peninsula",243
+-88.6957,41.317,"ILIL","Illini S.P.",6,"Prairie Peninsula",148
+-88.1244,41.5113,"ILJO","Joliet",6,"Prairie Peninsula",192
+-87.7,39.35,"ILLT","Lincoln Trail S.P.",6,"Prairie Peninsula",191
+-88.365,42.3203,"ILMC","McHenry County",6,"Prairie Peninsula",284
+-87.7009,40.247,"ILMF","Middle Fork River Valley",6,"Prairie Peninsula",205
+-90.5937,39.8542,"ILMI","Meredosia Island",6,"Prairie Peninsula",131
+-88.3016,41.3034,"ILMW","Morris-Wilmington",6,"Prairie Peninsula",164
+-89.6202,40.6999,"ILPE","Peoria",6,"Prairie Peninsula",182
+-90.6051,38.9968,"ILPM","Pere Marquette Park",6,"Prairie Peninsula",143
+-91.3965,39.9318,"ILQU","Quincy",6,"Prairie Peninsula",183
+-88.9677,38.1324,"ILRL","Rend Lake",6,"Prairie Peninsula",123
+-89.1667,42.3667,"ILRO","Rockford",6,"Prairie Peninsula",263
+-90.5945,40.1465,"ILRU","Rushville",6,"Prairie Peninsula",200
+-90.2053,42.3967,"ILSC","Schapville",6,"Prairie Peninsula",257
+-89.65,39.8,"ILSP","Springfield",6,"Prairie Peninsula",180
+-88.9828,41.3169,"ILSR","Starved Rock S.P.",6,"Prairie Peninsula",148
+-87.8742,42.3493,"ILWA","Waukegan",6,"Prairie Peninsula",218
+-90.9198,41.1702,"ILWM","Western Mercer County",6,"Prairie Peninsula",176
+-86.3383,39.9269,"INEC","Eagle Creek Valley",6,"Prairie Peninsula",279
+-86.0389,39.8694,"ININ","Indianapolis",6,"Prairie Peninsula",232
+-86.0668,39.4103,"INJC","Johnson County",6,"Prairie Peninsula",225
+-86.9157,40.4605,"INLA","Lafayette",6,"Prairie Peninsula",215
+-86.3984,39.0152,"INLM","Lake Monroe",6,"Prairie Peninsula",250
+-85.2198,39.5953,"INMG","Mary Gray Bird Sanctuary",6,"Prairie Peninsula",300
+-85.3667,39.9167,"INNC","New Castle",6,"Prairie Peninsula",326
+-86.3621,41.2754,"INPY","Plymouth",6,"Prairie Peninsula",238
+-84.956,39.8289,"INRI","Richmond",6,"Prairie Peninsula",313
+-87.4253,39.1029,"INSU","Sullivan County",6,"Prairie Peninsula",155
+-87.407,39.4165,"INTH","Terre Haute",6,"Prairie Peninsula",148
+-87.2052,39.8845,"INTR","Turkey Run S.P.",6,"Prairie Peninsula",179
+-84.9936,39.5909,"INWH","Whitewater S.P.",6,"Prairie Peninsula",237
+-95.2713,38.7824,"KSBA","Baldwin",6,"Prairie Peninsula",307
+-96.0835,38.4456,"KSEM","Emporia",6,"Prairie Peninsula",355
+-97.4338,38.0599,"KSHN","Halstead-Newton",6,"Prairie Peninsula",439
+-95.3111,38.9933,"KSLA","Lawrence",6,"Prairie Peninsula",262
+-94.8521,38.9127,"KSOL","Olathe",6,"Prairie Peninsula",312
+-95.4032,39.2014,"KSOP","Oskaloosa-Perry Lake",6,"Prairie Peninsula",323
+-97.631,38.8417,"KSSL","Salina",6,"Prairie Peninsula",373
+-95.6779,39.0483,"KSTO","Topeka",6,"Prairie Peninsula",286
+-97.3496,37.6912,"KSWI","Wichita",6,"Prairie Peninsula",393
+-92.7666,44.901,"MNAF","Afton",6,"Prairie Peninsula",230
+-93.3912,43.6469,"MNAL","Albert Lea",6,"Prairie Peninsula",372
+-92.9699,43.6628,"MNAS","Austin",6,"Prairie Peninsula",365
+-93.2212,44.8151,"MNBL","Bloomington",6,"Prairie Peninsula",242
+-93.5244,44.8617,"MNEX","Excelsior",6,"Prairie Peninsula",288
+-93.1914,44.3632,"MNFA","Faribault",6,"Prairie Peninsula",359
+-92.9,44.6667,"MNHE","Hastings-Etter",6,"Prairie Peninsula",261
+-93.3116,45.1438,"MNMI","Minneapolis (north)",6,"Prairie Peninsula",251
+-95.0499,43.9403,"MNML","Mountain Lake-Windom",6,"Prairie Peninsula",425
+-93.1464,44.066,"MNOW","Owatonna",6,"Prairie Peninsula",371
+-92.4981,44.0616,"MNRO","Rochester",6,"Prairie Peninsula",325
+-92.8978,45.1247,"MNSN","St. Paul (northeast suburban)",6,"Prairie Peninsula",297
+-93.1262,45.0062,"MNSP","St. Paul (north)",6,"Prairie Peninsula",271
+-92.0398,44.2653,"MNWB","Wabasha",6,"Prairie Peninsula",356
+-91.6506,44.0368,"MNWI","Winona",6,"Prairie Peninsula",211
+-92.3348,38.8915,"MOCO","Columbia",6,"Prairie Peninsula",230
+-92.1834,38.5815,"MOJC","Jefferson City",6,"Prairie Peninsula",173
+-94.4049,38.9488,"MOKC","Kansas City",6,"Prairie Peninsula",290
+-93.6264,38.7434,"MOKN","Knob Noster",6,"Prairie Peninsula",253
+-94.9198,40.3463,"MOMA","Maryville",6,"Prairie Peninsula",337
+-90.4462,38.8793,"MOOF","Orchard Farm",6,"Prairie Peninsula",135
+-95.2667,40.0833,"MOSC","Loess Bluffs (formerly Squaw Creek) N.W.R.",6,"Prairie Peninsula",261
+-94.844,39.7973,"MOSJ","St. Joseph",6,"Prairie Peninsula",271
+-93.2241,39.6742,"MOSL","Swan Lake N.W.R.",6,"Prairie Peninsula",213
+-94.5647,39.4725,"MOTR","Trimble",6,"Prairie Peninsula",288
+-90.6904,38.7118,"MOWS","Weldon Spring",6,"Prairie Peninsula",169
+-96.7494,40.7992,"NELI","Lincoln",6,"Prairie Peninsula",355
+-95.8849,41.1143,"NEOM","Omaha",6,"Prairie Peninsula",291
+-84.5,40.5168,"OHGL","Grand Lake-St. Marys",6,"Prairie Peninsula",264
+-84.6072,40.0992,"OHGV","Greenville",6,"Prairie Peninsula",311
+-84.7169,39.5078,"OHOX","Oxford",6,"Prairie Peninsula",236
+-96.8833,44.25,"SDBR","Brookings",6,"Prairie Peninsula",488
+-97.0999,43.956,"SDMA","Madison",6,"Prairie Peninsula",523
+-96.7115,43.5621,"SDSF","Sioux Falls",6,"Prairie Peninsula",406
+-89.7386,43.4891,"WIBA","Baraboo",6,"Prairie Peninsula",332
+-91.0305,42.9889,"WIBR","Bridgeport",6,"Prairie Peninsula",324
+-89.8973,42.7839,"WIBV","Blanchardville",6,"Prairie Peninsula",275
+-89.2408,42.8348,"WICK","Cooksville",6,"Prairie Peninsula",265
+-90.1126,43.0558,"WICY","Clyde",6,"Prairie Peninsula",384
+-88.8273,42.9021,"WIFA","Fort Atkinson",6,"Prairie Peninsula",260
+-88.3213,43.8117,"WIFD","Fond du Lac",6,"Prairie Peninsula",313
+-88.9269,44.2208,"WIFR","Fremont",6,"Prairie Peninsula",251
+-89.0574,43.868,"WIGL","Green Lake",6,"Prairie Peninsula",252
+-88.379,43.3178,"WIHA","Hartford",6,"Prairie Peninsula",301
+-88.6443,43.5272,"WIHR","Horicon N.W.R.",6,"Prairie Peninsula",262
+-87.9345,42.5895,"WIKC","Kenosha County",6,"Prairie Peninsula",225
+-90.5842,43.7574,"WIKV","Kickapoo Valley",6,"Prairie Peninsula",273
+-91.2486,43.8155,"WILC","La Crosse",6,"Prairie Peninsula",204
+-88.5,42.5833,"WILG","Lake Geneva",6,"Prairie Peninsula",305
+-89.3843,43.0747,"WIMA","Madison",6,"Prairie Peninsula",278
+-89.7603,43.0011,"WIMH","Mount Horeb",6,"Prairie Peninsula",378
+-87.9169,43.1041,"WIMI","Milwaukee",6,"Prairie Peninsula",189
+-91.9524,44.4315,"WINE","Nelson",6,"Prairie Peninsula",370
+-92.563,45.073,"WINR","New Richmond",6,"Prairie Peninsula",296
+-88.4997,43.136,"WIOC","Oconomowoc",6,"Prairie Peninsula",270
+-88.5825,44.0324,"WIOS","Oshkosh",6,"Prairie Peninsula",231
+-89.3953,43.3955,"WIPO","Poynette",6,"Prairie Peninsula",259
+-87.8992,42.7493,"WIRC","Racine",6,"Prairie Peninsula",224
+-90.3604,43.2744,"WIRI","Richland Center",6,"Prairie Peninsula",223
+-89.0567,43.5451,"WIRN","Randolph",6,"Prairie Peninsula",292
+-89.8501,43.2668,"WISC","Sauk City",6,"Prairie Peninsula",257
+-91.4311,44.0134,"WITP","Trempealeau",6,"Prairie Peninsula",219
+-88.3553,42.974,"WIWK","Waukesha",6,"Prairie Peninsula",278
+-88.076,38.7529,"ILBH","Bird Haven Sanctuary, Olney",7,"Appalachians_Cumberland Plateau",146
+-86.8306,38.8441,"INCN","Crane Naval Weapons Support Center",7,"Appalachians_Cumberland Plateau",214
+-87.5752,37.9776,"INEV","Evansville",7,"Appalachians_Cumberland Plateau",117
+-85.7983,38.9594,"INMT","Muscatatuck N.W.R.",7,"Appalachians_Cumberland Plateau",173
+-87.3454,38.2899,"INOC","Oakland City",7,"Appalachians_Cumberland Plateau",146
+-86.6062,38.4347,"INPL","Patoka Lake",7,"Appalachians_Cumberland Plateau",168
+-86.417,38.7233,"INSM","Spring Mill S.P.",7,"Appalachians_Cumberland Plateau",199
+-87.7807,38.3406,"INWG","Western Gibson County",7,"Appalachians_Cumberland Plateau",117
+-86.4359,36.9159,"KYBG","Bowling Green",7,"Appalachians_Cumberland Plateau",165
+-84.7733,37.6463,"KYDA","Danville",7,"Appalachians_Cumberland Plateau",300
+-84.8525,38.2271,"KYFR","Frankfort",7,"Appalachians_Cumberland Plateau",233
+-87.473,36.8615,"KYHO","Hopkinsville",7,"Appalachians_Cumberland Plateau",189
+-84.7767,38.4633,"KYKL","Kleber W.M.A.",7,"Appalachians_Cumberland Plateau",279
+-84.4719,37.9227,"KYLE","Lexington",7,"Appalachians_Cumberland Plateau",284
+-85.6348,38.2813,"KYLO","Louisville",7,"Appalachians_Cumberland Plateau",180
+-86.0698,37.9141,"KYOC","Otter Creek Park",7,"Appalachians_Cumberland Plateau",209
+-82.4033,35.6,"NCBC","Buncombe County",7,"Appalachians_Cumberland Plateau",664
+-82.6722,35.1832,"NCBR","Brevard",7,"Appalachians_Cumberland Plateau",1007
+-81.7531,36.1887,"NCGM","Grandfather Mountain",7,"Appalachians_Cumberland Plateau",966
+-83.5461,38.7953,"OHAC","Adams County",7,"Appalachians_Cumberland Plateau",293
+-82.4833,39.9333,"OHBL","Buckeye Lake",7,"Appalachians_Cumberland Plateau",269
+-84.3,39.1,"OHCI","Cincinnati",7,"Appalachians_Cumberland Plateau",264
+-82.9315,39.9851,"OHCO","Columbus",7,"Appalachians_Cumberland Plateau",247
+-84.1794,39.82,"OHDA","Dayton",7,"Appalachians_Cumberland Plateau",246
+-84.0253,38.9871,"OHEF","East Fork Lake S.P.",7,"Appalachians_Cumberland Plateau",275
+-84.536,39.4004,"OHHF","Hamilton-Fairfield",7,"Appalachians_Cumberland Plateau",185
+-82.9412,40.1905,"OHHR","Hoover Reservoir",7,"Appalachians_Cumberland Plateau",280
+-83.9167,40.4833,"OHIL","Indian Lake",7,"Appalachians_Cumberland Plateau",302
+-82.8667,39.4667,"OHKI","Kingston",7,"Appalachians_Cumberland Plateau",227
+-82.6019,39.7137,"OHLN","Lancaster",7,"Appalachians_Cumberland Plateau",256
+-82.2826,39.7144,"OHNL","New Lexington",7,"Appalachians_Cumberland Plateau",251
+-83.2167,40.2167,"OHOS","O'Shaughnessy Reservoir",7,"Appalachians_Cumberland Plateau",296
+-83.445,39.2622,"OHPC","Paint Creek Area",7,"Appalachians_Cumberland Plateau",297
+-83.1086,38.7798,"OHPO","Portsmouth",7,"Appalachians_Cumberland Plateau",223
+-84.6361,39.2065,"OHWH","Western Hamilton County",7,"Appalachians_Cumberland Plateau",243
+-82.0999,36.6058,"TNBI","Bristol",7,"Appalachians_Cumberland Plateau",599
+-82.1263,36.3413,"TNEL","Elizabethton",7,"Appalachians_Cumberland Plateau",527
+-83.4863,35.7146,"TNGS","Great Smoky Mountains N.P.",7,"Appalachians_Cumberland Plateau",500
+-84.92,35.3655,"TNHI","Hiwassee",7,"Appalachians_Cumberland Plateau",208
+-82.5167,36.5,"TNKI","Kingsport",7,"Appalachians_Cumberland Plateau",392
+-84.0796,35.9136,"TNKN","Knoxville",7,"Appalachians_Cumberland Plateau",268
+-85.5113,35.0664,"TNNL","Nickajack Lake",7,"Appalachians_Cumberland Plateau",341
+-84.0927,36.2242,"TNNO","Norris",7,"Appalachians_Cumberland Plateau",286
+-82.1108,36.1063,"TNRM","Roan Mountain",7,"Appalachians_Cumberland Plateau",1677
+-82.236,37.2513,"VABI","Breaks Interstate Park",7,"Appalachians_Cumberland Plateau",633
+-79.8733,37.5276,"VAFI","Fincastle",7,"Appalachians_Cumberland Plateau",325
+-81.7787,36.7883,"VAGS","Glade Spring",7,"Appalachians_Cumberland Plateau",645
+-81.4934,37.1326,"VATA","Tazewell",7,"Appalachians_Cumberland Plateau",735
+-82.6435,36.9418,"VAWC","Wise County",7,"Appalachians_Cumberland Plateau",613
+-81.7143,38.362,"WVCH","Charleston",7,"Appalachians_Cumberland Plateau",177
+-82.4343,38.3928,"WVHU","Huntington",7,"Appalachians_Cumberland Plateau",245
+-80.4454,37.8017,"WVLE","Lewisburg",7,"Appalachians_Cumberland Plateau",632
+-82.1902,38.506,"WVON","Ona",7,"Appalachians_Cumberland Plateau",277
+-80.9196,37.58,"WVPA","Pipestem Area",7,"Appalachians_Cumberland Plateau",728
+-81.5556,39.2548,"WVPK","Parkersburg",7,"Appalachians_Cumberland Plateau",185
+-86.7583,33.466,"ALBH","Birmingham",8,"Ozarks Complex",253
+-86.2803,34.3883,"ALGU","Guntersville",8,"Ozarks Complex",184
+-86.3831,32.3496,"ALMO","Montgomery",8,"Ozarks Complex",47
+-87.5766,33.239,"ALTU","Tuscaloosa",8,"Ozarks Complex",60
+-88.0002,34.8333,"ALWA","Waterloo",8,"Ozarks Complex",152
+-86.8837,34.6001,"ALWH","Wheeler N.W.R.",8,"Ozarks Complex",169
+-93.05,34.1333,"ARAR","Arkadelphia",8,"Ozarks Complex",55
+-92.5836,36.0774,"ARBE","Buffalo National River (east)",8,"Ozarks Complex",299
+-92.4227,35.0916,"ARCO","Conway",8,"Ozarks Complex",96
+-94.1719,36.0566,"ARFA","Fayetteville",8,"Ozarks Complex",387
+-94.3766,35.3818,"ARFS","Fort Smith-Moffett",8,"Ozarks Complex",137
+-92.9667,34.7167,"ARHS","Hot Springs Village",8,"Ozarks Complex",192
+-92.0667,33.15,"ARLG","Lake Georgia-Pacific/Felsenthal N.W.R.",8,"Ozarks Complex",24
+-91.8957,34.749,"ARLO","Lonoke",8,"Ozarks Complex",72
+-92.2792,34.7582,"ARLR","Little Rock",8,"Ozarks Complex",76
+-93.2832,33.2684,"ARML","Magnolia-Lake Columbia",8,"Ozarks Complex",76
+-92.0033,34.2295,"ARPB","Pine Bluff",8,"Ozarks Complex",67
+-93.9215,33.4725,"ARTE","Texarkana",8,"Ozarks Complex",77
+-90.7084,35.1612,"ARVC","Village Creek S.P.",8,"Ozarks Complex",100
+-91.121,34.3146,"ARWR","White River N.W.R.",8,"Ozarks Complex",56
+-84.8437,32.824,"GACG","Callaway Gardens",8,"Ozarks Complex",270
+-84.6474,34.8775,"GACH","Chattahoochee National Forest Songbird M.A.",8,"Ozarks Complex",916
+-85.0004,32.5861,"GACO","Columbus",8,"Ozarks Complex",146
+-84.9667,34.7667,"GADA","Dalton",8,"Ozarks Complex",228
+-89.3311,37.2089,"ILHL","Horseshoe Lake",8,"Ozarks Complex",129
+-89.4048,37.4676,"ILUC","Union County",8,"Ozarks Complex",104
+-94.75,38.2833,"KSLC","Linn County",8,"Ozarks Complex",279
+-88.1999,36.6003,"KYCC","Calloway County",8,"Ozarks Complex",160
+-88.1683,36.9367,"KYLB","Land Between the Lakes",8,"Ozarks Complex",113
+-92.0589,31.508,"LACA","Catahoula N.W.R.",8,"Ozarks Complex",14
+-92.241,32.6583,"LADA","D'Arbonne",8,"Ozarks Complex",17
+-93.0635,31.824,"LANA","Natchitoches",8,"Ozarks Complex",36
+-93.8922,32.5371,"LASH","Shreveport",8,"Ozarks Complex",58
+-89.2667,36.6667,"MOBO","Big Oak Tree S.P.",8,"Ozarks Complex",89
+-90.2,36.9833,"MOMI","Mingo N.W.R.",8,"Ozarks Complex",102
+-93.8217,38.2521,"MOML","Montrose Lake Wildlife Area",8,"Ozarks Complex",221
+-91.5698,37.9594,"MOMS","Maramec Spring",8,"Ozarks Complex",273
+-90.4149,36.7676,"MOPB","Poplar Bluff",8,"Ozarks Complex",124
+-93.239,37.2174,"MOSP","Springfield",8,"Ozarks Complex",415
+-91.1,38.1667,"MOSU","Sullivan",8,"Ozarks Complex",209
+-93.183,36.607,"MOTC","Taney County",8,"Ozarks Complex",314
+-90.1306,34.7624,"MSAL","Arkabutla Lake",8,"Ozarks Complex",60
+-89.717,33.85,"MSGR","Grenada",8,"Ozarks Complex",65
+-90.004,32.4476,"MSJA","Jackson",8,"Ozarks Complex",89
+-90.4931,34.4937,"MSML","Moon Lake (Lula)",8,"Ozarks Complex",50
+-91.3792,31.6167,"MSNA","Natchez",8,"Ozarks Complex",73
+-89.701,34.4369,"MSSL","Sardis Lake",8,"Ozarks Complex",78
+-90.9068,32.3108,"MSVI","Vicksburg",8,"Ozarks Complex",22
+-90.9857,33.097,"MSWC","Washington County (south)",8,"Ozarks Complex",32
+-94.7048,34.0554,"OKBB","Broken Bow Reservoir",8,"Ozarks Complex",138
+-95.3167,35.85,"OKFG","Fort Gibson Reservoir",8,"Ozarks Complex",165
+-96.0873,36.9289,"OKHR","Hulah Reservoir",8,"Ozarks Complex",226
+-95.6326,36.3722,"OKRC","Rogers County",8,"Ozarks Complex",209
+-94.9501,36.4,"OKSV","Spavinaw",8,"Ozarks Complex",234
+-96.65,34.1833,"OKTI","Tishomingo N.W.R.",8,"Ozarks Complex",189
+-95.9022,36.3221,"OKTU","Tulsa",8,"Ozarks Complex",202
+-87.4573,35.3001,"TNBR","Buffalo River",8,"Ozarks Complex",295
+-85.2292,35.104,"TNCH","Chattanooga",8,"Ozarks Complex",194
+-87.3833,36.5,"TNCL","Clarksville",8,"Ozarks Complex",151
+-87.1613,35.599,"TNCO","Columbia",8,"Ozarks Complex",212
+-86.6634,36.1926,"TNHP","Hickory-Priest",8,"Ozarks Complex",122
+-89.9333,35.15,"TNME","Memphis",8,"Ozarks Complex",85
+-86.9287,36.0545,"TNNA","Nashville",8,"Ozarks Complex",168
+-89.3833,36.4167,"TNRL","Reelfoot Lake",8,"Ozarks Complex",86
+-88.1666,35.1632,"TNSA","Savannah",8,"Ozarks Complex",188
+-96.0024,33.7405,"TXCA","Caddo National Grasslands",8,"Ozarks Complex",152
+-94.5947,32.8001,"TXLO","Lake O' the Pines",8,"Ozarks Complex",80
+-94.2082,33.2784,"TXTE","Texarkana",8,"Ozarks Complex",68
+-96.4072,42.4914,"IASC","Sioux City",9,"Northern Plains",335
+-96.4975,47.7023,"MNCK","Crookston",9,"Northern Plains",276
+-95.6746,44.6091,"MNCO","Cottonwood",9,"Northern Plains",328
+-96.0746,46.2804,"MNFF","Fergus Falls",9,"Northern Plains",362
+-95.961,45.0132,"MNLQ","Lac qui Parle",9,"Northern Plains",310
+-95.8158,44.3556,"MNMA","Marshall",9,"Northern Plains",411
+-96.7687,48.1955,"MNWN","Warren",9,"Northern Plains",260
+-108.4333,45.8167,"MTBL","Billings",9,"Northern Plains",941
+-107.7287,48.3926,"MTBW","Bowdoin N.W.R.",9,"Northern Plains",684
+-110.9667,48.3667,"MTCH","Chester",9,"Northern Plains",920
+-106.4486,48.0094,"MTFP","Fort Peck",9,"Northern Plains",659
+-109.4239,47.0669,"MTLE","Lewistown",9,"Northern Plains",1197
+-105.8755,46.4267,"MTMC","Miles City",9,"Northern Plains",800
+-100.7826,46.8208,"NDBM","Bismarck-Mandan",9,"Northern Plains",548
+-102.0667,48.6667,"NDDL","Des Lacs N.W.R.",9,"Northern Plains",596
+-96.8329,46.934,"NDFM","Fargo-Moorhead",9,"Northern Plains",272
+-101.3264,47.5119,"NDGD","Garrison Dam",9,"Northern Plains",593
+-97.1534,47.9331,"NDGF","Grand Forks-East Grand Forks",9,"Northern Plains",257
+-101.623,47.2944,"NDHA","Hazen",9,"Northern Plains",531
+-98.7502,46.899,"NDJA","Jamestown",9,"Northern Plains",458
+-100.6374,48.6033,"NDJC","J. Clark Salyer N.W.R.",9,"Northern Plains",438
+-103.5262,46.9165,"NDME","Medora",9,"Northern Plains",689
+-101.2961,48.24,"NDMI","Minot",9,"Northern Plains",472
+-97.4167,46,"NDTE","Tewaukon N.W.R.",9,"Northern Plains",360
+-103.356,47.6099,"NDTR","Theodore Roosevelt N.P. (north unit)",9,"Northern Plains",620
+-101.5684,48.4522,"NDUS","Upper Souris N.W.R.",9,"Northern Plains",490
+-98,46.9333,"NDVC","Valley City",9,"Northern Plains",387
+-97.4265,42.0326,"NENO","Norfolk",9,"Northern Plains",470
+-103.6408,41.8674,"NESC","Scottsbluff",9,"Northern Plains",1182
+-98.5,45.45,"SDAB","Aberdeen",9,"Northern Plains",396
+-100.3463,44.367,"SDPI","Pierre",9,"Northern Plains",450
+-103.2472,44.0769,"SDRC","Rapid City",9,"Northern Plains",1069
+-98.25,45.7834,"SDSL","Sand Lake N.W.R.",9,"Northern Plains",392
+-103.8642,44.5198,"SDSP","Spearfish",9,"Northern Plains",1078
+-103.5147,44.4168,"SDST","Sturgis",9,"Northern Plains",1037
+-97.3268,45.4249,"SDWA","Waubay N.W.R.",9,"Northern Plains",555
+-97.3833,42.9333,"SDYA","Yankton",9,"Northern Plains",395
+-106.7412,44.4053,"WYBU","Buffalo",9,"Northern Plains",1438
+-109.0565,44.4829,"WYCO","Cody",9,"Northern Plains",1608
+-106.9758,44.8086,"WYSH","Sheridan",9,"Northern Plains",1175
+-104.6955,39.9721,"COBL","Barr Lake",10,"Central Plains",1550
+-104.8753,39.7347,"CODV","Denver (urban)",10,"Central Plains",1637
+-105.1141,40.6454,"COFC","Fort Collins",10,"Central Plains",1546
+-104.6801,40.3936,"COGR","Greeley",10,"Central Plains",1426
+-105.1734,40.1741,"COLO","Longmont",10,"Central Plains",1543
+-104.7054,40.8341,"CONU","Nunn",10,"Central Plains",1637
+-104.7756,38.2557,"COPR","Pueblo Reservoir",10,"Central Plains",1511
+-104.5208,38.1713,"COPU","Pueblo",10,"Central Plains",1488
+-105.1431,40.8628,"CORA","Rawhide Energy Station",10,"Central Plains",1779
+-103.8568,40.3422,"COWF","Weldona-Fort Morgan",10,"Central Plains",1396
+-101.8537,37.1104,"KSCI","Cimarron National Grassland",10,"Central Plains",1040
+-100.01,37.7777,"KSDC","Dodge City",10,"Central Plains",792
+-98.4833,38.15,"KSQU","Quivira N.W.R.",10,"Central Plains",537
+-99.2667,41.35,"NECL","Calamus-Loup",10,"Central Plains",700
+-99.8103,36.0569,"OKAN","Arnett",10,"Central Plains",692
+-102.8912,36.9033,"OKKE","Kenton (Black Mesa)",10,"Central Plains",1291
+-101.7197,35.0196,"TXAM","Amarillo",10,"Central Plains",1074
+-101.6167,35.6833,"TXLE","Lake Meredith (east)",10,"Central Plains",895
+-101.7833,35.5168,"TXLW","Lake Meredith (west)",10,"Central Plains",953
+-102.7783,33.9563,"TXMU","Muleshoe N.W.R.",10,"Central Plains",1142
+-101.0739,34.4346,"TXQU","Quitaque",10,"Central Plains",781
+-104.8202,41.1402,"WYCH","Cheyenne",10,"Central Plains",1856
+-97.0393,37.0382,"KSAC","Arkansas City",11,"Southern Plains",322
+-96.9756,37.2647,"KSUW","Udall-Winfield",11,"Southern Plains",375
+-97.3767,35.2655,"OKNO","Norman",11,"Southern Plains",356
+-97.5834,35.5368,"OKOC","Oklahoma City",11,"Southern Plains",384
+-97.7833,34.5667,"OKSC","Stephens County",11,"Southern Plains",329
+-98.1789,36.785,"OKSP","Salt Plains N.W.R.",11,"Southern Plains",351
+-97.1765,36.1452,"OKST","Stillwater",11,"Southern Plains",292
+-99.2797,35.6495,"OKWA","Washita N.W.R.",11,"Southern Plains",511
+-98.6667,34.7333,"OKWM","Wichita Mountains Wildlife Refuge",11,"Southern Plains",578
+-99.7502,32.3501,"TXAB","Abilene",11,"Southern Plains",562
+-96.3667,29.6344,"TXAP","Attwater Prairie Chicken N.W.R.",11,"Southern Plains",61
+-97.698,30.1834,"TXAU","Austin",11,"Southern Plains",160
+-98.3944,26.2235,"TXAZ","Anzalduas-Bentsen",11,"Southern Plains",38
+-97.2484,30.0866,"TXBB","Bastrop-Buescher State Parks",11,"Southern Plains",153
+-98.275,30.7514,"TXBN","Burnet County",11,"Southern Plains",407
+-98.7901,29.8666,"TXBO","Boerne",11,"Southern Plains",503
+-101.4162,32.2391,"TXBS","Big Spring",11,"Southern Plains",753
+-97.45,30.9667,"TXBU","Bell County",11,"Southern Plains",149
+-97.5833,27.8334,"TXCC","Corpus Christi",11,"Southern Plains",21
+-97.2938,27.6584,"TXCF","Corpus Christi (Flour Bluff)",11,"Southern Plains",4
+-101.2531,29.7104,"TXCO","Comstock",11,"Southern Plains",474
+-97.3556,31.556,"TXCR","Crawford",11,"Southern Plains",175
+-96.3175,30.593,"TXCS","College Station",11,"Southern Plains",86
+-96.8312,32.8258,"TXDA","Dallas County",11,"Southern Plains",145
+-100.9585,29.4651,"TXDR","Del Rio",11,"Southern Plains",342
+-99.0884,26.4967,"TXFD","Falcon Dam and S.P.",11,"Southern Plains",74
+-97.4715,32.7661,"TXFW","Fort Worth",11,"Southern Plains",213
+-96,30.5833,"TXGC","Gibbons Creek",11,"Southern Plains",103
+-96.7444,33.7807,"TXHA","Hagerman N.W.R.",11,"Southern Plains",221
+-95.552,30.7156,"TXHU","Huntsville",11,"Southern Plains",125
+-97.8551,27.4658,"TXKI","Kingsville",11,"Southern Plains",10
+-95.9167,32.7667,"TXLK","Lake Tawakoni",11,"Southern Plains",141
+-96.5363,32.9296,"TXLR","Lake Ray Hubbard",11,"Southern Plains",146
+-97.9649,26.4849,"TXLS","La Sal Vieja",11,"Southern Plains",14
+-96.9929,33.0301,"TXLV","Lewisville",11,"Southern Plains",161
+-96.6154,33.1585,"TXMC","Mckinney",11,"Southern Plains",181
+-102.0333,31.95,"TXMI","Midland",11,"Southern Plains",846
+-94.6563,31.5332,"TXNA","Nacogdoches",11,"Southern Plains",83
+-98.1249,29.7035,"TXNB","New Braunfels",11,"Southern Plains",192
+-97.5833,29.5833,"TXPM","Palmetto S.P.",11,"Southern Plains",94
+-98.2933,32.7578,"TXPP","Palo Pinto",11,"Southern Plains",349
+-95.7664,31.7624,"TXPS","Palestine",11,"Southern Plains",97
+-98.1917,26.1492,"TXSA","Santa Ana N.W.R.",11,"Southern Plains",27
+-100.4823,31.4439,"TXSG","San Angelo",11,"Southern Plains",584
+-98.608,29.3148,"TXST","San Antonio",11,"Southern Plains",192
+-96.1,32.15,"TXTR","Trinidad",11,"Southern Plains",95
+-94.421,31.961,"TXTT","Tenaha-Timpson",11,"Southern Plains",111
+-95.2991,32.2777,"TXTY","Tyler",11,"Southern Plains",151
+-97.0784,28.8723,"TXVI","Victoria",11,"Southern Plains",30
+-97.0451,31.5194,"TXWA","Waco",11,"Southern Plains",109
+-98.6298,33.8877,"TXWF","Wichita Falls",11,"Southern Plains",297
+-97.4171,28.1136,"TXWW","Welder Wildlife Refuge",11,"Southern Plains",12
+-112.7,42.9833,"IDAF","American Falls Reservoir",12,"Northern Rockies",1328
+-112.0596,43.5172,"IDIF","Idaho Falls",12,"Northern Rockies",1441
+-116.0833,47.3833,"IDIM","Indian Mountain",12,"Northern Rockies",1220
+-112.4301,42.8676,"IDPO","Pocatello",12,"Northern Rockies",1384
+-111.8578,43.7973,"IDRE","Rexburg",12,"Northern Rockies",1473
+-113.8953,45.1776,"IDSA","Salmon",12,"Northern Rockies",1201
+-116.5624,48.2749,"IDSP","Sandpoint",12,"Northern Rockies",640
+-114.0888,48.0952,"MTBG","Bigfork",12,"Northern Rockies",931
+-111.0667,45.6833,"MTBZ","Bozeman",12,"Northern Rockies",1466
+-112.8579,45.0016,"MTCC","Clark Canyon Dam",12,"Northern Rockies",1675
+-111.65,45.4,"MTEN","Ennis",12,"Northern Rockies",1548
+-111.3364,47.4694,"MTGF","Great Falls",12,"Northern Rockies",1027
+-113.9939,48.52,"MTGL","Glacier N.P.",12,"Northern Rockies",967
+-114.1269,46.2526,"MTHA","Hamilton",12,"Northern Rockies",1101
+-111.9833,46.6833,"MTHE","Helena",12,"Northern Rockies",1117
+-115.4667,48.3833,"MTLI","Libby",12,"Northern Rockies",993
+-114.0343,46.9132,"MTMI","Missoula",12,"Northern Rockies",1000
+-110.4874,45.6394,"MTPC","Park County",12,"Northern Rockies",1678
+-114.0922,46.513,"MTST","Stevensville",12,"Northern Rockies",1012
+-111.5552,45.8451,"MTTF","Three Forks",12,"Northern Rockies",1308
+-115.8893,48.4636,"MTTR","Troy",12,"Northern Rockies",577
+-112.859,46.2008,"MTWS","Warm Springs",12,"Northern Rockies",1544
+-110.7007,45.0253,"MTYE","Yellowstone N.P.",12,"Northern Rockies",1628
+-110.7332,43.5742,"WYJH","Jackson Hole",12,"Northern Rockies",1951
+-111.7545,34.5873,"AZCV","Camp Verde",13,"Southern Rockies_Colorado Plateau",1176
+-111.5976,35.241,"AZFL","Flagstaff-Mt. Elden",13,"Southern Rockies_Colorado Plateau",2798
+-112.1238,34.7398,"AZJE","Jerome",13,"Southern Rockies_Colorado Plateau",1670
+-111.45,35,"AZML","Mormon Lake",13,"Southern Rockies_Colorado Plateau",2161
+-112.4701,34.5419,"AZPR","Prescott",13,"Southern Rockies_Colorado Plateau",1628
+-112.7371,36.8626,"AZPS","Pipe Spring N.M.",13,"Southern Rockies_Colorado Plateau",1507
+-111.8802,34.8391,"AZSE","Sedona",13,"Southern Rockies_Colorado Plateau",1218
+-106.9,39.25,"COAS","Aspen",13,"Southern Rockies_Colorado Plateau",2516
+-104.65,39.1167,"COBF","Black Forest",13,"Southern Rockies_Colorado Plateau",2251
+-105.2725,40.0256,"COBO","Boulder",13,"Southern Rockies_Colorado Plateau",1639
+-104.8167,38.8022,"COCS","Colorado Springs",13,"Southern Rockies_Colorado Plateau",1813
+-104.9622,39.3717,"CODC","Douglas County",13,"Southern Rockies_Colorado Plateau",1814
+-105.143,39.587,"CODE","Denver",13,"Southern Rockies_Colorado Plateau",1750
+-107.8119,37.2001,"CODU","Durango",13,"Southern Rockies_Colorado Plateau",2092
+-105.4264,39.6765,"COEI","Evergreen-Idaho Springs",13,"Southern Rockies_Colorado Plateau",3002
+-108.6081,39.1208,"COGJ","Grand Junction",13,"Southern Rockies_Colorado Plateau",1401
+-106.8856,38.6064,"COGU","Gunnison",13,"Southern Rockies_Colorado Plateau",2398
+-104.9235,38.0132,"COLI","Lake Isabel",13,"Southern Rockies_Colorado Plateau",1902
+-106.0941,37.4736,"COMV","Monte Vista N.W.R.",13,"Southern Rockies_Colorado Plateau",2323
+-106.1259,40.5695,"CONP","North Park",13,"Southern Rockies_Colorado Plateau",2614
+-105.144,38.3907,"COPE","Penrose",13,"Southern Rockies_Colorado Plateau",1619
+-104.9915,38.9208,"COPP","Pikes Peak",13,"Southern Rockies_Colorado Plateau",2319
+-107.2624,39.4579,"CORF","Roaring Fork River Valley",13,"Southern Rockies_Colorado Plateau",1840
+-105.536,40.382,"CORM","Rocky Mountain N.P.",13,"Southern Rockies_Colorado Plateau",2368
+-105.4674,38.1361,"COWE","Westcliffe",13,"Southern Rockies_Colorado Plateau",2395
+-106.6167,35.1833,"NMAL","Albuquerque",13,"Southern Rockies_Colorado Plateau",1523
+-104.5029,32.1772,"NMCC","Carlsbad Caverns N.P.",13,"Southern Rockies_Colorado Plateau",1363
+-103.2546,36.5177,"NMCL","Clayton",13,"Southern Rockies_Colorado Plateau",1645
+-106.073,35.9905,"NMES","Espanola",13,"Southern Rockies_Colorado Plateau",1701
+-108.102,36.7833,"NMFA","Farmington",13,"Southern Rockies_Colorado Plateau",1661
+-108.584,32.9152,"NMGR","Gila River",13,"Southern Rockies_Colorado Plateau",1363
+-105.2152,35.595,"NMLV","Las Vegas",13,"Southern Rockies_Colorado Plateau",1956
+-108.262,32.7381,"NMSC","Silver City",13,"Southern Rockies_Colorado Plateau",1744
+-105.9409,35.6698,"NMSF","Santa Fe",13,"Southern Rockies_Colorado Plateau",2149
+-106.3475,35.1631,"NMSM","Sandia Mountains",13,"Southern Rockies_Colorado Plateau",2092
+-108.8167,35.0333,"NMZU","Zuni",13,"Southern Rockies_Colorado Plateau",1950
+-115.3125,36.3276,"NVDG","Desert Game Range",13,"Southern Rockies_Colorado Plateau",859
+-114.95,36.0833,"NVHE","Henderson",13,"Southern Rockies_Colorado Plateau",510
+-104.8137,31.8923,"TXGM","Guadalupe Mountains",13,"Southern Rockies_Colorado Plateau",1711
+-113.111,37.685,"UTCC","Cedar City",13,"Southern Rockies_Colorado Plateau",1697
+-109.3456,40.3698,"UTDJ","Dinosaur N.M.-Jensen",13,"Southern Rockies_Colorado Plateau",1451
+-112.5167,37.0334,"UTKA","Kanab",13,"Southern Rockies_Colorado Plateau",1509
+-109.45,38.5667,"UTMO","Moab",13,"Southern Rockies_Colorado Plateau",1598
+-111.6688,40.2526,"UTPR","Provo",13,"Southern Rockies_Colorado Plateau",1398
+-113.6,37.15,"UTSG","St. George",13,"Southern Rockies_Colorado Plateau",1050
+-112.9804,37.2093,"UTZI","Zion N.P.",13,"Southern Rockies_Colorado Plateau",1214
+-111.1728,31.4701,"AZAH","Atascosa Highlands",14,"Desert Southwest",1314
+-111.25,32.2501,"AZAV","Avra Valley",14,"Desert Southwest",672
+-111.45,31.5667,"AZBA","Buenos Aires N.W.R.",14,"Desert Southwest",1121
+-112.6833,33.3071,"AZGR","Gila River",14,"Desert Southwest",259
+-110.9151,31.7923,"AZGV","Green Valley-Madera Canyon",14,"Desert Southwest",1048
+-114.4623,32.8884,"AZMY","Martinez Lake-Yuma",14,"Desert Southwest",55
+-110.9358,31.4338,"AZNO","Nogales",14,"Desert Southwest",1068
+-110.6833,31.4833,"AZPA","Patagonia",14,"Desert Southwest",1466
+-109.1364,31.9009,"AZPO","Portal",14,"Desert Southwest",1696
+-110.2068,31.4599,"AZRC","Ramsey Canyon",14,"Desert Southwest",1368
+-110.7295,32.3353,"AZSC","Santa Catalina Mountains",14,"Desert Southwest",1530
+-110.9735,32.3016,"AZTV","Tucson Valley",14,"Desert Southwest",728
+-116.3986,33.2841,"CAAB","Anza-Borrego Desert",14,"Desert Southwest",194
+-116.9,34.2833,"CABB","Big Bear Lake",14,"Desert Southwest",2471
+-116.8668,36.4619,"CADV","Death Valley",14,"Desert Southwest",-57
+-116.7691,33.7112,"CAID","Idyllwild",14,"Desert Southwest",912
+-116.0997,34.0524,"CAJT","Joshua Tree N.P.",14,"Desert Southwest",1672
+-116.5625,34.0359,"CAMV","Morongo Valley",14,"Desert Southwest",700
+-116.9999,34.1025,"CARM","Redlands (Mill Creek)",14,"Desert Southwest",1129
+-116.1031,33.5179,"CASH","Salton Sea (north)",14,"Desert Southwest",-63
+-117.1239,33.8745,"CASL","San Jacinto Lake",14,"Desert Southwest",458
+-117.301,34.0852,"CASO","San Bernardino Valley",14,"Desert Southwest",308
+-115.6132,33.1579,"CASS","Salton Sea (south)",14,"Desert Southwest",-67
+-106.8907,33.8051,"NMBD","Bosque del Apache N.W.R.",14,"Desert Southwest",1375
+-107.3122,32.953,"NMCA","Caballo",14,"Desert Southwest",1310
+-104.294,32.5661,"NMLA","Lakes Avalon-Brantley",14,"Desert Southwest",986
+-106.7167,32.3,"NMLC","Las Cruces",14,"Desert Southwest",1272
+-104.0667,32.291,"NMLO","Loving",14,"Desert Southwest",921
+-104.4522,33.4025,"NMRO","Roswell",14,"Desert Southwest",1071
+-106.95,34.3167,"NMSE","Sevilleta N.W.R.",14,"Desert Southwest",1486
+-103.7459,30.9858,"TXBA","Balmorhea",14,"Desert Southwest",972
+-103.0444,29.1826,"TXBG","Big Bend N.P. (east)",14,"Desert Southwest",619
+-103.2966,29.2678,"TXCM","Chisos Mountains",14,"Desert Southwest",1752
+-106.4798,31.7828,"TXEP","El Paso",14,"Desert Southwest",1303
+-106.0412,31.8117,"TXHT","Hueco Tanks",14,"Desert Southwest",1390
+-118.4776,37.3611,"CABI","Bishop",15,"Great Basin",1381
+-121.4899,41.0616,"CAFR","Fall River Mills",15,"Great Basin",1010
+-120.4229,40.3434,"CAHL","Honey Lake",15,"Great Basin",1234
+-119.1201,37.9561,"CAML","Mono Lake",15,"Great Basin",2071
+-118.8667,37.6333,"CAMM","Mammoth Lakes",15,"Great Basin",2167
+-121.539,41.9465,"CATL","Tule Lake",15,"Great Basin",1229
+-119.8082,38.7662,"CAWO","Woodfords",15,"Great Basin",1714
+-116.1995,43.6177,"IDBO","Boise",15,"Great Basin",826
+-115.858,42.9252,"IDBR","Bruneau",15,"Great Basin",793
+-114.9,42.8167,"IDHV","Hagerman Valley",15,"Great Basin",899
+-117.0396,46.7311,"IDMP","Moscow-Pullman",15,"Great Basin",769
+-116.6729,43.568,"IDNA","Nampa",15,"Great Basin",806
+-113.65,42.6167,"IDRU","Rupert",15,"Great Basin",1267
+-114.067,43.3081,"IDSV","Sun Valley",15,"Great Basin",1472
+-114.4635,42.5565,"IDTF","Twin Falls",15,"Great Basin",1140
+-119.7332,39.1766,"NVCC","Carson City",15,"Great Basin",1415
+-115.6987,40.7426,"NVEL","Elko",15,"Great Basin",1616
+-118.773,39.3965,"NVFA","Fallon",15,"Great Basin",1202
+-115.5,40.2,"NVRL","Ruby Lake",15,"Great Basin",1994
+-119.8205,39.4679,"NVTM","Truckee Meadows",15,"Great Basin",1474
+-117.8392,44.8619,"ORBA","Baker",15,"Great Basin",1019
+-117.8724,44.655,"ORBC","Baker County-Salisbury",15,"Great Basin",1111
+-121.3109,44.0642,"ORBE","Bend",15,"Great Basin",1093
+-119.7667,42.4834,"ORHM","Hart Mountain",15,"Great Basin",1898
+-118.9527,44.4161,"ORJD","John Day",15,"Great Basin",940
+-121.7351,42.1595,"ORKF","Klamath Falls",15,"Great Basin",1245
+-118.8798,42.8998,"ORMA","Malheur N.W.R.",15,"Great Basin",1268
+-120.7778,42.9731,"ORSU","Summer Lake",15,"Great Basin",1289
+-117.8833,45.25,"ORUC","Union County",15,"Great Basin",826
+-118.6667,45.6,"ORUM","Umatilla County",15,"Great Basin",520
+-121.1937,44.4821,"ORUT","Utopia",15,"Great Basin",933
+-117.2009,45.3748,"ORWC","Wallowa County",15,"Great Basin",1246
+-112.2675,41.4804,"UTBR","Bear River Migratory Bird Refuge",15,"Great Basin",1283
+-113.399,39.8107,"UTFS","Fish Springs N.W.R.",15,"Great Basin",1325
+-111.9135,40.4526,"UTJR","Jordan River",15,"Great Basin",1461
+-111.8333,41.7993,"UTLO","Logan",15,"Great Basin",1361
+-112.064,41.2198,"UTOG","Ogden",15,"Great Basin",1295
+-111.8884,40.7695,"UTSL","Salt Lake City",15,"Great Basin",1325
+-117.4169,47.7168,"WASP","Spokane",15,"Great Basin",631
+-119.1805,46.2357,"WATC","Tri-Cities",15,"Great Basin",107
+-120.4179,46.3609,"WATO","Toppenish N.W.R.",15,"Great Basin",238
+-120.1211,48.3644,"WATW","Twisp",15,"Great Basin",496
+-120.323,47.4551,"WAWE","Wenatchee",15,"Great Basin",188
+-118.2333,46.0667,"WAWW","Walla Walla",15,"Great Basin",496
+-120.4555,46.5919,"WAYV","Yakima Valley",15,"Great Basin",309
+-105.5947,41.2976,"WYAC","Albany County",15,"Great Basin",2183
+-106.5,42.5833,"WYBH","Bates Hole",15,"Great Basin",1756
+-106.4333,42.7834,"WYCA","Casper",15,"Great Basin",1641
+-111.0461,41.4141,"WYEV","Evanston",15,"Great Basin",1999
+-109.4677,41.5298,"WYGR","Green River",15,"Great Basin",1867
+-108.7168,42.8168,"WYLA","Lander",15,"Great Basin",1651
+-106.9416,44.589,"WYSB","Story-Big Horn",15,"Great Basin",1842
+-124.2428,40.642,"CACB","Centerville Beach to King Salmon",16,"Pacific Northwest",3
+-124.1712,41.8446,"CADN","Del Norte County",16,"Pacific Northwest",9
+-122.9064,41.4932,"CAET","Etna",16,"Pacific Northwest",869
+-122.4141,41.5342,"CAMS","Mount Shasta",16,"Pacific Northwest",868
+-123.6667,40.95,"CAWC","Willow Creek",16,"Pacific Northwest",345
+-124.2973,43.3759,"ORCB","Coos Bay",16,"Pacific Northwest",NA
+-123.9461,46.2192,"ORCE","Columbia Estuary",16,"Pacific Northwest",0
+-123.2695,44.5071,"ORCO","Corvallis",16,"Pacific Northwest",74
+-123.3384,44.8965,"ORDA","Dallas",16,"Pacific Northwest",116
+-123.179,44.0768,"OREU","Eugene",16,"Pacific Northwest",118
+-124.0667,44.0334,"ORFL","Florence",16,"Pacific Northwest",95
+-123.3669,42.4186,"ORGP","Grants Pass",16,"Pacific Northwest",286
+-122.8559,42.4026,"ORME","Medford",16,"Pacific Northwest",394
+-122.7,45.5167,"ORPD","Portland",16,"Pacific Northwest",97
+-123.3473,43.3177,"ORRS","Roseburg-Sutherlin",16,"Pacific Northwest",139
+-123.0388,44.9437,"ORSA","Salem",16,"Pacific Northwest",47
+-122.8008,45.7562,"ORSI","Sauvie Island",16,"Pacific Northwest",2
+-122.7065,44.966,"ORSL","Silverton",16,"Pacific Northwest",331
+-123.8833,45.5167,"ORTB","Tillamook Bay",16,"Pacific Northwest",3
+-123.5807,45.2662,"ORUN","Upper Nestucca",16,"Pacific Northwest",236
+-124.0642,44.5866,"ORYB","Yaquina Bay",16,"Pacific Northwest",37
+-122.5629,48.8112,"WABG","Bellingham",16,"Pacific Northwest",NA
+-122.9787,46.1092,"WACC","Cowlitz-Columbia",16,"Pacific Northwest",3
+-121.9995,47.5899,"WAEA","East Lake Washington",16,"Pacific Northwest",126
+-122.2489,47.8524,"WAED","Edmonds",16,"Pacific Northwest",144
+-122.1787,47.3598,"WAKA","Kent-Auburn",16,"Pacific Northwest",125
+-122.6609,47.6323,"WAKC","Kitsap County",16,"Pacific Northwest",55
+-122.6805,48.2646,"WAOH","Oak Harbor",16,"Pacific Northwest",40
+-122.8533,47.0722,"WAOL","Olympia",16,"Pacific Northwest",48
+-122.5667,48.4834,"WAPB","Padilla Bay",16,"Pacific Northwest",29
+-122.7333,48.05,"WAPT","Port Townsend",16,"Pacific Northwest",43
+-122.3879,48.2973,"WASB","Skagit Bay",16,"Pacific Northwest",1
+-123.0667,48.1,"WASD","Sequim-Dungeness",16,"Pacific Northwest",33
+-122.3341,47.6017,"WASE","Seattle",16,"Pacific Northwest",8
+-123.0006,48.5833,"WASI","Anacortes-Sidney",16,"Pacific Northwest",12
+-123.013,48.5462,"WASJ","San Juan Islands Archipelago",16,"Pacific Northwest",13
+-122.5167,47.2335,"WATA","Tacoma",16,"Pacific Northwest",85
+-121.1438,38.9758,"CAAA","Auburn",17,"Pacific Southwest",341
+-122.3977,38.5715,"CAAG","Angwin",17,"Pacific Southwest",251
+-122.3182,37.2147,"CAAN","A?o Nuevo",17,"Pacific Southwest",160
+-118.9173,35.4311,"CABA","Bakersfield",17,"Pacific Southwest",272
+-122.1094,38.1143,"CABE","Benicia",17,"Pacific Southwest",50
+-118.1426,35.4103,"CABS","Butterbredt Spring",17,"Pacific Southwest",1343
+-121.9923,37.9538,"CACC","Contra Costa County",17,"Pacific Southwest",75
+-122.7199,38.9392,"CACL","Clear Lake",17,"Pacific Southwest",640
+-117.7073,34.1384,"CACM","Claremont",17,"Pacific Southwest",499
+-121.8238,39.722,"CACO","Chico",17,"Pacific Southwest",62
+-119.85,35.25,"CACP","Carrizo Plain",17,"Pacific Southwest",596
+-122.3751,37.5184,"CACS","Crystal Springs",17,"Pacific Southwest",285
+-121.174,37.6061,"CACW","Caswell-Westley",17,"Pacific Southwest",8
+-116.9403,33.1025,"CAES","Escondido",17,"Pacific Southwest",480
+-121.0974,38.6618,"CAFO","Folsom",17,"Pacific Southwest",173
+-118.4167,34.6333,"CAGM","Grass Mountain",17,"Pacific Southwest",1033
+-122.0667,37.6068,"CAHF","Hayward-Fremont",17,"Pacific Southwest",6
+-118.4588,35.6625,"CAKR","Kern River Valley",17,"Pacific Southwest",762
+-118.3793,34.0477,"CALA","Los Angeles",17,"Pacific Southwest",32
+-118.0908,33.8533,"CALB","Long Beach-el Dorado",17,"Pacific Southwest",14
+-122.75,40.7167,"CALE","Lewiston",17,"Pacific Southwest",811
+-116.7255,33.2112,"CALH","Lake Henshaw",17,"Pacific Southwest",826
+-119.7,36.95,"CALL","Lost Lake-Fresno",17,"Pacific Southwest",130
+-118.086,34.7043,"CALN","Lancaster",17,"Pacific Southwest",726
+-121.25,40.2833,"CALR","Lake Almanor",17,"Pacific Southwest",1384
+-120.8849,37.0612,"CALS","Los Ba?os",17,"Pacific Southwest",38
+-120.5368,34.6616,"CALU","La Purisima",17,"Pacific Southwest",11
+-120.5876,37.6531,"CALW","LaGrange-Waterford",17,"Pacific Southwest",70
+-121.5,39.2,"CAMA","Marysville",17,"Pacific Southwest",31
+-122.5643,37.9214,"CAMC","Marin County (southern)",17,"Pacific Southwest",241
+-121.7407,36.897,"CAMD","Moss Landing",17,"Pacific Southwest",9
+-121.5228,37.3719,"CAMH","Mount Hamilton",17,"Pacific Southwest",637
+-121.8776,36.562,"CAMP","Monterey Peninsula",17,"Pacific Southwest",297
+-120.7767,35.3,"CAMR","Morro Bay",17,"Pacific Southwest",15
+-118.7045,34.0822,"CAMU","Malibu",17,"Pacific Southwest",143
+-122.233,37.8146,"CAOA","Oakland",17,"Pacific Southwest",41
+-117.9453,33.6725,"CAOC","Orange County (coastal)",17,"Pacific Southwest",4
+-117.6776,33.7145,"CAON","Orange County (northeastern)",17,"Pacific Southwest",471
+-121.5499,39.5178,"CAOR","Oroville",17,"Pacific Southwest",45
+-117.2796,33.1903,"CAOV","Oceanside-Vista-Carlsbad",17,"Pacific Southwest",78
+-122.1559,37.4064,"CAPA","Palo Alto",17,"Pacific Southwest",46
+-122.0306,38.481,"CAPC","Putah Creek",17,"Pacific Southwest",64
+-118.3343,33.7732,"CAPP","Palos Verdes Peninsula",17,"Pacific Southwest",126
+-118.0913,34.1199,"CAPS","Pasadena-San Gabriel Valley",17,"Pacific Southwest",161
+-121.8219,39.1982,"CAPV","Peace Valley",17,"Pacific Southwest",254
+-122.2117,40.2074,"CARB","Red Bluff",17,"Pacific Southwest",77
+-122.4458,40.6194,"CARE","Redding",17,"Pacific Southwest",178
+-117.1628,33.0003,"CARS","Rancho Santa Fe",17,"Pacific Southwest",94
+-117.4889,33.9068,"CASA","Santa Ana River Valley",17,"Pacific Southwest",212
+-119.7627,34.4512,"CASB","Santa Barbara",17,"Pacific Southwest",65
+-122.0499,37.0162,"CASC","Santa Cruz County",17,"Pacific Southwest",105
+-120.001,38.9412,"CASE","South Lake Tahoe",17,"Pacific Southwest",1898
+-122.4689,37.7143,"CASF","San Francisco",17,"Pacific Southwest",77
+-120.5833,34.8833,"CASG","Santa Maria-Guadalupe",17,"Pacific Southwest",329
+-121.8821,37.4033,"CASJ","San Jose",17,"Pacific Southwest",21
+-121.55,38.6,"CASM","Sacramento",17,"Pacific Southwest",5
+-118.813,36.1338,"CASP","Springville",17,"Pacific Southwest",310
+-122.7116,38.4379,"CASR","Santa Rosa",17,"Pacific Southwest",50
+-121.3954,38.116,"CAST","Stockton",17,"Pacific Southwest",4
+-118.5025,34.2358,"CASV","San Fernando Valley",17,"Pacific Southwest",256
+-118.9699,34.1489,"CATO","Thousand Oaks",17,"Pacific Southwest",316
+-123.166,39.1386,"CAUK","Ukiah",17,"Pacific Southwest",191
+-120.9833,38.1167,"CAWB","Wallace-Bellota",17,"Pacific Southwest",77
+-123.0306,38.3853,"CAWS","Western Sonoma County",17,"Pacific Southwest",132
+-119.6662,37.7166,"CAYO","Yosemite N.P.",17,"Pacific Southwest",1187
+-88.1284,30.3385,"ALDI","Dauphin Island",3,"Southeast",1
+-87.9,30.2333,"ALFM","Fort Morgan",3,"Southeast",3
+-123.6897,39.0347,"CAMN","Manchester",17,"Pacific Southwest",17
+-117.117,32.6473,"CASD","San Diego",17,"Pacific Southwest",0
+-82.5631,27.501,"FLBA","Bradenton",3,"Southeast",1
+-80.241,25.4452,"FLBI","Biscayne N.P.",3,"Southeast",-2
+-86.5182,30.4462,"FLCB","Choctawhatchee Bay",3,"Southeast",-6
+-80.7026,28.3622,"FLCO","Cocoa",3,"Southeast",2
+-82.8128,27.497,"FLGC","Gulf Circle, Manatee County",3,"Southeast",-11
+-80.5981,25.0095,"FLKL","Key Largo-Plantation Key",3,"Southeast",-1
+-81.35,24.6667,"FLLK","Lower Keys-Key Deer N.W.R.",3,"Southeast",NA
+-80.6815,28.6171,"FLMI","Merritt Island N.W.R.",3,"Southeast",2
+-87.1548,30.4474,"FLPE","Pensacola",3,"Southeast",-3
+-82.1567,26.4594,"FLSC","Sanibel-Captiva",3,"Southeast",0
+-80.2624,27.2121,"FLST","Stuart",3,"Southeast",2
+-81.4261,31.1128,"GAGC","Glynn County",3,"Southeast",-6
+-81.1226,31.6351,"GASC","St. Catherines Island",1,"Northeast",-1
+-70.6537,42.0973,"MAMA","Marshfield",1,"Northeast",6
+-70.5207,41.3571,"MAMV","Martha's Vineyard",1,"Northeast",4
+-70.0901,41.2901,"MANA","Nantucket",1,"Northeast",-3
+-70.8667,41.6,"MANF","New Bedford",1,"Northeast",-2
+-70.3495,41.2726,"MATI","Tuckernuck Islands",1,"Northeast",-15
+-76.4212,38.1061,"MDPL","Point Lookout",2,"Mid Atlantic",1
+-76.2531,38.7506,"MDST","St. Michaels",2,"Mid Atlantic",1
+-68.6767,44.2292,"MEDI","Deer Isle",1,"Northeast",33
+-66.9852,44.9059,"MEEA","Eastport",1,"Northeast",14
+-68.3116,44.336,"MEMD","Mount Desert Island",1,"Northeast",0
+-67.6491,44.5377,"MEMJ","Moose Island-Jonesport",1,"Northeast",1
+-68.1076,44.4278,"MESP","Schoodic Point",1,"Northeast",36
+-75.5458,35.7824,"NCBP","Bodie-Pea Island",2,"Mid Atlantic",0
+-76.9344,35.4719,"NCCB","Central Beaufort County",2,"Mid Atlantic",0
+-75.6067,35.2188,"NCCH","Cape Hatteras",2,"Mid Atlantic",-9
+-75.8833,35.15,"NCOI","Ocracoke Island",2,"Mid Atlantic",0
+-74.1667,39.6667,"NJBA","Barnegat",2,"Mid Atlantic",1
+-74.0031,40.47,"NJSH","Sandy Hook",2,"Mid Atlantic",3
+-72,41.05,"NYMK","L.I.: Montauk",2,"Mid Atlantic",-13
+-74.15,40.5833,"NYSI","Staten Island",2,"Mid Atlantic",47
+-71.5692,41.2084,"RIBI","Block Island",2,"Mid Atlantic",15
+-80.75,32.2,"SCHH","Hilton Head Island",3,"Southeast",2
+-97.2334,26.0278,"TXCT","Coastal Tip",11,"Southern Plains",0
+-94.8333,29.3333,"TXGA","Galveston",11,"Southern Plains",-2
+-97.1,27.8502,"TXPA","Port Aransas",11,"Southern Plains",0
+-75.3669,37.9672,"VACI","Chincoteague N.W.R.",2,"Mid Atlantic",-2
+-124.05,46.9667,"WAGH","Grays Harbor",16,"Pacific Northwest",0
+-123.9894,46.5605,"WALP","Leadbetter Point",16,"Pacific Northwest",-1

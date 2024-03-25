@@ -1,0 +1,1184 @@
+Abbrev,Location,DomainID,DomainName,Lat,Long
+CTBA,Barkhamsted,1,Northeast,41.9123,-72.9884
+CTEW,Edwin Way Teale Trail Wood,1,Northeast,41.7966,-71.9274
+CTGS,Greenwich-Stamford,1,Northeast,41.0826,-73.6138
+CTHA,Hartford,1,Northeast,41.766,-72.6727
+CTLH,Litchfield Hills,1,Northeast,41.7703,-73.2724
+CTLS,Lakeville-Sharon,1,Northeast,41.9449,-73.4399
+CTNH,New Haven,1,Northeast,41.3007,-72.9323
+CTNL,New London,1,Northeast,41.3236,-72.1007
+CTOL,Old Lyme-Saybrook,1,Northeast,41.2924,-72.427
+CTOX,Oxford,1,Northeast,41.4,-73.1411
+CTQV,Quinnipiac Valley,1,Northeast,41.4747,-72.7273
+CTSM,Stratford-Milford,1,Northeast,41.1742,-73.1099
+CTSR,Salmon River,1,Northeast,41.5533,-72.4485
+CTST,Storrs,1,Northeast,41.8116,-72.2497
+CTWE,Westport,1,Northeast,41.164,-73.358
+CTWR,Woodbury-Roxbury,1,Northeast,41.5352,-73.2791
+MAAT,Athol,1,Northeast,42.5944,-72.2203
+MABB,Buzzards Bay,1,Northeast,41.6517,-70.6206
+MACA,Cape Ann,1,Northeast,42.6112,-70.73
+MACB,Central Berkshire,1,Northeast,42.4086,-73.2537
+MACC,Cape Cod,1,Northeast,41.7207,-69.9968
+MACO,Concord,1,Northeast,42.4333,-71.4333
+MAGB,Greater Boston,1,Northeast,42.3973,-71.0955
+MAGR,Greenfield,1,Northeast,42.5879,-72.6002
+MAMC,Mid-Cape Cod,1,Northeast,41.7004,-70.3002
+MAMI,Millis,1,Northeast,42.1675,-71.3572
+MANB,Northern Berkshire,1,Northeast,42.6442,-73.1937
+MANE,Newburyport,1,Northeast,42.7398,-70.8987
+MANO,Northampton,1,Northeast,42.3439,-72.6028
+MAPL,Plymouth,1,Northeast,41.8733,-70.6012
+MAQB,Quabbin,1,Northeast,42.3712,-72.2783
+MAQU,Quincy,1,Northeast,42.2167,-70.9333
+MASP,Springfield,1,Northeast,42.1294,-72.5089
+MATM,Taunton-Middleboro,1,Northeast,41.8691,-71.0324
+MAUX,Uxbridge,1,Northeast,42.0671,-71.666
+MAWE,Westminster,1,Northeast,42.5167,-71.9333
+MAWO,Worcester,1,Northeast,42.3238,-71.7937
+MDOA,Oakland,1,Northeast,39.4936,-79.3658
+MEAU,Augusta,1,Northeast,44.3072,-69.7817
+MEBB,Bangor-Bucksport,1,Northeast,44.7005,-68.7861
+MEBK,Biddeford-Kennebunkport,1,Northeast,43.4434,-70.4788
+MECA,Calais,1,Northeast,44.9496,-67.1788
+MEDF,Dover-Foxcroft,1,Northeast,45.1607,-69.2323
+MEFA,Farmington,1,Northeast,44.7031,-70.1631
+MELA,Lewiston-Auburn,1,Northeast,44.1051,-70.2035
+MEMB,Machias Bay,1,Northeast,44.6669,-67.3285
+MEMT,Misery Township,1,Northeast,45.4407,-69.9318
+MEOO,Orono-Old Town,1,Northeast,44.9052,-68.6839
+MEPA,Greater Portland,1,Northeast,43.5858,-70.2242
+MEPI,Presque Isle,1,Northeast,46.6812,-68.0155
+MESW,Sweden,1,Northeast,44.0725,-70.819
+METR,Thomaston-Rockland,1,Northeast,44.0815,-69.1684
+MEWA,Waterville,1,Northeast,44.5641,-69.6631
+MEYC,York County,1,Northeast,43.1811,-70.6268
+NHBV,Baker Valley,1,Northeast,43.8438,-71.8897
+NHCN,Concord,1,Northeast,43.2192,-71.5375
+NHCS,Coastal New Hampshire,1,Northeast,42.9833,-70.8333
+NHEU,Errol-Umbagog,1,Northeast,44.7811,-71.1379
+NHHN,Hanover-Norwich,1,Northeast,43.7167,-72.2333
+NHKE,Keene,1,Northeast,42.9303,-72.3123
+NHLD,Lee-Durham,1,Northeast,43.1667,-70.9833
+NHLN,Laconia-New Hampton,1,Northeast,43.5548,-71.5194
+NHLT,Littleton,1,Northeast,44.2667,-71.75
+NHNH,Nashua-Hollis,1,Northeast,42.8049,-71.5462
+NHPH,Peterborough-Hancock,1,Northeast,42.9167,-71.9667
+NHPI,Pittsburg,1,Northeast,45.0889,-71.2888
+NJBO,Boonton,1,Northeast,40.85,-74.3833
+NJGS,Great Swamp-Watchung Ridges,1,Northeast,40.6983,-74.4017
+NJHR,Hackensack-Ridgewood,1,Northeast,40.9351,-74.0292
+NJNH,Northwestern Hunterdon County,1,Northeast,40.6365,-74.9098
+NJRA,Ramsey,1,Northeast,41.0935,-74.2541
+NJRE,Raritan Estuary,1,Northeast,40.5167,-74.35
+NJSO,Somerset County,1,Northeast,40.5823,-74.622
+NJSU,Sussex County,1,Northeast,41.1186,-74.6385
+NJWV,Walnut Valley,1,Northeast,40.976,-75.0226
+NYAC,Albany County,1,Northeast,42.5046,-73.898
+NYBI,Binghamton,1,Northeast,42.1541,-75.9647
+NYBM,Beaver Meadow,1,Northeast,42.6757,-78.3721
+NYBU,Buffalo,1,Northeast,43.0016,-78.9651
+NYBW,Bronx-Westchester Region,1,Northeast,40.9117,-73.7825
+NYCH,Conesus-Hemlock-Honeoye Lakes,1,Northeast,42.7776,-77.6161
+NYCL,Clinton,1,Northeast,43.0825,-75.3249
+NYCR,Cortland,1,Northeast,42.6735,-76.2685
+NYCT,Catskill-Coxsackie,1,Northeast,42.2871,-73.8823
+NYDC,Dutchess County,1,Northeast,41.687,-73.7933
+NYEL,Elmira,1,Northeast,42.1397,-76.8307
+NYEO,Eastern Orange County,1,Northeast,41.4811,-74.1473
+NYEZ,Elizabethtown,1,Northeast,44.2151,-73.5951
+NYFP,Fort Plain,1,Northeast,42.9316,-74.6247
+NYFR,Dunkirk-Fredonia,1,Northeast,42.4327,-79.2756
+NYGE,Geneva,1,Northeast,42.8667,-76.9833
+NYHE,Hamburg-East Aurora,1,Northeast,42.7223,-78.7445
+NYHF,Hudson Falls,1,Northeast,43.2964,-73.6166
+NYHV,Pawling (Hidden Valley),1,Northeast,41.5377,-73.577
+NYIT,Ithaca,1,Northeast,42.4532,-76.4293
+NYJA,Jamestown,1,Northeast,42.1095,-79.2284
+NYJG,Johnstown-Gloversville,1,Northeast,43.0915,-74.3832
+NYLS,Letchworth-Silver Lake,1,Northeast,42.7487,-78.0057
+NYMC,Massena-Cornwall,1,Northeast,44.9656,-74.8925
+NYML,Mohonk Lake-Ashokan Reservoir,1,Northeast,41.8516,-74.1292
+NYMT,Monticello,1,Northeast,41.5678,-74.6321
+NYMZ,Montezuma,1,Northeast,43.0029,-76.731
+NYOD,Oneida,1,Northeast,43.0957,-75.6522
+NYOF,Old Forge,1,Northeast,43.7333,-74.95
+NYOO,Oak Orchard Swamp,1,Northeast,43.1305,-78.3905
+NYOS,Oswego-Fulton,1,Northeast,43.3983,-76.4742
+NYOT,Oneonta,1,Northeast,42.55,-74.95
+NYOW,Owego,1,Northeast,42.1168,-76.35
+NYPC,Putnam County,1,Northeast,41.399,-73.8022
+NYPE,Peekskill,1,Northeast,41.25,-73.85
+NYPL,Plattsburgh,1,Northeast,44.6496,-73.4737
+NYRC,Rockland County,1,Northeast,41.148,-73.9895
+NYRH,Rochester,1,Northeast,43.2232,-77.6413
+NYSA,Salem,1,Northeast,43.1352,-73.4134
+NYSB,St. Bonaventure,1,Northeast,42.1082,-78.4844
+NYSH,Sherburne,1,Northeast,42.6782,-75.4989
+NYSK,Skaneateles,1,Northeast,42.9488,-76.4124
+NYSL,Saranac Lake,1,Northeast,44.3167,-74.073
+NYSO,Scio,1,Northeast,42.1668,-78.0667
+NYSR,Southern Rensselaer County,1,Northeast,42.6157,-73.6379
+NYST,Schenectady,1,Northeast,42.7449,-73.9268
+NYSY,Syracuse,1,Northeast,43.1,-76.0833
+NYTR,Troy,1,Northeast,42.8333,-73.6568
+NYWA,Watertown,1,Northeast,44.0071,-75.9843
+NYWG,Watkins Glen,1,Northeast,42.3806,-76.8735
+PABC,Buffalo Creek Valley,1,Northeast,40.7345,-79.6782
+PABE,Bald Eagle S.P.,1,Northeast,41.0149,-77.6605
+PABH,Bethlehem-Easton,1,Northeast,40.6184,-75.3169
+PABL,Bloomsburg,1,Northeast,41.0629,-76.546
+PABU,Butler County,1,Northeast,40.9811,-80.0714
+PABV,Beaver,1,Northeast,40.7318,-80.3554
+PACL,Clarksville,1,Northeast,39.9304,-80.0595
+PACR,Clarion,1,Northeast,41.1819,-79.4565
+PADA,Dallas Area,1,Northeast,41.3167,-75.9833
+PAER,Erie,1,Northeast,42.0833,-80.0333
+PAHM,Hamburg,1,Northeast,40.5994,-75.9269
+PAIN,Indiana,1,Northeast,40.615,-79.1408
+PAJO,Johnstown,1,Northeast,40.1041,-78.9673
+PALG,Lewisburg,1,Northeast,40.9397,-76.9841
+PALH,Lock Haven-Jersey Shore,1,Northeast,41.1334,-77.3667
+PALN,Linesville,1,Northeast,41.6028,-80.4296
+PALV,Lehigh Valley,1,Northeast,40.5479,-75.6059
+PAMA,Mansfield-Wellsboro,1,Northeast,41.7731,-77.201
+PAPI,Pittsburgh,1,Northeast,40.5091,-79.9703
+PAPL,Pleasantville,1,Northeast,41.5347,-79.5638
+PAPM,Pocono Mountain,1,Northeast,41.005,-75.2797
+PARC,Raccoon Creek S.P.,1,Northeast,40.5,-80.4167
+PART,Rector,1,Northeast,40.1613,-79.2418
+PASB,Southeastern Bradford County,1,Northeast,41.7033,-76.2747
+PASC,State College,1,Northeast,40.8,-77.8
+PASR,Scranton,1,Northeast,41.4081,-75.6623
+PAWI,Williamsport,1,Northeast,41.2501,-76.9355
+PAWL,Wild Creek-Little Gap,1,Northeast,40.85,-75.4981
+PAWM,White Mills,1,Northeast,41.5265,-75.2039
+PAWR,Warren,1,Northeast,41.8438,-79.145
+PAWS,Washington,1,Northeast,40.1288,-80.2099
+RINC,Newport County-Westport,1,Northeast,41.5369,-71.1566
+RISK,South Kingstown,1,Northeast,41.4295,-71.5588
+VTBE,Bennington,1,Northeast,42.8892,-73.2155
+VTBR,Brattleboro,1,Northeast,42.8561,-72.6606
+VTBU,Burlington,1,Northeast,44.4769,-73.2213
+VTCS,Champlain Islands-St. Albans,1,Northeast,44.817,-73.2492
+VTFE,Ferrisburg,1,Northeast,44.1833,-73.3023
+VTIP,Island Pond,1,Northeast,44.8136,-71.8508
+VTPL,Plainfield,1,Northeast,44.2789,-72.438
+VTRU,Rutland,1,Northeast,43.6041,-73.0145
+VTSP,Springfield,1,Northeast,43.3328,-72.5257
+VTSR,Saxton's River,1,Northeast,43.1008,-72.5414
+VTWI,Winhall,1,Northeast,43.1858,-72.8719
+VTWO,Woodstock,1,Northeast,43.615,-72.6503
+WVMO,Morgantown,1,Northeast,39.6438,-79.92
+WVOH,Oak Hill,1,Northeast,38.003,-81.16
+WVWH,Wheeling,1,Northeast,40.0966,-80.6618
+NYBR,L.I.: Brooklyn,1,Northeast,40.616,-73.9448
+NYCA,L.I.: Captree,1,Northeast,40.7038,-73.2493
+NYCS,L.I.: Central Suffolk County,1,Northeast,40.8333,-72.7838
+NYNN,L.I.: Northern Nassau County,1,Northeast,40.866,-73.5938
+NYOR,L.I.: Orient,1,Northeast,41.0972,-72.3369
+NYQU,L.I.: Queens,1,Northeast,40.6932,-73.7448
+NYQW,L.I.: Quogue-Watermill,1,Northeast,40.8591,-72.4524
+NYSM,L.I.: Smithtown,1,Northeast,40.9133,-73.1386
+NYSN,L.I.: Southern Nassau County,1,Northeast,40.6298,-73.5907
+DCDC,Washington,2,Mid Atlantic,38.8674,-77.0685
+DEBH,Bombay Hook N.W.R.,2,Mid Atlantic,39.2152,-75.4822
+DECH,Cape Henlopen-Prime Hook,2,Mid Atlantic,38.8072,-75.1878
+DEMI,Middletown,2,Mid Atlantic,39.4753,-75.6347
+DERE,Rehoboth,2,Mid Atlantic,38.6035,-75.1073
+DESN,Seaford-Nanticoke,2,Mid Atlantic,38.5845,-75.5739
+DEWI,Wilmington,2,Mid Atlantic,39.745,-75.6399
+GAAH,Athens,2,Mid Atlantic,33.9305,-83.3812
+GAAL,Atlanta,2,Mid Atlantic,33.9667,-84.6667
+GAMA,Macon,2,Mid Atlantic,32.8321,-83.6663
+GAPC,Peachtree City,2,Mid Atlantic,33.3468,-84.6231
+GAPR,Piedmont N.W.R.-Rum Creek W.M.A.,2,Mid Atlantic,33.0936,-83.747
+MDAC,Allegany County,2,Mid Atlantic,39.5916,-78.6929
+MDAG,Annapolis-Gibson Island,2,Mid Atlantic,39.0033,-76.5065
+MDBH,Baltimore Harbor,2,Mid Atlantic,39.2661,-76.4911
+MDBO,Bowie,2,Mid Atlantic,38.9927,-76.7852
+MDCM,Catoctin Mountain,2,Mid Atlantic,39.6195,-77.4095
+MDCR,Crisfield,2,Mid Atlantic,38.0298,-75.7577
+MDDE,Denton,2,Mid Atlantic,38.9055,-75.835
+MDEL,Elkton,2,Mid Atlantic,39.5333,-75.9424
+MDJB,Jug Bay,2,Mid Atlantic,38.7532,-76.6415
+MDLK,Lower Kent County,2,Mid Atlantic,39.1427,-76.1921
+MDOC,Ocean City,2,Mid Atlantic,38.3128,-75.2122
+MDPT,Port Tobacco,2,Mid Atlantic,38.4833,-77.0333
+MDRR,Rock Run,2,Mid Atlantic,39.6041,-76.167
+MDSA,Salisbury,2,Mid Atlantic,38.3333,-75.7333
+MDSD,Southern Dorchester County,2,Mid Atlantic,38.3617,-76.0371
+MDSE,Seneca,2,Mid Atlantic,39.0671,-77.3285
+MDSM,Sugarloaf Mountain,2,Mid Atlantic,39.2841,-77.392
+MDTR,Triadelphia Reservoir,2,Mid Atlantic,39.1605,-76.9885
+MDWC,Washington County,2,Mid Atlantic,39.5656,-77.7308
+NCCP,Chapel Hill,2,Mid Atlantic,35.9131,-79.0558
+NCCR,Charlotte,2,Mid Atlantic,35.1765,-80.8759
+NCDU,Durham,2,Mid Atlantic,36.0868,-78.8907
+NCGR,Greensboro,2,Mid Atlantic,36.1163,-79.837
+NCIC,Iredell County,2,Mid Atlantic,35.8967,-80.8997
+NCJL,Jordan Lake,2,Mid Atlantic,35.695,-79.0433
+NCMA,Mattamuskeet N.W.R.,2,Mid Atlantic,35.45,-76.1333
+NCMC,Morehead City,2,Mid Atlantic,34.759,-76.7094
+NCPC,Pamlico County,2,Mid Atlantic,35.1435,-76.6526
+NCPE,Pettigrew S.P.,2,Mid Atlantic,35.7667,-76.45
+NCRA,Raleigh,2,Mid Atlantic,35.7622,-78.6593
+NCRK,Roanoke Rapids,2,Mid Atlantic,36.4025,-77.5651
+NCRV,Raven Rock S.P.,2,Mid Atlantic,35.4095,-78.818
+NCSB,Southport-Bald Head-Oak Islands,2,Mid Atlantic,33.9388,-78.0265
+NCSP,Southern Pines,2,Mid Atlantic,35.2167,-79.3167
+NCWI,Wilmington,2,Mid Atlantic,34.1401,-77.8936
+NCWS,Winston-Salem,2,Mid Atlantic,36.084,-80.3067
+NJAS,Assunpink,2,Mid Atlantic,40.16,-74.4242
+NJCC,Cumberland County,2,Mid Atlantic,39.3325,-75.2004
+NJCM,Cape May,2,Mid Atlantic,39.0123,-74.8778
+NJEL,Elmer,2,Mid Atlantic,39.5834,-75.1428
+NJLA,Lakehurst,2,Mid Atlantic,40.0159,-74.1451
+NJLB,Long Branch,2,Mid Atlantic,40.2502,-74.0554
+NJMA,Marmora,2,Mid Atlantic,39.2647,-74.6472
+NJNG,Northwestern Gloucester County,2,Mid Atlantic,39.7727,-75.2442
+NJOC,Oceanville,2,Mid Atlantic,39.4422,-74.4605
+NJPI,Pinelands,2,Mid Atlantic,39.7701,-74.7391
+NJPR,Princeton,2,Mid Atlantic,40.341,-74.6649
+NJSA,Salem,2,Mid Atlantic,39.614,-75.4142
+NJTM,Trenton Marshes,2,Mid Atlantic,40.1918,-74.7276
+NJTU,Tuckerton,2,Mid Atlantic,39.6,-74.35
+PAAU,Audubon,2,Mid Atlantic,40.1341,-75.426
+PABN,Bernville,2,Mid Atlantic,40.4148,-76.1492
+PACB,Central Bucks County,2,Mid Atlantic,40.3102,-75.1017
+PACH,Chambersburg,2,Mid Atlantic,39.9,-77.5834
+PACU,Culp,2,Mid Atlantic,40.5804,-78.2606
+PAEL,Elverson,2,Mid Atlantic,40.1334,-75.7667
+PAGE,Gettysburg,2,Mid Atlantic,39.8304,-77.3177
+PAGL,Delaware County (Glenolden),2,Mid Atlantic,39.8992,-75.3729
+PAHR,Harrisburg,2,Mid Atlantic,40.234,-76.9349
+PAHU,Huntingdon,2,Mid Atlantic,40.5664,-77.9385
+PALA,Lancaster,2,Mid Atlantic,39.9921,-76.3614
+PALB,Southern Bucks County,2,Mid Atlantic,40.1765,-74.8971
+PALC,Lebanon County,2,Mid Atlantic,40.3801,-76.5344
+PALT,Lewistown,2,Mid Atlantic,40.5472,-77.3671
+PALZ,Lititz,2,Mid Atlantic,40.2261,-76.3024
+PANB,New Bloomfield,2,Mid Atlantic,40.4002,-77.15
+PAPV,Pennypack Valley,2,Mid Atlantic,40.066,-75.0412
+PARD,Reading,2,Mid Atlantic,40.3667,-75.8667
+PASL,Southern Lancaster County,2,Mid Atlantic,39.8172,-76.1698
+PAUB,Upper Bucks County,2,Mid Atlantic,40.4036,-75.365
+PAWC,West Chester,2,Mid Atlantic,39.96,-75.6047
+PAWY,Wyncote,2,Mid Atlantic,40.1223,-75.128
+SCCL,Clemson,2,Mid Atlantic,34.6346,-82.8365
+SCCO,Columbia,2,Mid Atlantic,33.93,-80.9214
+SCCS,Carolina Sandhills N.W.R.,2,Mid Atlantic,34.5041,-80.2249
+SCLC,Long Cane,2,Mid Atlantic,34,-82.3333
+SCPD,Pee Dee Area,2,Mid Atlantic,34.2158,-79.7379
+SCSP,Spartanburg,2,Mid Atlantic,34.9,-81.95
+VAAC,Augusta County,2,Mid Atlantic,38.2046,-78.9913
+VABB,Back Bay N.W.R.,2,Mid Atlantic,36.65,-76
+VABF,Big Flat Mountain,2,Mid Atlantic,38.1698,-78.7263
+VABK,Brooke,2,Mid Atlantic,38.3703,-77.3287
+VABR,Banister River W.M.A.,2,Mid Atlantic,36.7327,-78.8101
+VACA,Charlottesville,2,Mid Atlantic,38.0668,-78.5667
+VACC,Cape Charles,2,Mid Atlantic,37.1899,-75.941
+VACN,Calmes Neck,2,Mid Atlantic,39.1242,-77.8913
+VADA,Danville,2,Mid Atlantic,36.5852,-79.4233
+VAGO,Gordonsville,2,Mid Atlantic,38.1427,-78.1893
+VAHO,Hopewell,2,Mid Atlantic,37.367,-77.2842
+VALA,Lake Anna,2,Mid Atlantic,38.085,-77.8139
+VALC,Little Creek,2,Mid Atlantic,36.8508,-76.0994
+VALE,Lexington,2,Mid Atlantic,37.848,-79.4769
+VALY,Lynchburg,2,Mid Atlantic,37.3986,-79.1942
+VAMA,Mathews,2,Mid Atlantic,37.4399,-76.3143
+VAMB,Manassas-Bull Run,2,Mid Atlantic,38.8387,-77.4315
+VANN,Newport News,2,Mid Atlantic,37.0799,-76.3956
+VANS,Northern Shenandoah Valley,2,Mid Atlantic,39.0501,-78.1667
+VARC,Rockingham County,2,Mid Atlantic,38.4318,-79.0394
+VASL,Shenandoah N.P.-Luray,2,Mid Atlantic,38.5948,-78.4572
+VAWI,Williamsburg,2,Mid Atlantic,37.2792,-76.6987
+VAWP,Wachapreague,2,Mid Atlantic,37.6707,-75.6998
+VAWR,Warren,2,Mid Atlantic,37.85,-78.55
+VAWY,Waynesboro,2,Mid Atlantic,37.981,-78.955
+WVCT,Charles Town,2,Mid Atlantic,39.3319,-77.8512
+WVHC,Hampshire County,2,Mid Atlantic,39.3365,-78.5035
+WVIN,Inwood,2,Mid Atlantic,39.4451,-78.1061
+WVPC,Pendleton County,2,Mid Atlantic,38.6579,-79.3113
+ALEU,Eufaula N.W.R.,3,Southeast,31.9939,-85.0886
+ALGS,Gulf Shores,3,Southeast,30.3167,-87.6333
+FLBC,Bay County,3,Southeast,30.1851,-85.6719
+FLBO,Brooksville,3,Southeast,28.548,-82.3245
+FLCK,Cedar Key,3,Southeast,29.1942,-83.0149
+FLCR,Crystal River,3,Southeast,28.8712,-82.5776
+FLEC,Econlockhatchee,3,Southeast,28.7094,-81.1467
+FLFM,Fort Myers,3,Southeast,26.5551,-81.9906
+FLFP,Fort Pierce,3,Southeast,27.4177,-80.3828
+FLGA,Gainesville,3,Southeast,29.6027,-82.3127
+FLJA,Jacksonville,3,Southeast,30.4152,-81.4877
+FLKV,Kissimmee Valley,3,Southeast,28.2062,-81.3936
+FLLA,Lakeland,3,Southeast,28.0261,-81.8507
+FLLP,Lake Placid,3,Southeast,27.2601,-81.3441
+FLLW,Lake Wales,3,Southeast,27.8939,-81.5189
+FLMR,Myakka River S.P.,3,Southeast,27.233,-82.236
+FLNP,North Pinellas,3,Southeast,28.0672,-82.7388
+FLPI,Ponce Inlet,3,Southeast,29.0623,-81.0073
+FLPR,Peace River,3,Southeast,26.9243,-82.0474
+FLPS,Port St. Joe,3,Southeast,29.7703,-85.2986
+FLSA,St. Augustine,3,Southeast,29.9333,-81.3162
+FLSM,St. Marks,3,Southeast,30.1536,-84.2227
+FLSP,St. Petersburg,3,Southeast,27.7991,-82.6794
+FLSR,Sarasota,3,Southeast,27.2988,-82.4976
+FLTA,Tampa,3,Southeast,28.0107,-82.4595
+FLVE,Venice-Englewood,3,Southeast,27.0048,-82.3793
+FLWV,West Volusia County,3,Southeast,29.0543,-81.3039
+FLZE,Zellwood-Mount Dora,3,Southeast,28.7309,-81.6062
+GAAB,Albany,3,Southeast,31.4333,-84.4167
+GAAU,Augusta,3,Southeast,33.4393,-82.0239
+GABL,Bainbridge-Lake Seminole,3,Southeast,30.885,-84.6315
+GADU,Dublin,3,Southeast,32.6297,-82.9239
+GAHN,Harris Neck N.W.R.,3,Southeast,31.6837,-81.294
+GAOK,Okefenokee N.W.R.,3,Southeast,30.8001,-82.1333
+GASI,Sapelo Island,3,Southeast,31.45,-81.2333
+LABR,Baton Rouge,3,Southeast,30.3661,-91.1194
+LACR,Creole,3,Southeast,29.8159,-93.1113
+LAJB,Johnsons Bayou,3,Southeast,29.801,-93.7149
+LALA,Lafayette,3,Southeast,30.1901,-92.1042
+LANO,New Orleans,3,Southeast,30.0236,-89.9167
+LAPP,Pine Prairie,3,Southeast,30.7643,-92.3765
+LARB,Reserve-Bonnet Carre Spillway,3,Southeast,30.0867,-90.4711
+LASA,Sabine N.W.R.,3,Southeast,29.8545,-93.3892
+LAST,St. Tammany Parish,3,Southeast,30.4211,-90.0886
+MSHA,Hattiesburg,3,Southeast,31.2903,-89.3133
+MSJC,Jackson County,3,Southeast,30.4366,-88.7119
+MSSH,Southern Hancock County,3,Southeast,30.2906,-89.5034
+SCAI,Aiken,3,Southeast,33.5636,-81.6179
+SCCA,Charleston,3,Southeast,32.9333,-79.7
+SCLP,Litchfield-Pawleys Island,3,Southeast,33.4908,-79.0904
+SCMC,McClellanville,3,Southeast,33.1003,-79.4037
+SCSR,Savannah River Site,3,Southeast,33.2,-81.6167
+TXAR,Aransas N.W.R.,3,Southeast,28.2333,-96.8833
+TXAY,Armand Bayou,3,Southeast,29.5498,-95.0489
+TXBE,Beech Creek,3,Southeast,30.7667,-94.2
+TXBF,Buffalo Bayou,3,Southeast,29.7715,-95.5699
+TXBP,Bolivar Peninsula,3,Southeast,29.5504,-94.4668
+TXBZ,Brazos Bend,3,Southeast,29.3734,-95.6688
+TXCY,Cypress Creek,3,Southeast,29.9561,-95.89
+TXFR,Freeport,3,Southeast,29.0172,-95.3551
+TXHO,Houston,3,Southeast,29.7497,-94.9492
+TXOR,Old River,3,Southeast,29.8667,-94.7333
+TXSB,San Bernard N.W.R.,3,Southeast,28.8667,-95.5667
+TXSC,Spring Creek,3,Southeast,30.1268,-95.4432
+TXTC,Turkey Creek,3,Southeast,30.5168,-94.3167
+FLCE,Coot Bay-Everglades N.P.,4,Atlantic Neotropical,25.141,-80.9582
+FLCS,Corkscrew Swamp Sanctuary,4,Atlantic Neotropical,26.3666,-81.5217
+FLDC,Dade County,4,Atlantic Neotropical,25.8402,-80.1883
+FLFL,Fort Lauderdale,4,Atlantic Neotropical,26.136,-80.2191
+FLNA,Naples,4,Atlantic Neotropical,26.1278,-81.7645
+FLWP,West Palm Beach,4,Atlantic Neotropical,26.5672,-80.127
+ILCL,Chicago Lakefront,5,Great Lakes,41.8823,-87.5854
+ILCR,Calumet City-Sand Ridge,5,Great Lakes,41.6155,-87.5395
+ILCU,Chicago (urban),5,Great Lakes,41.9099,-87.7263
+ILEN,Evanston (north shore),5,Great Lakes,42.1379,-87.7882
+ILLA,Lisle Arboretum,5,Great Lakes,41.7518,-87.9738
+ILTC,Thorn Creek-Park Forest,5,Great Lakes,41.4563,-87.725
+INFW,Fort Wayne,5,Great Lakes,41.1998,-85.1328
+INID,Indiana Dunes National Lakeshore,5,Great Lakes,41.6629,-87.0096
+INNL,Northeast LaPorte County,5,Great Lakes,41.6776,-86.6684
+INPK,Pokagon,5,Great Lakes,41.6344,-84.9701
+INPR,Pigeon River State Fish & Wildlife Area,5,Great Lakes,41.6418,-85.2771
+INSB,South Bend,5,Great Lakes,41.6764,-86.252
+INSC,Southern Lake County,5,Great Lakes,41.32,-87.3098
+INSL,Southeast LaPorte County,5,Great Lakes,41.4667,-86.6333
+INTI,Tippecanoe,5,Great Lakes,41.3237,-85.7887
+INWS,Willow Slough-Iroquois Preserves,5,Great Lakes,40.9819,-87.4894
+MIAA,Ann Arbor,5,Great Lakes,42.3172,-83.7781
+MIAB,Anchor Bay,5,Great Lakes,42.6273,-82.6647
+MIAG,Allegan State Game Area,5,Great Lakes,42.5498,-86.0054
+MIAP,Alpena,5,Great Lakes,45.071,-83.4578
+MIBE,Beulah,5,Great Lakes,44.6334,-86.1283
+MIBS,Berrien Springs,5,Great Lakes,42.0167,-86.4167
+MIBT,Battle Creek,5,Great Lakes,42.3767,-85.2795
+MICO,Coloma,5,Great Lakes,42.2148,-86.3013
+MIDE,Detroit,5,Great Lakes,42.7213,-83.551
+MIDO,Dowagiac,5,Great Lakes,41.9667,-86.0833
+MIDR,Detroit River,5,Great Lakes,42.3447,-83.1132
+MIEL,East Lansing,5,Great Lakes,42.766,-84.4935
+MIFL,Flint,5,Great Lakes,42.8615,-83.8475
+MIGC,Genesee County,5,Great Lakes,43.106,-83.6173
+MIGR,Grand Rapids,5,Great Lakes,43.0005,-85.472
+MIHA,Hartland,5,Great Lakes,42.6305,-83.8364
+MIHC,Houghton County,5,Great Lakes,47.0667,-88.5
+MIHH,Higgins Lake-Houghton Lake,5,Great Lakes,44.4213,-84.6842
+MIHU,Hudsonville,5,Great Lakes,42.8924,-86.0608
+MIIR,Iron River,5,Great Lakes,46.0924,-88.6425
+MIKA,Kalamazoo,5,Great Lakes,42.2963,-85.6482
+MILC,Lapeer County,5,Great Lakes,43.0014,-83.2428
+MILU,Ludington,5,Great Lakes,43.9561,-86.4153
+MIMI,Midland,5,Great Lakes,43.5667,-84.25
+MIMP,Mount Pleasant,5,Great Lakes,43.6256,-84.8484
+MIMQ,Marquette,5,Great Lakes,46.5439,-87.3963
+MIMU,Muskegon,5,Great Lakes,43.2167,-86.25
+MINB,New Buffalo,5,Great Lakes,41.8133,-86.6167
+MINI,Niles,5,Great Lakes,41.8274,-86.2832
+MIPE,Petoskey,5,Great Lakes,45.3701,-84.9709
+MIPH,Port Huron,5,Great Lakes,42.9347,-82.5215
+MIPO,Pontiac,5,Great Lakes,42.7899,-83.2459
+MIRC,Rogers City,5,Great Lakes,45.4,-83.9
+MIRO,Rockwood,5,Great Lakes,42.0684,-83.2499
+MISE,Seney N.W.R.,5,Great Lakes,46.25,-85.9667
+MITC,Traverse City,5,Great Lakes,44.7154,-85.5364
+MIWA,Waterloo State Recreation Area,5,Great Lakes,42.3245,-84.2097
+MIWM,Western Macomb County,5,Great Lakes,42.7008,-82.9533
+MNAR,Aurora,5,Great Lakes,47.49,-92.2123
+MNBA,Baudette,5,Great Lakes,48.6333,-94.6833
+MNBI,Beltrami Island,5,Great Lakes,48.5,-94.9667
+MNCC,Cedar Creek Bog,5,Great Lakes,45.3967,-93.202
+MNCS,Crosby,5,Great Lakes,46.4825,-93.9577
+MNDU,Duluth,5,Great Lakes,46.8461,-92.0334
+MNGR,Grand Rapids,5,Great Lakes,47.2641,-93.655
+MNHI,Hibbing,5,Great Lakes,47.43,-92.9272
+MNIS,Isabella,5,Great Lakes,47.6333,-91.4833
+MNIT,Itasca S.P.,5,Great Lakes,47.2259,-95.1945
+MNSC,St. Cloud-Collegeville,5,Great Lakes,45.5647,-94.2561
+MNWR,Wild River,5,Great Lakes,45.3932,-92.8157
+OHAA,Ashtabula,5,Great Lakes,41.8946,-80.6574
+OHAD,Ashland,5,Great Lakes,40.8167,-82.2993
+OHBC,Beaver Creek,5,Great Lakes,40.7106,-80.666
+OHBU,Burton,5,Great Lakes,41.4744,-81.2034
+OHCA,Cadiz,5,Great Lakes,40.2992,-81.0847
+OHCF,Cuyahoga Falls,5,Great Lakes,41.1338,-81.4832
+OHCL,Cleveland,5,Great Lakes,41.5723,-81.5039
+OHDR,Delaware Reservoir,5,Great Lakes,40.3954,-83.0533
+OHEL,Elyria-Lorain,5,Great Lakes,41.3842,-82.1897
+OHFI,Firelands,5,Great Lakes,41.3348,-82.5577
+OHGR,Grand Rapids-Waterville,5,Great Lakes,41.506,-83.807
+OHGW,Goll Woods,5,Great Lakes,41.552,-84.3483
+OHKP,Killdeer Plains Wildlife Area,5,Great Lakes,40.6436,-83.3619
+OHLE,Lake Erie Islands,5,Great Lakes,41.6807,-82.7545
+OHLK,Lakewood,5,Great Lakes,41.4602,-81.8576
+OHMA,Mansfield,5,Great Lakes,40.7042,-82.5486
+OHME,Mentor,5,Great Lakes,41.7,-81.2333
+OHMO,Mohican State Forest,5,Great Lakes,40.5818,-82.3042
+OHOT,Ottawa N.W.R.,5,Great Lakes,41.6114,-83.2006
+OHPL,Plymouth,5,Great Lakes,40.9952,-82.6655
+OHSA,Salem,5,Great Lakes,40.8675,-80.8385
+OHTC,Trumbull County,5,Great Lakes,41.3845,-80.8572
+OHTI,Tiffin,5,Great Lakes,41.1098,-83.1311
+OHTO,Toledo,5,Great Lakes,41.65,-83.5333
+OHWE,Wellington,5,Great Lakes,41.1686,-82.2175
+OHWI,Wilmot,5,Great Lakes,40.672,-81.641
+OHWO,Wooster,5,Great Lakes,40.7464,-82.0189
+OHYO,Youngstown,5,Great Lakes,41.0467,-80.6983
+WIAM,Amherst,5,Great Lakes,44.4512,-89.2744
+WIAN,Antigo,5,Great Lakes,45.1377,-89.1523
+WIAP,Appleton,5,Great Lakes,44.2618,-88.4158
+WIAR,Arpin,5,Great Lakes,44.4889,-90.0244
+WIAS,Ashland,5,Great Lakes,46.5829,-90.9064
+WIBF,Bayfield,5,Great Lakes,46.7973,-90.973
+WIBK,Black River Falls,5,Great Lakes,44.2415,-90.8903
+WICF,Chippewa Falls,5,Great Lakes,44.9663,-91.368
+WICR,Caroline,5,Great Lakes,44.7231,-88.9307
+WIDU,Durand,5,Great Lakes,44.6949,-91.9488
+WIEP,Ephraim,5,Great Lakes,45.0979,-87.1939
+WIFI,Fifield,5,Great Lakes,45.8777,-90.4216
+WIGB,Green Bay,5,Great Lakes,44.4804,-88.0246
+WIGI,Gilman,5,Great Lakes,45.2006,-90.7315
+WIGR,Grantsburg,5,Great Lakes,45.7729,-92.682
+WIHL,Holcombe,5,Great Lakes,45.2911,-91.09
+WILW,Lakewood,5,Great Lakes,45.2192,-88.607
+WIMD,Medford,5,Great Lakes,45.2293,-90.2821
+WIMR,Merrill,5,Great Lakes,45.2167,-89.7833
+WIMT,Manitowoc,5,Great Lakes,44.0228,-87.7557
+WIOW,Owen,5,Great Lakes,44.9794,-90.557
+WIPE,Peshtigo,5,Great Lakes,45.0997,-87.8199
+WIPH,Phelps,5,Great Lakes,46.0404,-89.0986
+WIPL,Plymouth,5,Great Lakes,43.7621,-88.002
+WIPS,Pensaukee,5,Great Lakes,44.8231,-87.9133
+WIRE,Newburg--Riveredge Nature Center,5,Great Lakes,43.4069,-87.9957
+WIRL,Rhinelander,5,Great Lakes,45.6378,-89.4081
+WISB,Sturgeon Bay,5,Great Lakes,44.8935,-87.2876
+WISH,Sheboygan,5,Great Lakes,43.6968,-87.8404
+WISI,Shiocton,5,Great Lakes,44.4333,-88.6333
+WISN,Spencer,5,Great Lakes,44.8,-90.2333
+WISP,Stevens Point,5,Great Lakes,44.5243,-89.5688
+WIST,Stockbridge,5,Great Lakes,44.0501,-88.258
+WISW,Shawano,5,Great Lakes,44.7429,-88.5465
+WITL,Three Lakes,5,Great Lakes,45.7975,-89.0482
+WIWI,Willard,5,Great Lakes,44.7127,-90.6997
+WIWR,Wisconsin Rapids,5,Great Lakes,44.3616,-89.8345
+WIWS,Wausau,5,Great Lakes,44.9513,-89.6226
+WIWT,Wautoma,5,Great Lakes,44.1144,-89.191
+IAAM,Ames,6,Prairie Peninsula,42.0077,-93.5711
+IABO,Boone County,6,Prairie Peninsula,42.0362,-93.9027
+IABR,Bremer County,6,Prairie Peninsula,42.7166,-92.2332
+IABU,Burlington,6,Prairie Peninsula,40.8365,-91.1096
+IACF,Cedar Falls-Waterloo,6,Prairie Peninsula,42.5167,-92.45
+IACL,Clinton,6,Prairie Peninsula,41.9801,-90.174
+IACR,Cedar Rapids,6,Prairie Peninsula,41.979,-91.6695
+IADA,Davenport,6,Prairie Peninsula,41.5522,-90.5132
+IADE,Decorah,6,Prairie Peninsula,43.3833,-91.7333
+IADM,Des Moines,6,Prairie Peninsula,41.6004,-93.7037
+IADU,Dubuque,6,Prairie Peninsula,42.4912,-90.7114
+IAIC,Iowa City,6,Prairie Peninsula,41.7522,-91.6076
+IAKE,Keokuk,6,Prairie Peninsula,40.4726,-91.4581
+IAMU,Muscatine,6,Prairie Peninsula,41.4274,-91.0107
+IANL,North Linn,6,Prairie Peninsula,42.1965,-91.5793
+IAPC,Princeton-Camanche,6,Prairie Peninsula,41.7486,-90.3546
+IASH,Shenandoah,6,Prairie Peninsula,40.7211,-95.4809
+IASL,Spirit Lake,6,Prairie Peninsula,43.4226,-95.1023
+IASR,Saylorville Reservoir,6,Prairie Peninsula,41.8038,-93.7562
+IAYR,Yellow River Forest,6,Prairie Peninsula,43.15,-91.2
+ILBA,Barrington,6,Prairie Peninsula,42.0668,-88.1333
+ILBN,Bloomington-Normal,6,Prairie Peninsula,40.5644,-88.9448
+ILCA,Chautauqua N.W.R.,6,Prairie Peninsula,40.4167,-89.95
+ILCC,Champaign County,6,Prairie Peninsula,40.0551,-88.1145
+ILCO,Crab Orchard N.W.R.,6,Prairie Peninsula,37.7196,-89.0212
+ILCS,Crane Lake-Sangamon,6,Prairie Peninsula,40.1233,-90.2323
+ILCT,Clinton Lake,6,Prairie Peninsula,40.1668,-88.7999
+ILCV,Collinsville,6,Prairie Peninsula,38.7081,-89.9588
+ILDE,Decatur,6,Prairie Peninsula,39.8426,-88.9535
+ILDK,Dekalb,6,Prairie Peninsula,42.0333,-88.7667
+ILEL,Elsah,6,Prairie Peninsula,38.9547,-90.361
+ILFB,Fermilab-Batavia,6,Prairie Peninsula,41.8605,-88.2628
+ILFG,Forest Glen Preserve,6,Prairie Peninsula,40,-87.6667
+ILFR,Freeport,6,Prairie Peninsula,42.2888,-89.6372
+ILIL,Illini S.P.,6,Prairie Peninsula,41.317,-88.6957
+ILJO,Joliet,6,Prairie Peninsula,41.5113,-88.1244
+ILLT,Lincoln Trail S.P.,6,Prairie Peninsula,39.35,-87.7
+ILMC,McHenry County,6,Prairie Peninsula,42.3203,-88.365
+ILMF,Middle Fork River Valley,6,Prairie Peninsula,40.247,-87.7009
+ILMI,Meredosia Island,6,Prairie Peninsula,39.8542,-90.5937
+ILMW,Morris-Wilmington,6,Prairie Peninsula,41.3034,-88.3016
+ILPE,Peoria,6,Prairie Peninsula,40.6999,-89.6202
+ILPM,Pere Marquette Park,6,Prairie Peninsula,38.9968,-90.6051
+ILQU,Quincy,6,Prairie Peninsula,39.9318,-91.3965
+ILRL,Rend Lake,6,Prairie Peninsula,38.1324,-88.9677
+ILRO,Rockford,6,Prairie Peninsula,42.3667,-89.1667
+ILRU,Rushville,6,Prairie Peninsula,40.1465,-90.5945
+ILSC,Schapville,6,Prairie Peninsula,42.3967,-90.2053
+ILSP,Springfield,6,Prairie Peninsula,39.8,-89.65
+ILSR,Starved Rock S.P.,6,Prairie Peninsula,41.3169,-88.9828
+ILWA,Waukegan,6,Prairie Peninsula,42.3493,-87.8742
+ILWM,Western Mercer County,6,Prairie Peninsula,41.1702,-90.9198
+INEC,Eagle Creek Valley,6,Prairie Peninsula,39.9269,-86.3383
+ININ,Indianapolis,6,Prairie Peninsula,39.8694,-86.0389
+INJC,Johnson County,6,Prairie Peninsula,39.4103,-86.0668
+INLA,Lafayette,6,Prairie Peninsula,40.4605,-86.9157
+INLM,Lake Monroe,6,Prairie Peninsula,39.0152,-86.3984
+INMG,Mary Gray Bird Sanctuary,6,Prairie Peninsula,39.5953,-85.2198
+INNC,New Castle,6,Prairie Peninsula,39.9167,-85.3667
+INPY,Plymouth,6,Prairie Peninsula,41.2754,-86.3621
+INRI,Richmond,6,Prairie Peninsula,39.8289,-84.956
+INSU,Sullivan County,6,Prairie Peninsula,39.1029,-87.4253
+INTH,Terre Haute,6,Prairie Peninsula,39.4165,-87.407
+INTR,Turkey Run S.P.,6,Prairie Peninsula,39.8845,-87.2052
+INWH,Whitewater S.P.,6,Prairie Peninsula,39.5909,-84.9936
+KSBA,Baldwin,6,Prairie Peninsula,38.7824,-95.2713
+KSEM,Emporia,6,Prairie Peninsula,38.4456,-96.0835
+KSHN,Halstead-Newton,6,Prairie Peninsula,38.0599,-97.4338
+KSLA,Lawrence,6,Prairie Peninsula,38.9933,-95.3111
+KSOL,Olathe,6,Prairie Peninsula,38.9127,-94.8521
+KSOP,Oskaloosa-Perry Lake,6,Prairie Peninsula,39.2014,-95.4032
+KSSL,Salina,6,Prairie Peninsula,38.8417,-97.631
+KSTO,Topeka,6,Prairie Peninsula,39.0483,-95.6779
+KSWI,Wichita,6,Prairie Peninsula,37.6912,-97.3496
+MNAF,Afton,6,Prairie Peninsula,44.901,-92.7666
+MNAL,Albert Lea,6,Prairie Peninsula,43.6469,-93.3912
+MNAS,Austin,6,Prairie Peninsula,43.6628,-92.9699
+MNBL,Bloomington,6,Prairie Peninsula,44.8151,-93.2212
+MNEX,Excelsior,6,Prairie Peninsula,44.8617,-93.5244
+MNFA,Faribault,6,Prairie Peninsula,44.3632,-93.1914
+MNHE,Hastings-Etter,6,Prairie Peninsula,44.6667,-92.9
+MNMI,Minneapolis (north),6,Prairie Peninsula,45.1438,-93.3116
+MNML,Mountain Lake-Windom,6,Prairie Peninsula,43.9403,-95.0499
+MNOW,Owatonna,6,Prairie Peninsula,44.066,-93.1464
+MNRO,Rochester,6,Prairie Peninsula,44.0616,-92.4981
+MNSN,St. Paul (northeast suburban),6,Prairie Peninsula,45.1247,-92.8978
+MNSP,St. Paul (north),6,Prairie Peninsula,45.0062,-93.1262
+MNWB,Wabasha,6,Prairie Peninsula,44.2653,-92.0398
+MNWI,Winona,6,Prairie Peninsula,44.0368,-91.6506
+MOCO,Columbia,6,Prairie Peninsula,38.8915,-92.3348
+MOJC,Jefferson City,6,Prairie Peninsula,38.5815,-92.1834
+MOKC,Kansas City,6,Prairie Peninsula,38.9488,-94.4049
+MOKN,Knob Noster,6,Prairie Peninsula,38.7434,-93.6264
+MOMA,Maryville,6,Prairie Peninsula,40.3463,-94.9198
+MOOF,Orchard Farm,6,Prairie Peninsula,38.8793,-90.4462
+MOSC,Loess Bluffs (formerly Squaw Creek) N.W.R.,6,Prairie Peninsula,40.0833,-95.2667
+MOSJ,St. Joseph,6,Prairie Peninsula,39.7973,-94.844
+MOSL,Swan Lake N.W.R.,6,Prairie Peninsula,39.6742,-93.2241
+MOTR,Trimble,6,Prairie Peninsula,39.4725,-94.5647
+MOWS,Weldon Spring,6,Prairie Peninsula,38.7118,-90.6904
+NELI,Lincoln,6,Prairie Peninsula,40.7992,-96.7494
+NEOM,Omaha,6,Prairie Peninsula,41.1143,-95.8849
+OHGL,Grand Lake-St. Marys,6,Prairie Peninsula,40.5168,-84.5
+OHGV,Greenville,6,Prairie Peninsula,40.0992,-84.6072
+OHOX,Oxford,6,Prairie Peninsula,39.5078,-84.7169
+SDBR,Brookings,6,Prairie Peninsula,44.25,-96.8833
+SDMA,Madison,6,Prairie Peninsula,43.956,-97.0999
+SDSF,Sioux Falls,6,Prairie Peninsula,43.5621,-96.7115
+WIBA,Baraboo,6,Prairie Peninsula,43.4891,-89.7386
+WIBR,Bridgeport,6,Prairie Peninsula,42.9889,-91.0305
+WIBV,Blanchardville,6,Prairie Peninsula,42.7839,-89.8973
+WICK,Cooksville,6,Prairie Peninsula,42.8348,-89.2408
+WICY,Clyde,6,Prairie Peninsula,43.0558,-90.1126
+WIFA,Fort Atkinson,6,Prairie Peninsula,42.9021,-88.8273
+WIFD,Fond du Lac,6,Prairie Peninsula,43.8117,-88.3213
+WIFR,Fremont,6,Prairie Peninsula,44.2208,-88.9269
+WIGL,Green Lake,6,Prairie Peninsula,43.868,-89.0574
+WIHA,Hartford,6,Prairie Peninsula,43.3178,-88.379
+WIHR,Horicon N.W.R.,6,Prairie Peninsula,43.5272,-88.6443
+WIKC,Kenosha County,6,Prairie Peninsula,42.5895,-87.9345
+WIKV,Kickapoo Valley,6,Prairie Peninsula,43.7574,-90.5842
+WILC,La Crosse,6,Prairie Peninsula,43.8155,-91.2486
+WILG,Lake Geneva,6,Prairie Peninsula,42.5833,-88.5
+WIMA,Madison,6,Prairie Peninsula,43.0747,-89.3843
+WIMH,Mount Horeb,6,Prairie Peninsula,43.0011,-89.7603
+WIMI,Milwaukee,6,Prairie Peninsula,43.1041,-87.9169
+WINE,Nelson,6,Prairie Peninsula,44.4315,-91.9524
+WINR,New Richmond,6,Prairie Peninsula,45.073,-92.563
+WIOC,Oconomowoc,6,Prairie Peninsula,43.136,-88.4997
+WIOS,Oshkosh,6,Prairie Peninsula,44.0324,-88.5825
+WIPO,Poynette,6,Prairie Peninsula,43.3955,-89.3953
+WIRC,Racine,6,Prairie Peninsula,42.7493,-87.8992
+WIRI,Richland Center,6,Prairie Peninsula,43.2744,-90.3604
+WIRN,Randolph,6,Prairie Peninsula,43.5451,-89.0567
+WISC,Sauk City,6,Prairie Peninsula,43.2668,-89.8501
+WITP,Trempealeau,6,Prairie Peninsula,44.0134,-91.4311
+WIWK,Waukesha,6,Prairie Peninsula,42.974,-88.3553
+ILBH,"Bird Haven Sanctuary, Olney",7,Appalachians_Cumberland Plateau,38.7529,-88.076
+INCN,Crane Naval Weapons Support Center,7,Appalachians_Cumberland Plateau,38.8441,-86.8306
+INEV,Evansville,7,Appalachians_Cumberland Plateau,37.9776,-87.5752
+INMT,Muscatatuck N.W.R.,7,Appalachians_Cumberland Plateau,38.9594,-85.7983
+INOC,Oakland City,7,Appalachians_Cumberland Plateau,38.2899,-87.3454
+INPL,Patoka Lake,7,Appalachians_Cumberland Plateau,38.4347,-86.6062
+INSM,Spring Mill S.P.,7,Appalachians_Cumberland Plateau,38.7233,-86.417
+INWG,Western Gibson County,7,Appalachians_Cumberland Plateau,38.3406,-87.7807
+KYBG,Bowling Green,7,Appalachians_Cumberland Plateau,36.9159,-86.4359
+KYDA,Danville,7,Appalachians_Cumberland Plateau,37.6463,-84.7733
+KYFR,Frankfort,7,Appalachians_Cumberland Plateau,38.2271,-84.8525
+KYHO,Hopkinsville,7,Appalachians_Cumberland Plateau,36.8615,-87.473
+KYKL,Kleber W.M.A.,7,Appalachians_Cumberland Plateau,38.4633,-84.7767
+KYLE,Lexington,7,Appalachians_Cumberland Plateau,37.9227,-84.4719
+KYLO,Louisville,7,Appalachians_Cumberland Plateau,38.2813,-85.6348
+KYOC,Otter Creek Park,7,Appalachians_Cumberland Plateau,37.9141,-86.0698
+NCBC,Buncombe County,7,Appalachians_Cumberland Plateau,35.6,-82.4033
+NCBR,Brevard,7,Appalachians_Cumberland Plateau,35.1832,-82.6722
+NCGM,Grandfather Mountain,7,Appalachians_Cumberland Plateau,36.1887,-81.7531
+OHAC,Adams County,7,Appalachians_Cumberland Plateau,38.7953,-83.5461
+OHBL,Buckeye Lake,7,Appalachians_Cumberland Plateau,39.9333,-82.4833
+OHCI,Cincinnati,7,Appalachians_Cumberland Plateau,39.1,-84.3
+OHCO,Columbus,7,Appalachians_Cumberland Plateau,39.9851,-82.9315
+OHDA,Dayton,7,Appalachians_Cumberland Plateau,39.82,-84.1794
+OHEF,East Fork Lake S.P.,7,Appalachians_Cumberland Plateau,38.9871,-84.0253
+OHHF,Hamilton-Fairfield,7,Appalachians_Cumberland Plateau,39.4004,-84.536
+OHHR,Hoover Reservoir,7,Appalachians_Cumberland Plateau,40.1905,-82.9412
+OHIL,Indian Lake,7,Appalachians_Cumberland Plateau,40.4833,-83.9167
+OHKI,Kingston,7,Appalachians_Cumberland Plateau,39.4667,-82.8667
+OHLN,Lancaster,7,Appalachians_Cumberland Plateau,39.7137,-82.6019
+OHNL,New Lexington,7,Appalachians_Cumberland Plateau,39.7144,-82.2826
+OHOS,O'Shaughnessy Reservoir,7,Appalachians_Cumberland Plateau,40.2167,-83.2167
+OHPC,Paint Creek Area,7,Appalachians_Cumberland Plateau,39.2622,-83.445
+OHPO,Portsmouth,7,Appalachians_Cumberland Plateau,38.7798,-83.1086
+OHWH,Western Hamilton County,7,Appalachians_Cumberland Plateau,39.2065,-84.6361
+TNBI,Bristol,7,Appalachians_Cumberland Plateau,36.6058,-82.0999
+TNEL,Elizabethton,7,Appalachians_Cumberland Plateau,36.3413,-82.1263
+TNGS,Great Smoky Mountains N.P.,7,Appalachians_Cumberland Plateau,35.7146,-83.4863
+TNHI,Hiwassee,7,Appalachians_Cumberland Plateau,35.3655,-84.92
+TNKI,Kingsport,7,Appalachians_Cumberland Plateau,36.5,-82.5167
+TNKN,Knoxville,7,Appalachians_Cumberland Plateau,35.9136,-84.0796
+TNNL,Nickajack Lake,7,Appalachians_Cumberland Plateau,35.0664,-85.5113
+TNNO,Norris,7,Appalachians_Cumberland Plateau,36.2242,-84.0927
+TNRM,Roan Mountain,7,Appalachians_Cumberland Plateau,36.1063,-82.1108
+VABI,Breaks Interstate Park,7,Appalachians_Cumberland Plateau,37.2513,-82.236
+VAFI,Fincastle,7,Appalachians_Cumberland Plateau,37.5276,-79.8733
+VAGS,Glade Spring,7,Appalachians_Cumberland Plateau,36.7883,-81.7787
+VATA,Tazewell,7,Appalachians_Cumberland Plateau,37.1326,-81.4934
+VAWC,Wise County,7,Appalachians_Cumberland Plateau,36.9418,-82.6435
+WVCH,Charleston,7,Appalachians_Cumberland Plateau,38.362,-81.7143
+WVHU,Huntington,7,Appalachians_Cumberland Plateau,38.3928,-82.4343
+WVLE,Lewisburg,7,Appalachians_Cumberland Plateau,37.8017,-80.4454
+WVON,Ona,7,Appalachians_Cumberland Plateau,38.506,-82.1902
+WVPA,Pipestem Area,7,Appalachians_Cumberland Plateau,37.58,-80.9196
+WVPK,Parkersburg,7,Appalachians_Cumberland Plateau,39.2548,-81.5556
+ALBH,Birmingham,8,Ozarks Complex,33.466,-86.7583
+ALGU,Guntersville,8,Ozarks Complex,34.3883,-86.2803
+ALMO,Montgomery,8,Ozarks Complex,32.3496,-86.3831
+ALTU,Tuscaloosa,8,Ozarks Complex,33.239,-87.5766
+ALWA,Waterloo,8,Ozarks Complex,34.8333,-88.0002
+ALWH,Wheeler N.W.R.,8,Ozarks Complex,34.6001,-86.8837
+ARAR,Arkadelphia,8,Ozarks Complex,34.1333,-93.05
+ARBE,Buffalo National River (east),8,Ozarks Complex,36.0774,-92.5836
+ARCO,Conway,8,Ozarks Complex,35.0916,-92.4227
+ARFA,Fayetteville,8,Ozarks Complex,36.0566,-94.1719
+ARFS,Fort Smith-Moffett,8,Ozarks Complex,35.3818,-94.3766
+ARHS,Hot Springs Village,8,Ozarks Complex,34.7167,-92.9667
+ARLG,Lake Georgia-Pacific/Felsenthal N.W.R.,8,Ozarks Complex,33.15,-92.0667
+ARLO,Lonoke,8,Ozarks Complex,34.749,-91.8957
+ARLR,Little Rock,8,Ozarks Complex,34.7582,-92.2792
+ARML,Magnolia-Lake Columbia,8,Ozarks Complex,33.2684,-93.2832
+ARPB,Pine Bluff,8,Ozarks Complex,34.2295,-92.0033
+ARTE,Texarkana,8,Ozarks Complex,33.4725,-93.9215
+ARVC,Village Creek S.P.,8,Ozarks Complex,35.1612,-90.7084
+ARWR,White River N.W.R.,8,Ozarks Complex,34.3146,-91.121
+GACG,Callaway Gardens,8,Ozarks Complex,32.824,-84.8437
+GACH,Chattahoochee National Forest Songbird M.A.,8,Ozarks Complex,34.8775,-84.6474
+GACO,Columbus,8,Ozarks Complex,32.5861,-85.0004
+GADA,Dalton,8,Ozarks Complex,34.7667,-84.9667
+ILHL,Horseshoe Lake,8,Ozarks Complex,37.2089,-89.3311
+ILUC,Union County,8,Ozarks Complex,37.4676,-89.4048
+KSLC,Linn County,8,Ozarks Complex,38.2833,-94.75
+KYCC,Calloway County,8,Ozarks Complex,36.6003,-88.1999
+KYLB,Land Between the Lakes,8,Ozarks Complex,36.9367,-88.1683
+LACA,Catahoula N.W.R.,8,Ozarks Complex,31.508,-92.0589
+LADA,D'Arbonne,8,Ozarks Complex,32.6583,-92.241
+LANA,Natchitoches,8,Ozarks Complex,31.824,-93.0635
+LASH,Shreveport,8,Ozarks Complex,32.5371,-93.8922
+MOBO,Big Oak Tree S.P.,8,Ozarks Complex,36.6667,-89.2667
+MOMI,Mingo N.W.R.,8,Ozarks Complex,36.9833,-90.2
+MOML,Montrose Lake Wildlife Area,8,Ozarks Complex,38.2521,-93.8217
+MOMS,Maramec Spring,8,Ozarks Complex,37.9594,-91.5698
+MOPB,Poplar Bluff,8,Ozarks Complex,36.7676,-90.4149
+MOSP,Springfield,8,Ozarks Complex,37.2174,-93.239
+MOSU,Sullivan,8,Ozarks Complex,38.1667,-91.1
+MOTC,Taney County,8,Ozarks Complex,36.607,-93.183
+MSAL,Arkabutla Lake,8,Ozarks Complex,34.7624,-90.1306
+MSGR,Grenada,8,Ozarks Complex,33.85,-89.717
+MSJA,Jackson,8,Ozarks Complex,32.4476,-90.004
+MSML,Moon Lake (Lula),8,Ozarks Complex,34.4937,-90.4931
+MSNA,Natchez,8,Ozarks Complex,31.6167,-91.3792
+MSSL,Sardis Lake,8,Ozarks Complex,34.4369,-89.701
+MSVI,Vicksburg,8,Ozarks Complex,32.3108,-90.9068
+MSWC,Washington County (south),8,Ozarks Complex,33.097,-90.9857
+OKBB,Broken Bow Reservoir,8,Ozarks Complex,34.0554,-94.7048
+OKFG,Fort Gibson Reservoir,8,Ozarks Complex,35.85,-95.3167
+OKHR,Hulah Reservoir,8,Ozarks Complex,36.9289,-96.0873
+OKRC,Rogers County,8,Ozarks Complex,36.3722,-95.6326
+OKSV,Spavinaw,8,Ozarks Complex,36.4,-94.9501
+OKTI,Tishomingo N.W.R.,8,Ozarks Complex,34.1833,-96.65
+OKTU,Tulsa,8,Ozarks Complex,36.3221,-95.9022
+TNBR,Buffalo River,8,Ozarks Complex,35.3001,-87.4573
+TNCH,Chattanooga,8,Ozarks Complex,35.104,-85.2292
+TNCL,Clarksville,8,Ozarks Complex,36.5,-87.3833
+TNCO,Columbia,8,Ozarks Complex,35.599,-87.1613
+TNHP,Hickory-Priest,8,Ozarks Complex,36.1926,-86.6634
+TNME,Memphis,8,Ozarks Complex,35.15,-89.9333
+TNNA,Nashville,8,Ozarks Complex,36.0545,-86.9287
+TNRL,Reelfoot Lake,8,Ozarks Complex,36.4167,-89.3833
+TNSA,Savannah,8,Ozarks Complex,35.1632,-88.1666
+TXCA,Caddo National Grasslands,8,Ozarks Complex,33.7405,-96.0024
+TXLO,Lake O' the Pines,8,Ozarks Complex,32.8001,-94.5947
+TXTE,Texarkana,8,Ozarks Complex,33.2784,-94.2082
+IASC,Sioux City,9,Northern Plains,42.4914,-96.4072
+MNCK,Crookston,9,Northern Plains,47.7023,-96.4975
+MNCO,Cottonwood,9,Northern Plains,44.6091,-95.6746
+MNFF,Fergus Falls,9,Northern Plains,46.2804,-96.0746
+MNLQ,Lac qui Parle,9,Northern Plains,45.0132,-95.961
+MNMA,Marshall,9,Northern Plains,44.3556,-95.8158
+MNWN,Warren,9,Northern Plains,48.1955,-96.7687
+MTBL,Billings,9,Northern Plains,45.8167,-108.4333
+MTBW,Bowdoin N.W.R.,9,Northern Plains,48.3926,-107.7287
+MTCH,Chester,9,Northern Plains,48.3667,-110.9667
+MTFP,Fort Peck,9,Northern Plains,48.0094,-106.4486
+MTLE,Lewistown,9,Northern Plains,47.0669,-109.4239
+MTMC,Miles City,9,Northern Plains,46.4267,-105.8755
+NDBM,Bismarck-Mandan,9,Northern Plains,46.8208,-100.7826
+NDDL,Des Lacs N.W.R.,9,Northern Plains,48.6667,-102.0667
+NDFM,Fargo-Moorhead,9,Northern Plains,46.934,-96.8329
+NDGD,Garrison Dam,9,Northern Plains,47.5119,-101.3264
+NDGF,Grand Forks-East Grand Forks,9,Northern Plains,47.9331,-97.1534
+NDHA,Hazen,9,Northern Plains,47.2944,-101.623
+NDJA,Jamestown,9,Northern Plains,46.899,-98.7502
+NDJC,J. Clark Salyer N.W.R.,9,Northern Plains,48.6033,-100.6374
+NDME,Medora,9,Northern Plains,46.9165,-103.5262
+NDMI,Minot,9,Northern Plains,48.24,-101.2961
+NDTE,Tewaukon N.W.R.,9,Northern Plains,46,-97.4167
+NDTR,Theodore Roosevelt N.P. (north unit),9,Northern Plains,47.6099,-103.356
+NDUS,Upper Souris N.W.R.,9,Northern Plains,48.4522,-101.5684
+NDVC,Valley City,9,Northern Plains,46.9333,-98
+NENO,Norfolk,9,Northern Plains,42.0326,-97.4265
+NESC,Scottsbluff,9,Northern Plains,41.8674,-103.6408
+SDAB,Aberdeen,9,Northern Plains,45.45,-98.5
+SDPI,Pierre,9,Northern Plains,44.367,-100.3463
+SDRC,Rapid City,9,Northern Plains,44.0769,-103.2472
+SDSL,Sand Lake N.W.R.,9,Northern Plains,45.7834,-98.25
+SDSP,Spearfish,9,Northern Plains,44.5198,-103.8642
+SDST,Sturgis,9,Northern Plains,44.4168,-103.5147
+SDWA,Waubay N.W.R.,9,Northern Plains,45.4249,-97.3268
+SDYA,Yankton,9,Northern Plains,42.9333,-97.3833
+WYBU,Buffalo,9,Northern Plains,44.4053,-106.7412
+WYCO,Cody,9,Northern Plains,44.4829,-109.0565
+WYSH,Sheridan,9,Northern Plains,44.8086,-106.9758
+COBL,Barr Lake,10,Central Plains,39.9721,-104.6955
+CODV,Denver (urban),10,Central Plains,39.7347,-104.8753
+COFC,Fort Collins,10,Central Plains,40.6454,-105.1141
+COGR,Greeley,10,Central Plains,40.3936,-104.6801
+COLO,Longmont,10,Central Plains,40.1741,-105.1734
+CONU,Nunn,10,Central Plains,40.8341,-104.7054
+COPR,Pueblo Reservoir,10,Central Plains,38.2557,-104.7756
+COPU,Pueblo,10,Central Plains,38.1713,-104.5208
+CORA,Rawhide Energy Station,10,Central Plains,40.8628,-105.1431
+COWF,Weldona-Fort Morgan,10,Central Plains,40.3422,-103.8568
+KSCI,Cimarron National Grassland,10,Central Plains,37.1104,-101.8537
+KSDC,Dodge City,10,Central Plains,37.7777,-100.01
+KSQU,Quivira N.W.R.,10,Central Plains,38.15,-98.4833
+NECL,Calamus-Loup,10,Central Plains,41.35,-99.2667
+OKAN,Arnett,10,Central Plains,36.0569,-99.8103
+OKKE,Kenton (Black Mesa),10,Central Plains,36.9033,-102.8912
+TXAM,Amarillo,10,Central Plains,35.0196,-101.7197
+TXLE,Lake Meredith (east),10,Central Plains,35.6833,-101.6167
+TXLW,Lake Meredith (west),10,Central Plains,35.5168,-101.7833
+TXMU,Muleshoe N.W.R.,10,Central Plains,33.9563,-102.7783
+TXQU,Quitaque,10,Central Plains,34.4346,-101.0739
+WYCH,Cheyenne,10,Central Plains,41.1402,-104.8202
+KSAC,Arkansas City,11,Southern Plains,37.0382,-97.0393
+KSUW,Udall-Winfield,11,Southern Plains,37.2647,-96.9756
+OKNO,Norman,11,Southern Plains,35.2655,-97.3767
+OKOC,Oklahoma City,11,Southern Plains,35.5368,-97.5834
+OKSC,Stephens County,11,Southern Plains,34.5667,-97.7833
+OKSP,Salt Plains N.W.R.,11,Southern Plains,36.785,-98.1789
+OKST,Stillwater,11,Southern Plains,36.1452,-97.1765
+OKWA,Washita N.W.R.,11,Southern Plains,35.6495,-99.2797
+OKWM,Wichita Mountains Wildlife Refuge,11,Southern Plains,34.7333,-98.6667
+TXAB,Abilene,11,Southern Plains,32.3501,-99.7502
+TXAP,Attwater Prairie Chicken N.W.R.,11,Southern Plains,29.6344,-96.3667
+TXAU,Austin,11,Southern Plains,30.1834,-97.698
+TXAZ,Anzalduas-Bentsen,11,Southern Plains,26.2235,-98.3944
+TXBB,Bastrop-Buescher State Parks,11,Southern Plains,30.0866,-97.2484
+TXBN,Burnet County,11,Southern Plains,30.7514,-98.275
+TXBO,Boerne,11,Southern Plains,29.8666,-98.7901
+TXBS,Big Spring,11,Southern Plains,32.2391,-101.4162
+TXBU,Bell County,11,Southern Plains,30.9667,-97.45
+TXCC,Corpus Christi,11,Southern Plains,27.8334,-97.5833
+TXCF,Corpus Christi (Flour Bluff),11,Southern Plains,27.6584,-97.2938
+TXCO,Comstock,11,Southern Plains,29.7104,-101.2531
+TXCR,Crawford,11,Southern Plains,31.556,-97.3556
+TXCS,College Station,11,Southern Plains,30.593,-96.3175
+TXDA,Dallas County,11,Southern Plains,32.8258,-96.8312
+TXDR,Del Rio,11,Southern Plains,29.4651,-100.9585
+TXFD,Falcon Dam and S.P.,11,Southern Plains,26.4967,-99.0884
+TXFW,Fort Worth,11,Southern Plains,32.7661,-97.4715
+TXGC,Gibbons Creek,11,Southern Plains,30.5833,-96
+TXHA,Hagerman N.W.R.,11,Southern Plains,33.7807,-96.7444
+TXHU,Huntsville,11,Southern Plains,30.7156,-95.552
+TXKI,Kingsville,11,Southern Plains,27.4658,-97.8551
+TXLK,Lake Tawakoni,11,Southern Plains,32.7667,-95.9167
+TXLR,Lake Ray Hubbard,11,Southern Plains,32.9296,-96.5363
+TXLS,La Sal Vieja,11,Southern Plains,26.4849,-97.9649
+TXLV,Lewisville,11,Southern Plains,33.0301,-96.9929
+TXMC,Mckinney,11,Southern Plains,33.1585,-96.6154
+TXMI,Midland,11,Southern Plains,31.95,-102.0333
+TXNA,Nacogdoches,11,Southern Plains,31.5332,-94.6563
+TXNB,New Braunfels,11,Southern Plains,29.7035,-98.1249
+TXPM,Palmetto S.P.,11,Southern Plains,29.5833,-97.5833
+TXPP,Palo Pinto,11,Southern Plains,32.7578,-98.2933
+TXPS,Palestine,11,Southern Plains,31.7624,-95.7664
+TXSA,Santa Ana N.W.R.,11,Southern Plains,26.1492,-98.1917
+TXSG,San Angelo,11,Southern Plains,31.4439,-100.4823
+TXST,San Antonio,11,Southern Plains,29.3148,-98.608
+TXTR,Trinidad,11,Southern Plains,32.15,-96.1
+TXTT,Tenaha-Timpson,11,Southern Plains,31.961,-94.421
+TXTY,Tyler,11,Southern Plains,32.2777,-95.2991
+TXVI,Victoria,11,Southern Plains,28.8723,-97.0784
+TXWA,Waco,11,Southern Plains,31.5194,-97.0451
+TXWF,Wichita Falls,11,Southern Plains,33.8877,-98.6298
+TXWW,Welder Wildlife Refuge,11,Southern Plains,28.1136,-97.4171
+IDAF,American Falls Reservoir,12,Northern Rockies,42.9833,-112.7
+IDIF,Idaho Falls,12,Northern Rockies,43.5172,-112.0596
+IDIM,Indian Mountain,12,Northern Rockies,47.3833,-116.0833
+IDPO,Pocatello,12,Northern Rockies,42.8676,-112.4301
+IDRE,Rexburg,12,Northern Rockies,43.7973,-111.8578
+IDSA,Salmon,12,Northern Rockies,45.1776,-113.8953
+IDSP,Sandpoint,12,Northern Rockies,48.2749,-116.5624
+MTBG,Bigfork,12,Northern Rockies,48.0952,-114.0888
+MTBZ,Bozeman,12,Northern Rockies,45.6833,-111.0667
+MTCC,Clark Canyon Dam,12,Northern Rockies,45.0016,-112.8579
+MTEN,Ennis,12,Northern Rockies,45.4,-111.65
+MTGF,Great Falls,12,Northern Rockies,47.4694,-111.3364
+MTGL,Glacier N.P.,12,Northern Rockies,48.52,-113.9939
+MTHA,Hamilton,12,Northern Rockies,46.2526,-114.1269
+MTHE,Helena,12,Northern Rockies,46.6833,-111.9833
+MTLI,Libby,12,Northern Rockies,48.3833,-115.4667
+MTMI,Missoula,12,Northern Rockies,46.9132,-114.0343
+MTPC,Park County,12,Northern Rockies,45.6394,-110.4874
+MTST,Stevensville,12,Northern Rockies,46.513,-114.0922
+MTTF,Three Forks,12,Northern Rockies,45.8451,-111.5552
+MTTR,Troy,12,Northern Rockies,48.4636,-115.8893
+MTWS,Warm Springs,12,Northern Rockies,46.2008,-112.859
+MTYE,Yellowstone N.P.,12,Northern Rockies,45.0253,-110.7007
+WYJH,Jackson Hole,12,Northern Rockies,43.5742,-110.7332
+AZCV,Camp Verde,13,Southern Rockies_Colorado Plateau,34.5873,-111.7545
+AZFL,Flagstaff-Mt. Elden,13,Southern Rockies_Colorado Plateau,35.241,-111.5976
+AZJE,Jerome,13,Southern Rockies_Colorado Plateau,34.7398,-112.1238
+AZML,Mormon Lake,13,Southern Rockies_Colorado Plateau,35,-111.45
+AZPR,Prescott,13,Southern Rockies_Colorado Plateau,34.5419,-112.4701
+AZPS,Pipe Spring N.M.,13,Southern Rockies_Colorado Plateau,36.8626,-112.7371
+AZSE,Sedona,13,Southern Rockies_Colorado Plateau,34.8391,-111.8802
+COAS,Aspen,13,Southern Rockies_Colorado Plateau,39.25,-106.9
+COBF,Black Forest,13,Southern Rockies_Colorado Plateau,39.1167,-104.65
+COBO,Boulder,13,Southern Rockies_Colorado Plateau,40.0256,-105.2725
+COCS,Colorado Springs,13,Southern Rockies_Colorado Plateau,38.8022,-104.8167
+CODC,Douglas County,13,Southern Rockies_Colorado Plateau,39.3717,-104.9622
+CODE,Denver,13,Southern Rockies_Colorado Plateau,39.587,-105.143
+CODU,Durango,13,Southern Rockies_Colorado Plateau,37.2001,-107.8119
+COEI,Evergreen-Idaho Springs,13,Southern Rockies_Colorado Plateau,39.6765,-105.4264
+COGJ,Grand Junction,13,Southern Rockies_Colorado Plateau,39.1208,-108.6081
+COGU,Gunnison,13,Southern Rockies_Colorado Plateau,38.6064,-106.8856
+COLI,Lake Isabel,13,Southern Rockies_Colorado Plateau,38.0132,-104.9235
+COMV,Monte Vista N.W.R.,13,Southern Rockies_Colorado Plateau,37.4736,-106.0941
+CONP,North Park,13,Southern Rockies_Colorado Plateau,40.5695,-106.1259
+COPE,Penrose,13,Southern Rockies_Colorado Plateau,38.3907,-105.144
+COPP,Pikes Peak,13,Southern Rockies_Colorado Plateau,38.9208,-104.9915
+CORF,Roaring Fork River Valley,13,Southern Rockies_Colorado Plateau,39.4579,-107.2624
+CORM,Rocky Mountain N.P.,13,Southern Rockies_Colorado Plateau,40.382,-105.536
+COWE,Westcliffe,13,Southern Rockies_Colorado Plateau,38.1361,-105.4674
+NMAL,Albuquerque,13,Southern Rockies_Colorado Plateau,35.1833,-106.6167
+NMCC,Carlsbad Caverns N.P.,13,Southern Rockies_Colorado Plateau,32.1772,-104.5029
+NMCL,Clayton,13,Southern Rockies_Colorado Plateau,36.5177,-103.2546
+NMES,Espanola,13,Southern Rockies_Colorado Plateau,35.9905,-106.073
+NMFA,Farmington,13,Southern Rockies_Colorado Plateau,36.7833,-108.102
+NMGR,Gila River,13,Southern Rockies_Colorado Plateau,32.9152,-108.584
+NMLV,Las Vegas,13,Southern Rockies_Colorado Plateau,35.595,-105.2152
+NMSC,Silver City,13,Southern Rockies_Colorado Plateau,32.7381,-108.262
+NMSF,Santa Fe,13,Southern Rockies_Colorado Plateau,35.6698,-105.9409
+NMSM,Sandia Mountains,13,Southern Rockies_Colorado Plateau,35.1631,-106.3475
+NMZU,Zuni,13,Southern Rockies_Colorado Plateau,35.0333,-108.8167
+NVDG,Desert Game Range,13,Southern Rockies_Colorado Plateau,36.3276,-115.3125
+NVHE,Henderson,13,Southern Rockies_Colorado Plateau,36.0833,-114.95
+TXGM,Guadalupe Mountains,13,Southern Rockies_Colorado Plateau,31.8923,-104.8137
+UTCC,Cedar City,13,Southern Rockies_Colorado Plateau,37.685,-113.111
+UTDJ,Dinosaur N.M.-Jensen,13,Southern Rockies_Colorado Plateau,40.3698,-109.3456
+UTKA,Kanab,13,Southern Rockies_Colorado Plateau,37.0334,-112.5167
+UTMO,Moab,13,Southern Rockies_Colorado Plateau,38.5667,-109.45
+UTPR,Provo,13,Southern Rockies_Colorado Plateau,40.2526,-111.6688
+UTSG,St. George,13,Southern Rockies_Colorado Plateau,37.15,-113.6
+UTZI,Zion N.P.,13,Southern Rockies_Colorado Plateau,37.2093,-112.9804
+AZAH,Atascosa Highlands,14,Desert Southwest,31.4701,-111.1728
+AZAV,Avra Valley,14,Desert Southwest,32.2501,-111.25
+AZBA,Buenos Aires N.W.R.,14,Desert Southwest,31.5667,-111.45
+AZGR,Gila River,14,Desert Southwest,33.3071,-112.6833
+AZGV,Green Valley-Madera Canyon,14,Desert Southwest,31.7923,-110.9151
+AZMY,Martinez Lake-Yuma,14,Desert Southwest,32.8884,-114.4623
+AZNO,Nogales,14,Desert Southwest,31.4338,-110.9358
+AZPA,Patagonia,14,Desert Southwest,31.4833,-110.6833
+AZPO,Portal,14,Desert Southwest,31.9009,-109.1364
+AZRC,Ramsey Canyon,14,Desert Southwest,31.4599,-110.2068
+AZSC,Santa Catalina Mountains,14,Desert Southwest,32.3353,-110.7295
+AZTV,Tucson Valley,14,Desert Southwest,32.3016,-110.9735
+CAAB,Anza-Borrego Desert,14,Desert Southwest,33.2841,-116.3986
+CABB,Big Bear Lake,14,Desert Southwest,34.2833,-116.9
+CADV,Death Valley,14,Desert Southwest,36.4619,-116.8668
+CAID,Idyllwild,14,Desert Southwest,33.7112,-116.7691
+CAJT,Joshua Tree N.P.,14,Desert Southwest,34.0524,-116.0997
+CAMV,Morongo Valley,14,Desert Southwest,34.0359,-116.5625
+CARM,Redlands (Mill Creek),14,Desert Southwest,34.1025,-116.9999
+CASH,Salton Sea (north),14,Desert Southwest,33.5179,-116.1031
+CASL,San Jacinto Lake,14,Desert Southwest,33.8745,-117.1239
+CASO,San Bernardino Valley,14,Desert Southwest,34.0852,-117.301
+CASS,Salton Sea (south),14,Desert Southwest,33.1579,-115.6132
+NMBD,Bosque del Apache N.W.R.,14,Desert Southwest,33.8051,-106.8907
+NMCA,Caballo,14,Desert Southwest,32.953,-107.3122
+NMLA,Lakes Avalon-Brantley,14,Desert Southwest,32.5661,-104.294
+NMLC,Las Cruces,14,Desert Southwest,32.3,-106.7167
+NMLO,Loving,14,Desert Southwest,32.291,-104.0667
+NMRO,Roswell,14,Desert Southwest,33.4025,-104.4522
+NMSE,Sevilleta N.W.R.,14,Desert Southwest,34.3167,-106.95
+TXBA,Balmorhea,14,Desert Southwest,30.9858,-103.7459
+TXBG,Big Bend N.P. (east),14,Desert Southwest,29.1826,-103.0444
+TXCM,Chisos Mountains,14,Desert Southwest,29.2678,-103.2966
+TXEP,El Paso,14,Desert Southwest,31.7828,-106.4798
+TXHT,Hueco Tanks,14,Desert Southwest,31.8117,-106.0412
+CABI,Bishop,15,Great Basin,37.3611,-118.4776
+CAFR,Fall River Mills,15,Great Basin,41.0616,-121.4899
+CAHL,Honey Lake,15,Great Basin,40.3434,-120.4229
+CAML,Mono Lake,15,Great Basin,37.9561,-119.1201
+CAMM,Mammoth Lakes,15,Great Basin,37.6333,-118.8667
+CATL,Tule Lake,15,Great Basin,41.9465,-121.539
+CAWO,Woodfords,15,Great Basin,38.7662,-119.8082
+IDBO,Boise,15,Great Basin,43.6177,-116.1995
+IDBR,Bruneau,15,Great Basin,42.9252,-115.858
+IDHV,Hagerman Valley,15,Great Basin,42.8167,-114.9
+IDMP,Moscow-Pullman,15,Great Basin,46.7311,-117.0396
+IDNA,Nampa,15,Great Basin,43.568,-116.6729
+IDRU,Rupert,15,Great Basin,42.6167,-113.65
+IDSV,Sun Valley,15,Great Basin,43.3081,-114.067
+IDTF,Twin Falls,15,Great Basin,42.5565,-114.4635
+NVCC,Carson City,15,Great Basin,39.1766,-119.7332
+NVEL,Elko,15,Great Basin,40.7426,-115.6987
+NVFA,Fallon,15,Great Basin,39.3965,-118.773
+NVRL,Ruby Lake,15,Great Basin,40.2,-115.5
+NVTM,Truckee Meadows,15,Great Basin,39.4679,-119.8205
+ORBA,Baker,15,Great Basin,44.8619,-117.8392
+ORBC,Baker County-Salisbury,15,Great Basin,44.655,-117.8724
+ORBE,Bend,15,Great Basin,44.0642,-121.3109
+ORHM,Hart Mountain,15,Great Basin,42.4834,-119.7667
+ORJD,John Day,15,Great Basin,44.4161,-118.9527
+ORKF,Klamath Falls,15,Great Basin,42.1595,-121.7351
+ORMA,Malheur N.W.R.,15,Great Basin,42.8998,-118.8798
+ORSU,Summer Lake,15,Great Basin,42.9731,-120.7778
+ORUC,Union County,15,Great Basin,45.25,-117.8833
+ORUM,Umatilla County,15,Great Basin,45.6,-118.6667
+ORUT,Utopia,15,Great Basin,44.4821,-121.1937
+ORWC,Wallowa County,15,Great Basin,45.3748,-117.2009
+UTBR,Bear River Migratory Bird Refuge,15,Great Basin,41.4804,-112.2675
+UTFS,Fish Springs N.W.R.,15,Great Basin,39.8107,-113.399
+UTJR,Jordan River,15,Great Basin,40.4526,-111.9135
+UTLO,Logan,15,Great Basin,41.7993,-111.8333
+UTOG,Ogden,15,Great Basin,41.2198,-112.064
+UTSL,Salt Lake City,15,Great Basin,40.7695,-111.8884
+WASP,Spokane,15,Great Basin,47.7168,-117.4169
+WATC,Tri-Cities,15,Great Basin,46.2357,-119.1805
+WATO,Toppenish N.W.R.,15,Great Basin,46.3609,-120.4179
+WATW,Twisp,15,Great Basin,48.3644,-120.1211
+WAWE,Wenatchee,15,Great Basin,47.4551,-120.323
+WAWW,Walla Walla,15,Great Basin,46.0667,-118.2333
+WAYV,Yakima Valley,15,Great Basin,46.5919,-120.4555
+WYAC,Albany County,15,Great Basin,41.2976,-105.5947
+WYBH,Bates Hole,15,Great Basin,42.5833,-106.5
+WYCA,Casper,15,Great Basin,42.7834,-106.4333
+WYEV,Evanston,15,Great Basin,41.4141,-111.0461
+WYGR,Green River,15,Great Basin,41.5298,-109.4677
+WYLA,Lander,15,Great Basin,42.8168,-108.7168
+WYSB,Story-Big Horn,15,Great Basin,44.589,-106.9416
+CACB,Centerville Beach to King Salmon,16,Pacific Northwest,40.642,-124.2428
+CADN,Del Norte County,16,Pacific Northwest,41.8446,-124.1712
+CAET,Etna,16,Pacific Northwest,41.4932,-122.9064
+CAMS,Mount Shasta,16,Pacific Northwest,41.5342,-122.4141
+CAWC,Willow Creek,16,Pacific Northwest,40.95,-123.6667
+ORCB,Coos Bay,16,Pacific Northwest,43.3759,-124.2973
+ORCE,Columbia Estuary,16,Pacific Northwest,46.2192,-123.9461
+ORCO,Corvallis,16,Pacific Northwest,44.5071,-123.2695
+ORDA,Dallas,16,Pacific Northwest,44.8965,-123.3384
+OREU,Eugene,16,Pacific Northwest,44.0768,-123.179
+ORFL,Florence,16,Pacific Northwest,44.0334,-124.0667
+ORGP,Grants Pass,16,Pacific Northwest,42.4186,-123.3669
+ORME,Medford,16,Pacific Northwest,42.4026,-122.8559
+ORPD,Portland,16,Pacific Northwest,45.5167,-122.7
+ORRS,Roseburg-Sutherlin,16,Pacific Northwest,43.3177,-123.3473
+ORSA,Salem,16,Pacific Northwest,44.9437,-123.0388
+ORSI,Sauvie Island,16,Pacific Northwest,45.7562,-122.8008
+ORSL,Silverton,16,Pacific Northwest,44.966,-122.7065
+ORTB,Tillamook Bay,16,Pacific Northwest,45.5167,-123.8833
+ORUN,Upper Nestucca,16,Pacific Northwest,45.2662,-123.5807
+ORYB,Yaquina Bay,16,Pacific Northwest,44.5866,-124.0642
+WABG,Bellingham,16,Pacific Northwest,48.8112,-122.5629
+WACC,Cowlitz-Columbia,16,Pacific Northwest,46.1092,-122.9787
+WAEA,East Lake Washington,16,Pacific Northwest,47.5899,-121.9995
+WAED,Edmonds,16,Pacific Northwest,47.8524,-122.2489
+WAKA,Kent-Auburn,16,Pacific Northwest,47.3598,-122.1787
+WAKC,Kitsap County,16,Pacific Northwest,47.6323,-122.6609
+WAOH,Oak Harbor,16,Pacific Northwest,48.2646,-122.6805
+WAOL,Olympia,16,Pacific Northwest,47.0722,-122.8533
+WAPB,Padilla Bay,16,Pacific Northwest,48.4834,-122.5667
+WAPT,Port Townsend,16,Pacific Northwest,48.05,-122.7333
+WASB,Skagit Bay,16,Pacific Northwest,48.2973,-122.3879
+WASD,Sequim-Dungeness,16,Pacific Northwest,48.1,-123.0667
+WASE,Seattle,16,Pacific Northwest,47.6017,-122.3341
+WASI,Anacortes-Sidney,16,Pacific Northwest,48.5833,-123.0006
+WASJ,San Juan Islands Archipelago,16,Pacific Northwest,48.5462,-123.013
+WATA,Tacoma,16,Pacific Northwest,47.2335,-122.5167
+CAAA,Auburn,17,Pacific Southwest,38.9758,-121.1438
+CAAG,Angwin,17,Pacific Southwest,38.5715,-122.3977
+CAAN,A?o Nuevo,17,Pacific Southwest,37.2147,-122.3182
+CABA,Bakersfield,17,Pacific Southwest,35.4311,-118.9173
+CABE,Benicia,17,Pacific Southwest,38.1143,-122.1094
+CABS,Butterbredt Spring,17,Pacific Southwest,35.4103,-118.1426
+CACC,Contra Costa County,17,Pacific Southwest,37.9538,-121.9923
+CACL,Clear Lake,17,Pacific Southwest,38.9392,-122.7199
+CACM,Claremont,17,Pacific Southwest,34.1384,-117.7073
+CACO,Chico,17,Pacific Southwest,39.722,-121.8238
+CACP,Carrizo Plain,17,Pacific Southwest,35.25,-119.85
+CACS,Crystal Springs,17,Pacific Southwest,37.5184,-122.3751
+CACW,Caswell-Westley,17,Pacific Southwest,37.6061,-121.174
+CAES,Escondido,17,Pacific Southwest,33.1025,-116.9403
+CAFO,Folsom,17,Pacific Southwest,38.6618,-121.0974
+CAGM,Grass Mountain,17,Pacific Southwest,34.6333,-118.4167
+CAHF,Hayward-Fremont,17,Pacific Southwest,37.6068,-122.0667
+CAKR,Kern River Valley,17,Pacific Southwest,35.6625,-118.4588
+CALA,Los Angeles,17,Pacific Southwest,34.0477,-118.3793
+CALB,Long Beach-el Dorado,17,Pacific Southwest,33.8533,-118.0908
+CALE,Lewiston,17,Pacific Southwest,40.7167,-122.75
+CALH,Lake Henshaw,17,Pacific Southwest,33.2112,-116.7255
+CALL,Lost Lake-Fresno,17,Pacific Southwest,36.95,-119.7
+CALN,Lancaster,17,Pacific Southwest,34.7043,-118.086
+CALR,Lake Almanor,17,Pacific Southwest,40.2833,-121.25
+CALS,Los Ba?os,17,Pacific Southwest,37.0612,-120.8849
+CALU,La Purisima,17,Pacific Southwest,34.6616,-120.5368
+CALW,LaGrange-Waterford,17,Pacific Southwest,37.6531,-120.5876
+CAMA,Marysville,17,Pacific Southwest,39.2,-121.5
+CAMC,Marin County (southern),17,Pacific Southwest,37.9214,-122.5643
+CAMD,Moss Landing,17,Pacific Southwest,36.897,-121.7407
+CAMH,Mount Hamilton,17,Pacific Southwest,37.3719,-121.5228
+CAMP,Monterey Peninsula,17,Pacific Southwest,36.562,-121.8776
+CAMR,Morro Bay,17,Pacific Southwest,35.3,-120.7767
+CAMU,Malibu,17,Pacific Southwest,34.0822,-118.7045
+CAOA,Oakland,17,Pacific Southwest,37.8146,-122.233
+CAOC,Orange County (coastal),17,Pacific Southwest,33.6725,-117.9453
+CAON,Orange County (northeastern),17,Pacific Southwest,33.7145,-117.6776
+CAOR,Oroville,17,Pacific Southwest,39.5178,-121.5499
+CAOV,Oceanside-Vista-Carlsbad,17,Pacific Southwest,33.1903,-117.2796
+CAPA,Palo Alto,17,Pacific Southwest,37.4064,-122.1559
+CAPC,Putah Creek,17,Pacific Southwest,38.481,-122.0306
+CAPP,Palos Verdes Peninsula,17,Pacific Southwest,33.7732,-118.3343
+CAPS,Pasadena-San Gabriel Valley,17,Pacific Southwest,34.1199,-118.0913
+CAPV,Peace Valley,17,Pacific Southwest,39.1982,-121.8219
+CARB,Red Bluff,17,Pacific Southwest,40.2074,-122.2117
+CARE,Redding,17,Pacific Southwest,40.6194,-122.4458
+CARS,Rancho Santa Fe,17,Pacific Southwest,33.0003,-117.1628
+CASA,Santa Ana River Valley,17,Pacific Southwest,33.9068,-117.4889
+CASB,Santa Barbara,17,Pacific Southwest,34.4512,-119.7627
+CASC,Santa Cruz County,17,Pacific Southwest,37.0162,-122.0499
+CASE,South Lake Tahoe,17,Pacific Southwest,38.9412,-120.001
+CASF,San Francisco,17,Pacific Southwest,37.7143,-122.4689
+CASG,Santa Maria-Guadalupe,17,Pacific Southwest,34.8833,-120.5833
+CASJ,San Jose,17,Pacific Southwest,37.4033,-121.8821
+CASM,Sacramento,17,Pacific Southwest,38.6,-121.55
+CASP,Springville,17,Pacific Southwest,36.1338,-118.813
+CASR,Santa Rosa,17,Pacific Southwest,38.4379,-122.7116
+CAST,Stockton,17,Pacific Southwest,38.116,-121.3954
+CASV,San Fernando Valley,17,Pacific Southwest,34.2358,-118.5025
+CATO,Thousand Oaks,17,Pacific Southwest,34.1489,-118.9699
+CAUK,Ukiah,17,Pacific Southwest,39.1386,-123.166
+CAWB,Wallace-Bellota,17,Pacific Southwest,38.1167,-120.9833
+CAWS,Western Sonoma County,17,Pacific Southwest,38.3853,-123.0306
+CAYO,Yosemite N.P.,17,Pacific Southwest,37.7166,-119.6662
+ALDI,Dauphin Island,3,Southeast,30.3385,-88.1284
+ALFM,Fort Morgan,3,Southeast,30.2333,-87.9
+CAMN,Manchester,17,Pacific Southwest,39.0347,-123.6897
+CASD,San Diego,17,Pacific Southwest,32.6473,-117.117
+FLBA,Bradenton,3,Southeast,27.501,-82.5631
+FLBI,Biscayne N.P.,3,Southeast,25.4452,-80.241
+FLCB,Choctawhatchee Bay,3,Southeast,30.4462,-86.5182
+FLCO,Cocoa,3,Southeast,28.3622,-80.7026
+FLGC,"Gulf Circle, Manatee County",3,Southeast,27.497,-82.8128
+FLKL,Key Largo-Plantation Key,3,Southeast,25.0095,-80.5981
+FLLK,Lower Keys-Key Deer N.W.R.,3,Southeast,24.6667,-81.35
+FLMI,Merritt Island N.W.R.,3,Southeast,28.6171,-80.6815
+FLPE,Pensacola,3,Southeast,30.4474,-87.1548
+FLSC,Sanibel-Captiva,3,Southeast,26.4594,-82.1567
+FLST,Stuart,3,Southeast,27.2121,-80.2624
+GAGC,Glynn County,3,Southeast,31.1128,-81.4261
+GASC,St. Catherines Island,1,Northeast,31.6351,-81.1226
+MAMA,Marshfield,1,Northeast,42.0973,-70.6537
+MAMV,Martha's Vineyard,1,Northeast,41.3571,-70.5207
+MANA,Nantucket,1,Northeast,41.2901,-70.0901
+MANF,New Bedford,1,Northeast,41.6,-70.8667
+MATI,Tuckernuck Islands,1,Northeast,41.2726,-70.3495
+MDPL,Point Lookout,2,Mid Atlantic,38.1061,-76.4212
+MDST,St. Michaels,2,Mid Atlantic,38.7506,-76.2531
+MEDI,Deer Isle,1,Northeast,44.2292,-68.6767
+MEEA,Eastport,1,Northeast,44.9059,-66.9852
+MEMD,Mount Desert Island,1,Northeast,44.336,-68.3116
+MEMJ,Moose Island-Jonesport,1,Northeast,44.5377,-67.6491
+MESP,Schoodic Point,1,Northeast,44.4278,-68.1076
+NCBP,Bodie-Pea Island,2,Mid Atlantic,35.7824,-75.5458
+NCCB,Central Beaufort County,2,Mid Atlantic,35.4719,-76.9344
+NCCH,Cape Hatteras,2,Mid Atlantic,35.2188,-75.6067
+NCOI,Ocracoke Island,2,Mid Atlantic,35.15,-75.8833
+NJBA,Barnegat,2,Mid Atlantic,39.6667,-74.1667
+NJSH,Sandy Hook,2,Mid Atlantic,40.47,-74.0031
+NYMK,L.I.: Montauk,2,Mid Atlantic,41.05,-72
+NYSI,Staten Island,2,Mid Atlantic,40.5833,-74.15
+RIBI,Block Island,2,Mid Atlantic,41.2084,-71.5692
+SCHH,Hilton Head Island,3,Southeast,32.2,-80.75
+TXCT,Coastal Tip,11,Southern Plains,26.0278,-97.2334
+TXGA,Galveston,11,Southern Plains,29.3333,-94.8333
+TXPA,Port Aransas,11,Southern Plains,27.8502,-97.1
+VACI,Chincoteague N.W.R.,2,Mid Atlantic,37.9672,-75.3669
+WAGH,Grays Harbor,16,Pacific Northwest,46.9667,-124.05
+WALP,Leadbetter Point,16,Pacific Northwest,46.5605,-123.9894
