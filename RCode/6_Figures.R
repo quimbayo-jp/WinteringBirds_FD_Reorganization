@@ -561,7 +561,7 @@ ggarrange(Fig_3b,Fig_3a,
 
 
 elevation  <- read.csv ("DataInter/elevation_data.csv", header = T, sep = ",")
-climate_db <- read.csv ("DataInter/Environmental_data.csv", header = T, sep = ",")
+climate_db <- read.csv ("DataInter/climate_db.csv", header = T, sep = ",")
 setdiff(elevation$Location, climate_db$Location)
 
 # Merging elevation and climate database
@@ -965,13 +965,13 @@ ggarrange(p_trait1, p_trait2,
 
 # Figure 4: Bayesian models -----------------------------------------------
 
-mRich <- readRDS("DataInter/mRich.rds")
-mcFRic <- readRDS("DataInter/mSESFRic.rds")
-mFEve <- readRDS("DataInter/mFEve.rds")
-mFDiv <- readRDS("DataInter/mFDiv.rds")
-mFOri <- readRDS("DataInter/mFOri.rds")
-mDim1 <- readRDS("DataInter/mDim1.rds")
-mDim2 <- readRDS("DataInter/mDim2.rds")
+mRich <- readRDS("DataInter/msric_max_minTemp.rds")
+mcFRic <- readRDS("DataInter/mcfric_max_minTemp.rds")
+mFEve <- readRDS("DataInter/mfeve_max_minTemp.rds")
+mFDiv <- readRDS("DataInter/mfdiv_max_minTemp.rds")
+mFOri <- readRDS("DataInter/mfori_max_minTemp.rds")
+mDim1 <- readRDS("DataInter/mdim1_max_minTemp.rds")
+mDim2 <- readRDS("DataInter/mdim2_max_minTemp.rds")
 
 results_models <- rbind (mcmc_intervals_data(mRich, prob = 0.8, 
                     prob_outer = 0.95, 
