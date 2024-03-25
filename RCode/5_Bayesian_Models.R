@@ -64,7 +64,7 @@ DB_FIndex$ses_fric <- (DB_FIndex$fric - DB_FIndex$meanNull)/DB_FIndex$SDNull
 # 4. Call environmental and elevation data --------------------------------
 
 elevation  <- read.csv ("DataInter/elevation_data.csv", header = T, sep = ",")
-climate_db <- read.csv ("DataInter/Environmental_data.csv", header = T, sep = ",")
+climate_db <- read.csv ("DataInter/climate_db.csv", header = T, sep = ",")
 setdiff(elevation$Location, climate_db$Location)
 
 # Merging elevation and climate database
