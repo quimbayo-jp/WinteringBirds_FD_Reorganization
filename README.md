@@ -69,4 +69,5 @@ File: Traits_Birds.csv (This file contains all the bird traits compiled)
 If you use any dataset please cite the article above and the original reference for the data set.
 
 ### This data also available in Zenodo.
-[![DOI](https://zenodo.org/records/10962018) ](https://zenodo.org/records/10962018)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10962018.svg)](https://doi.org/10.5281/zenodo.10962018)
+
