@@ -1,4 +1,4 @@
-Functional reorganization of North American wintering avifauna
+#Functional reorganization of North American wintering avifauna
 
 This repository contains code and data to reproduce the article 
 
