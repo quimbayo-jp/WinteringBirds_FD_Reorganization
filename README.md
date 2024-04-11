@@ -9,7 +9,7 @@ Quimbayo JP, Murphy SJ, Jarzyna MA. (accepted) Functional reorganization of Nort
 
 ### Bird Abundance
 
-We used data the Audubon CBC, a bird monitoring program initiated in 1900 focus in identify and count wintering birds within circles of 24-km diameter. We focused our analysis on 1967-2018 and 1,183 locations across the United States. Considering the number of individuals observed per species in the different locations over time, we used N-mixture models to estimate abundance corrected for species imperfect detection. 
+We used data the Audubon CBC, a bird monitoring program initiated in 1900 focus in identify and count wintering birds within circles of 24-km diameter. We focused our analysis on 1967-2018 and 1,183 locations in the United States. Considering the number of individuals observed per species in the different locations over time, we used N-mixture models to estimate abundance corrected for species imperfect detection. 
 
 ### Bird Traits
 
@@ -68,5 +68,5 @@ File: Traits_Birds.csv (This file contains all the bird traits compiled)
 
 If you use any dataset please cite the article above and the original reference for the data set.
 
-### This data also available in Zenodo 
+### This data also available in Zenodo.
 [![DOI](https://zenodo.org/records/10870734) ](https://zenodo.org/records/10870734)
